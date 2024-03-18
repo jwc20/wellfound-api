@@ -14,20 +14,27 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import time
 
+# 
+
 
 # Chrome options
 options = Options()
-options.add_argument("--headless")
-options.add_argument("--disable-gpu")
-options.add_argument("--no-sandbox")
-options.add_argument("--disable-dev-shm-usage")
-options.add_argument("--disable-extensions")
-options.add_argument("--disable-popup-blocking")
+# options.add_argument("options.headless = True")
+# options.add_argument("--disable-gpu")
+# options.add_argument("--no-sandbox")
+# options.add_argument("--disable-dev-shm-usage")
+# options.add_argument("--disable-extensions")
+# options.add_argument("--disable-popup-blocking")
+# options.add_argument("--no-startup-window")
 
+
+options.add_argument("--headless=new")
+options.add_argument("--window-size=1280,700")
 
 
 url = "https://www.wellfound.com/"
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()))
+
+driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 
 driver.get(url)
 
