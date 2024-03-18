@@ -3,3 +3,4 @@ selenium
 lxml
 requests
 pprintpp
+python-dotenv
