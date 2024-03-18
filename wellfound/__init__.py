@@ -4,7 +4,6 @@ from .login import Login
 
 
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
@@ -20,16 +19,10 @@ options.add_argument("--disable-popup-blocking")
 
 
 class Wellfound(Companies, Login):
-    def __init__(self, username, password, options=options):
-        self.options = options
-        self.username = username
-        self.password = password
-        self.service = Service("/usr/local/bin/chromedriver")
+    def __init__(self, **kwargs):
         self.driver = webdriver.Chrome(service=self.service, options=self.options)
-        self.driver.get("https://wellfound.org/login")
-        self.login()
-        self.companies = Companies(self.driver)
-        self.login = Login(self.driver)
+        Companies.__init__(self, **kwargs)
+        Login.__init__(self)
 
     def __del__(self):
         self.driver.quit()
