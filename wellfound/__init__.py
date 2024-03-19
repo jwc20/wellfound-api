@@ -11,10 +11,8 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-import pandas as pd
+# import pandas as pd
 import time
-
-#
 
 
 # Chrome options
@@ -51,4 +49,4 @@ class Wellfound(Companies, Login):
 
 
 __authors__ = ["jwc20"]
-__source__ = "https://github.com/jwc20/wellfoundapi"
+__source__ = "https://github.com/jwc20/wellfound_scraper_api"
