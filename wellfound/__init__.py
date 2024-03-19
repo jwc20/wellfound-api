@@ -11,7 +11,10 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-# import pandas as pd
+
+
+# import undetected_chromedriver as webdriver
+
 import time
 
 
@@ -19,7 +22,7 @@ import time
 options = Options()
 # options.add_argument("--headless=new")
 # window size 500x500
-options.add_argument("--window-size=900,1200")
+# options.add_argument("--window-size=900,1200")
 # options.add_argument("--disable-gpu")
 # options.add_argument("--no-sandbox")
 # options.add_argument("--disable-dev-shm-usage")
@@ -36,13 +39,27 @@ options.add_argument("--window-size=900,1200")
 # driver.get(url)
 
 
+
+
+options = webdriver.ChromeOptions()
+# options.add_argument("--headless")
+
+
+
+
+
 class Wellfound(Companies, Login):
     def __init__(self, **kwargs):
         self.driver = webdriver.Chrome(
             service=ChromeService(ChromeDriverManager().install()), options=options
         )
+
+        # Using undetected_chromedriver
+        # self.driver = webdriver.Chrome()
+        # self.driver = webdriver.Chrome(headless=True)
+
         Companies.__init__(self, **kwargs)
-        Login.__init__(self)
+        Login.__init__(self, self.driver)
 
     def __del__(self):
         self.driver.quit()
