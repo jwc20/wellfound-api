@@ -3,14 +3,14 @@ from .companies import Companies
 from .login import Login
 
 
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+# from selenium import webdriver
+# from selenium.webdriver.common.by import By
+# from selenium.webdriver.common.keys import Keys
+# from selenium.webdriver.chrome.options import Options
+# from selenium.webdriver.support.ui import WebDriverWait
+# from selenium.webdriver.support import expected_conditions as EC
+# from selenium.webdriver.chrome.service import Service as ChromeService
+# from webdriver_manager.chrome import ChromeDriverManager
 
 
 # import undetected_chromedriver as webdriver
@@ -19,7 +19,7 @@ import time
 
 
 # Chrome options
-options = Options()
+# options = Options()
 # options.add_argument("--headless=new")
 # window size 500x500
 # options.add_argument("--window-size=900,1200")
@@ -41,18 +41,24 @@ options = Options()
 
 
 
-options = webdriver.ChromeOptions()
+# options = webdriver.ChromeOptions()
 # options.add_argument("--headless")
 
+
+
+from seleniumbase import Driver
+driver = Driver(uc=True, incognito=True) 
 
 
 
 
 class Wellfound(Companies, Login):
     def __init__(self, **kwargs):
-        self.driver = webdriver.Chrome(
-            service=ChromeService(ChromeDriverManager().install()), options=options
-        )
+        # self.driver = webdriver.Chrome(
+        #     service=ChromeService(ChromeDriverManager().install()), options=options
+        # )
+        self.driver = Driver(uc=True, incognito=True) 
+
 
         # Using undetected_chromedriver
         # self.driver = webdriver.Chrome()
