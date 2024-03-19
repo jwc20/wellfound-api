@@ -3,66 +3,29 @@ from .companies import Companies
 from .login import Login
 
 
-# from selenium import webdriver
-# from selenium.webdriver.common.by import By
-# from selenium.webdriver.common.keys import Keys
-# from selenium.webdriver.chrome.options import Options
-# from selenium.webdriver.support.ui import WebDriverWait
-# from selenium.webdriver.support import expected_conditions as EC
-# from selenium.webdriver.chrome.service import Service as ChromeService
-# from webdriver_manager.chrome import ChromeDriverManager
-
-
-# import undetected_chromedriver as webdriver
-
-import time
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.chrome.service import Service as ChromeService
+from webdriver_manager.chrome import ChromeDriverManager
 
 
 # Chrome options
-# options = Options()
+options = Options()
 # options.add_argument("--headless=new")
-# window size 500x500
-# options.add_argument("--window-size=900,1200")
-# options.add_argument("--disable-gpu")
-# options.add_argument("--no-sandbox")
-# options.add_argument("--disable-dev-shm-usage")
-# options.add_argument("--disable-extensions")
-# options.add_argument("--disable-popup-blocking")
-
-
-# url = "https://www.wellfound.com/"
-
-# driver = webdriver.Chrome(
-#     service=ChromeService(ChromeDriverManager().install()), options=options
-# )
-
-# driver.get(url)
-
-
-
-
-# options = webdriver.ChromeOptions()
-# options.add_argument("--headless")
-
-
-
-from seleniumbase import Driver
-driver = Driver(uc=True, incognito=True) 
-
-
+options.add_argument("start-maximized")
+options.add_argument("--disable-blink-features=AutomationControlled")
+options.add_experimental_option("excludeSwitches", ["enable-automation"])
 
 
 class Wellfound(Companies, Login):
     def __init__(self, **kwargs):
-        # self.driver = webdriver.Chrome(
-        #     service=ChromeService(ChromeDriverManager().install()), options=options
-        # )
-        self.driver = Driver(uc=True, incognito=True) 
-
-
-        # Using undetected_chromedriver
-        # self.driver = webdriver.Chrome()
-        # self.driver = webdriver.Chrome(headless=True)
+        self.driver = webdriver.Chrome(
+            service=ChromeService(ChromeDriverManager().install()), options=options
+        )
 
         Companies.__init__(self, **kwargs)
         Login.__init__(self, self.driver)
