@@ -2,7 +2,7 @@
 class Companies:
     def __init__(self, **kwargs):
         self.companies = kwargs.get("companies", [])
-        self.data = self.get_data() 
+        self.data = self.get_companies() 
 
-    def get_data(self):
+    def get_companies(self):
         return self.companies

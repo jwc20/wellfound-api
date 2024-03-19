@@ -12,5 +12,7 @@ client = wellfound.Wellfound(username=username, password=password)
 client.login()
 
 
-query = []
-client.get_companies(query=query)
+# query = []
+# client.get_companies(query=query)
+
+client.get_companies()

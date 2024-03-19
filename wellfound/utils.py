@@ -5,14 +5,14 @@ from enum import Enum
 # import time
 
 
-# try:
-#     from urllib import urlencode, urlunsplit
-# except ImportError:
-#     from urllib.parse import urlunsplit, urlencode
+try:
+    from urllib import urlencode, urlunsplit
+except ImportError:
+    from urllib.parse import urlunsplit, urlencode
 
 
 class Base(str, Enum):
-    URL = "https://www.wellfound.com/"
+    URL = "https://www.wellfound.com"
 
     def __str__(self):
         return str(self.value)
@@ -23,6 +23,12 @@ class Header(str, Enum):
 
     def __str__(self):
         return str(self.value)
+
+# class LoginURL(object):
+#     URL = "/login"
+
+#     def __str__(self):
+#         return str(self.URL)
 
 
 print(Base.URL)
