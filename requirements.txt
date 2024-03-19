@@ -6,4 +6,6 @@ pprintpp
 python-dotenv
 pandas
 webdriver-manager
-
+undetected-chromedriver
+disutils
+seleniumbase
