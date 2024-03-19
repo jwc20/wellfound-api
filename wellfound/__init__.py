@@ -1,6 +1,6 @@
-# from .utils import *
-# from .companies import Companies
-# from .login import Login
+from .utils import *
+from .companies import Companies
+from .login import Login
 
 
 from selenium import webdriver
@@ -14,39 +14,40 @@ from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import time
 
-# 
+#
 
 
 # Chrome options
 options = Options()
-# options.add_argument("options.headless = True")
+# options.add_argument("--headless=new")
+# window size 500x500
+options.add_argument("--window-size=900,1200")
 # options.add_argument("--disable-gpu")
 # options.add_argument("--no-sandbox")
 # options.add_argument("--disable-dev-shm-usage")
 # options.add_argument("--disable-extensions")
 # options.add_argument("--disable-popup-blocking")
-# options.add_argument("--no-startup-window")
 
 
-options.add_argument("--headless=new")
-options.add_argument("--window-size=1280,700")
+# url = "https://www.wellfound.com/"
+
+# driver = webdriver.Chrome(
+#     service=ChromeService(ChromeDriverManager().install()), options=options
+# )
+
+# driver.get(url)
 
 
-url = "https://www.wellfound.com/"
+class Wellfound(Companies, Login):
+    def __init__(self, **kwargs):
+        self.driver = webdriver.Chrome(
+            service=ChromeService(ChromeDriverManager().install()), options=options
+        )
+        Companies.__init__(self, **kwargs)
+        Login.__init__(self)
 
-driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-
-driver.get(url)
-
-
-# class Wellfound(Companies, Login):
-#     def __init__(self, **kwargs):
-#         self.driver = webdriver.Chrome(options=options)
-#         Companies.__init__(self, **kwargs)
-#         Login.__init__(self)
-
-#     def __del__(self):
-#         self.driver.quit()
+    def __del__(self):
+        self.driver.quit()
 
 
 __authors__ = ["jwc20"]
