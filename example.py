@@ -5,11 +5,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 
-username = os.getenv("USERNAME")
+email = os.getenv("EMAIL")
 password = os.getenv("PASSWORD")
 
-client = wellfound.Wellfound(username=username, password=password)
-client.login()
+client = wellfound.Wellfound(email=email, password=password)
+client.login(email=email, password=password)
 
 
 # query = []
