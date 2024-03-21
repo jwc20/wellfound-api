@@ -12,7 +12,7 @@ except ImportError:
 
 
 class Base(str, Enum):
-    URL = "https://www.wellfound.com"
+    URL = "https://wellfound.com"
 
     def __str__(self):
         return str(self.value)
