@@ -1,3 +1,8 @@
+
+# for storing cookies
+chrome-data 
+
+# pyenv
 .python-version
 
 # MacOS
