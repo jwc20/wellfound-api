@@ -19,7 +19,7 @@ options = Options()
 options.add_argument("start-maximized")
 options.add_argument("--disable-blink-features=AutomationControlled")
 options.add_experimental_option("excludeSwitches", ["enable-automation"])
-
+options.add_argument("--user-data-dir=chrome-data") # save cookies
 
 class Wellfound(Companies, Login):
     def __init__(self, **kwargs):
