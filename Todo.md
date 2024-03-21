@@ -10,3 +10,5 @@
 - [ ] Create urls for the api
 
 - [ ] scrape
+
+- [ ] Implement a way to log scraper server activity
