@@ -14,8 +14,14 @@ class Login:
         self.wait = WebDriverWait(self.driver, 5)
 
     def check_if_captcha_check(self):
-        """"""
-        return
+        """Checks if the captcha check is required."""
+        try:
+            self.wait.until(
+                EC.presence_of_element_located((By.ID, "captcha-container"))
+            )
+            return True
+        except TimeoutException:
+            return False
 
     def check_login_status(self):
         """Checks if the user is logged in by checking the url."""
@@ -60,34 +66,25 @@ class Login:
         """Submits the login form."""
         login_button = self.driver.find_element(By.NAME, "commit")
         login_button.click()
-
-    def wait_for_login_to_complete(self):
-        """Waits for the login process to complete by checking for a specific element on the next page."""
-        # print the current url
-        print(self.driver.current_url)
-        print(f"{Base.URL}/logins")
-
-        try:
-            self.wait.until(EC.presence_of_element_located((By.ID, "user_email")))
-        except TimeoutException:
-            print("Login page load timeout.")
-            return False
-        return True
+        time.sleep(5)
 
     def login(self, email, password):
         """Performs the complete login operation."""
         try:
             if self.check_login_status():
                 print("Already logged in.")
+                # pprint(self.driver.get_cookies())
                 return
             else:
                 print("Not logged in.")
                 self.navigate_to_login_page()
                 self.fill_login_form(email, password)
                 self.submit_login_form()
-                if self.wait_for_login_to_complete():
+
+                if self.check_login_status():
                     print("Successfully logged in.")
                     pprint(self.driver.get_cookies())
+                    return
                 else:
                     print("Failed to log in.")
         except Exception as e:
