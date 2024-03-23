@@ -16,11 +16,16 @@ class Login:
     def check_if_captcha_check(self):
         """Checks if the captcha check is required."""
         try:
+            # check if there is this element in the page <body style="margin:0"><script data-cfasync="false">var dd={'rt':'c','cid':'AHrlqAAAAAMAgciZ7cjSuv4AAeEDHQ==','hsh':'BA3EB296E8BE96A496929870E20CD4','t':'fe','s':23648,'e':'452ac128343f6eacf7ce6135555a760ed001e0b8493f0b4de9b85d5b8f14291e','host':'geo.captcha-delivery.com'}</script><script data-cfasync="false" src="https://ct.captcha-delivery.com/c.js"></script><iframe src="https://geo.captcha-delivery.com/captcha/?initialCid=AHrlqAAAAAMAgciZ7cjSuv4AAeEDHQ%3D%3D&amp;hash=BA3EB296E8BE96A496929870E20CD4&amp;cid=Y9E8ysAOjhRZ82MYnVQOh4f1qZLnKNG1dQ9gAgD86C8XTz5NWVFQhOVIw6fvy65u~hUbWW9LxIKXPgHrNGKI38~QzMkl7B~LSVQJbaseJitkrRChl5~iQ6tIVRmlzlF3&amp;t=fe&amp;referer=https%3A%2F%2Fwellfound.com%2Flogin&amp;s=23648&amp;e=452ac128343f6eacf7ce6135555a760ed001e0b8493f0b4de9b85d5b8f14291e" width="100%" height="100%" style="height:100vh;" frameborder="0" border="0" scrolling="yes"></iframe></body>
             self.wait.until(
-                EC.presence_of_element_located((By.ID, "captcha-container"))
+                EC.presence_of_element_located(
+                    (By.XPATH, '//*[@data-cfasync="false"]')
+                )
             )
+            print("Captcha check required.")
             return True
         except TimeoutException:
+            print("No captcha check required.")
             return False
 
     def check_login_status(self):
@@ -78,6 +83,8 @@ class Login:
             else:
                 print("Not logged in.")
                 self.navigate_to_login_page()
+                if self.check_if_captcha_check():
+                    return
                 self.fill_login_form(email, password)
                 self.submit_login_form()
 
