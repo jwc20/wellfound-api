@@ -1,21 +1,11 @@
-import requests
-from bs4 import BeautifulSoup
-
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as ec
-from selenium.common.exceptions import TimeoutException
-
 import time
 from .utils import *
-
+from pprint import pprint
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
-
-from pprint import pprint
 
 
 class Login:
@@ -23,6 +13,9 @@ class Login:
         self.driver = driver
         self.wait = WebDriverWait(self.driver, 5)
 
+    def check_if_captcha_check(self):
+        """"""
+        return
 
     def check_login_status(self):
         """Checks if the user is logged in by checking the url."""
