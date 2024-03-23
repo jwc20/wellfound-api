@@ -98,7 +98,8 @@ class Companies:
                 "filterConfigurationInput": {
                 "page": 1,
                 "remoteCompanyLocationTagIds": [
-                    "1665"
+                    "1692", 
+                    "1693"
                 ],
                 "roleTagIds": [
                     "14726"
@@ -120,7 +121,7 @@ class Companies:
                 "jobTypes": [
                     "full_time"
                 ],
-                "remotePreference": "NO_REMOTE",
+                "remotePreference": "REMOTE_OPEN",
                 "salary": {
                     "min": null,
                     "max": null
@@ -137,10 +138,27 @@ class Companies:
         }));
         """
 
-        # Execute the JavaScript
-        self.driver.execute_script(js_script)
 
-        time.sleep(1000)
+
+        # Execute the JavaScript
+        response = self.driver.execute_async_script(js_script)
+
+        time.sleep(5)
+        # pprint(response)
+
+        # Parse the JSON response
+        response = json.loads(response)
+        
+        # convert the response json 
+        response = json.dumps(response, indent=4)
+
+        # save the response to a file
+        with open(f"response_{date_time_format}.json", "w") as file:
+            print("writing to file...")
+            file.write(response)
+
+
+        # time.sleep(1000)
 
         # TODO: SCRAPE THE PAGE
 
