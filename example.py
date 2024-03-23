@@ -15,4 +15,5 @@ client.login(email=email, password=password)
 # query = []
 # client.get_companies(query=query)
 
-client.get_companies()
+query = []
+client.get_companies(query=[])
