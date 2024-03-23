@@ -26,14 +26,22 @@ class Login:
     def __init__(self, driver):
         self.driver = driver
 
-    # def check_login_status(self):
-    #     """Checks if the user is logged in."""
-    #     # self.driver.get(f"{Base.URL}/jobs")
+    def check_login_status(self):
+        """Checks if the user is logged in by checking the url."""
+        wait = WebDriverWait(self.driver, 5)
+        
+        # initial page: chrome://new-tab-page/
+        # get the current url after redirect from chrome://new-tab-page/
+        self.driver.get(f"{Base.URL}/jobs")
+        time.sleep(5)
 
-    #     if self.driver.current_url == f"{Base.URL}/jobs":
-    #         return True
-    #     # return self.wait_for_login_to_complete()
-    #     return False
+        try:
+            # wait until the element is loaded in the page where data-testid="JobSearchPage"
+            wait.until(EC.presence_of_element_located((By.XPATH, '//*[@data-test="JobSearchPage"]')))
+        except TimeoutException:
+            print("Jobs page load timeout.")
+            return False
+        return True
 
     def navigate_to_login_page(self):
         """Navigates to the login page."""
@@ -62,49 +70,28 @@ class Login:
         print(f"{Base.URL}/jobs")
 
         try:
-            wait.until(EC.presence_of_element_located((By.ID, "nc_1_n1z")))
+            wait.until(EC.presence_of_element_located((By.ID, "user_email")))
         except TimeoutException:
             print("Login page load timeout.")
-            # if self.driver.current_url == f"{Base.URL}/jobs":
-            #     return True
-
             return False
         return True
 
     def login(self, email, password):
         """Performs the complete login operation."""
-
-
-
-        # from utils.py
-        # if check_login_status(self):
-        #     print("Already logged in.")
-        #     return
-
         try:
-            login_status = check_login_status(self)
-            if login_status:
+            if self.check_login_status():
                 print("Already logged in.")
                 return
-            # else login
-            self.navigate_to_login_page()
-            self.fill_login_form(email, password)
-            self.submit_login_form()
-            if self.wait_for_login_to_complete():
-                print("Successfully logged in.")
-                pprint(self.driver.get_cookies())
-            else:
-                print("Failed to log in.")
-        except:
-            print("Failed to check login status.")
-            return
-
-
-        # self.navigate_to_login_page()
-        # self.fill_login_form(email, password)
-        # self.submit_login_form()
-        # if self.wait_for_login_to_complete():
-        #     print("Successfully logged in.")
-        #     pprint(self.driver.get_cookies())
-        # else:
-        #     print("Failed to log in.")
+            else: 
+                print("Not logged in.")
+                self.navigate_to_login_page()
+                self.fill_login_form(email, password)
+                self.submit_login_form()
+                if self.wait_for_login_to_complete():
+                    print("Successfully logged in.")
+                    pprint(self.driver.get_cookies())
+                else:
+                    print("Failed to log in.")
+        except Exception as e:
+            print(f"An error occurred during login: {e}")
+            raise e
