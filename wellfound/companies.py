@@ -2,13 +2,19 @@ import time
 import json
 import sys
 from .utils import *
-from collections import namedtuple, defaultdict
+from collections import namedtuple
 from pprintpp import pprint
 from datetime import datetime
 
 
 now = datetime.now()
 date_time_format = now.strftime("%Y-%m-%d_%H-%M-%S")
+
+# Badge = namedtuple('Badge', ['id', 'label', 'name'])
+# JobListingRemoteConfig = namedtuple('JobListingRemoteConfig', ['id', 'kind'])
+JobListingSearchResult = namedtuple('JobListingSearchResult', ['typename', 'atsSource', 'autoPosted', 'currentUserApplied', 'description', 'id', 'jobType', 'lastRespondedAt', 'liveStartAt', 'primaryRoleTitle', 'remote', 'reposted', 'slug', 'title', 'compensation', 'usesEstimatedSalary'])
+# StartupSearchResult = namedtuple('StartupSearchResult', ['id', 'startupId', 'name', 'companySize', 'highConcept', 'locationTaggings', 'logoUrl', 'highlightedJobListings', 'badges'])
+
 
 
 class Companies:
@@ -21,7 +27,7 @@ class Companies:
         return
 
     def get_companies(self, query):
-        soup = BeautifulSoup(self.driver.page_source, "lxml")
+        # soup = BeautifulSoup(self.driver.page_source, "lxml")
         # pprint(soup.prettify())
 
         for i in range(1, 100):  # TODO: 100 pages, change this later
@@ -102,21 +108,74 @@ class Companies:
             # Execute the JavaScript
             response = self.driver.execute_async_script(js_script)
 
+
             time.sleep(5)
             # pprint(response)
 
             # Parse the JSON response
             response = json.loads(response)
 
+
+
+            # store to named tuples with the defined structure above for easy access
+
+            job_listings = []
+            startups = response["data"]["talent"]["jobSearchResults"]["startups"]["edges"]
+            for i in range(0, len(startups)):
+                startup_info = startups[i]["node"]
+                startup_job_listings = startup_info["highlightedJobListings"]
+                # store to JobListingSearchResult named tuple
+                # job_listings = [JobListingSearchResult(**job) for job in startup_job_listings]
+                # store to job_listings as a list of named tuples, do not use keyword arguments
+                # do not use list comprehension
+
+                for job in startup_job_listings:
+                    job_listings.append(JobListingSearchResult(job["__typename"], job["atsSource"], job["autoPosted"], job["currentUserApplied"], job["description"], job["id"], job["jobType"], job["lastRespondedAt"], job["liveStartAt"], job["primaryRoleTitle"], job["remote"], job["reposted"], job["slug"], job["title"], job["compensation"], job["usesEstimatedSalary"]))
+
+                    # print the job titles
+
+
+            # print all the job titles using named tuples
+
+
+            for job in job_listings:
+                # print(job.title, job.compensation, job.id)
+                print(f"{job.title} | {job.compensation} | {job.id}")
+
+
+
+
+
+            # startups = [StartupSearchResult(**startup) for startup in response["data"]["jobSearchResults"]["startups"]]
+            # badges = [Badge(**badge) for badge in response["data"]["jobSearchResults"]["badges"]]
+            # job_listing_remote_config = [JobListingRemoteConfig(**job) for job in response["data"]["jobSearchResults"]["jobListingRemoteConfigs"]]
+            # # print the response
+
+                # pprint(startup_job_listings)
+                # pprint(job_listings)
+
+
             # convert the response json
-            response = json.dumps(response, indent=4)
+            response_json = json.dumps(response, indent=4)
 
             # save the response to a file
             # with open(f"response_{date_time_format}.json", "w") as file:
             # include the page number in the filename
             with open(f"response_{date_time_format}_page_{i}.json", "w") as file:
                 print("writing to file...")
-                file.write(response)
+                file.write(response_json)
+
+
+            
+
+
+
+
+
+
+
+            # check if there is a next page by checking if the "hasNextPage"  key is True
+            # has_next_page = response["data"]["jobSearchResults"]["pageInfo"]["hasNextPage"]
 
         # time.sleep(10000)
 
