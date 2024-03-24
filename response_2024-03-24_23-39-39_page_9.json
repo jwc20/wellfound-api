@@ -1,0 +1,993 @@
+{
+    "data": {
+        "talent": {
+            "__typename": "Talent",
+            "jobSearchResults": {
+                "__typename": "SearchResult",
+                "hasNextPage": true,
+                "rawQuery": null,
+                "startups": {
+                    "__typename": "StartupSearchResultConnection",
+                    "edges": [
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Apply here-&gt; https://matroid.breezy.hr/p/83de2b9c9464-software-engineer-infrastructure?source=angellist\n\nAbout Matroid\n\nWith the rapid growth of artificial intelligence, expert knowledge must use cutting-edge machine learning techniques to solve real-world problems. At Matroid, we\u2019re building an intuitive product that allows anyone to train and deploy computer vision models without the need to write code.\n\nFounded in 2016 by a Stanford professor, Matroid has raised $33.5 million from NEA, Energize Ventures, and Intel Capital and has a broad range of customers and partners in manufacturing, industrial IoT, and security.\n\nWe\u2019re looking for a talented Software Engineer in Infrastructure to help develop the systems that powers Matroid\u2019s computer vision platform. Working alongside software and computer vision experts, you\u2019ll collaborate to solve problems, enable features and increase efficiency by building new shared services, systems, and tooling.\n\nYou\u2019ll be working onsite at our new office in downtown Palo Alto, located near the Stanford campus and a 5-minute walk from Caltrain.\n\n**What you\u2019ll be doing**\n\n* Developing new infrastructure on AWS and Kubernetes that is secure, reliable, and scalable\n* Coding up new capabilities for the systems that power our computer vision platform\n* Increasing efficiency across engineering with better libraries, tooling and automation\n* Applying modern best practices such as infrastructure-as-code and observability\n\n\n**How you\u2019ll be doing it**\n\n* You\u2019ll be working with modern technologies like Python, Kubernetes, Helm, and Prometheus\n* You\u2019ll be part of a world-class, multidisciplinary engineering team, where each member identifies and prioritizes valuable and interesting new features to work on\n* You will operate in a collaborative but highly autonomous environment that isn\u2019t bogged down by unnecessary meetings or project management\n* You will know that almost everything you build affects real-world users, and you will set the quality standards for your work appropriately\n* You will work collaboratively alongside software and computer vision experts to deploy new infrastructure solutions empowering Matroid features and capabilities\n* You will learn a lot along the way, diving into new technologies and the world of computer vision both on your own and during frequent company tech talks.\n\n\n**What you bring to the table**\n\n* Enthusiasm for working on infrastructure and backend systems\n* Strong Python coding skills\n* Expertise with Linux, and some of: Kubernetes, AWS, Docker, Helm\n* Bachelors in CS or equivalent\n* 2+ years experience developing software\n* Adept at communicating to both technical and commercial audiences\n* Willingness and eligibility for security clearance up to TS/SCI\n\n**Bonus points if...**\n\n* Work experience as a software engineer in backend infrastructure\n* Personal projects that demonstrate an interest/expertise in systems and/or infrastructure\n* Experience with: Kafka, Redis, gRPC, Prometheus, MongoDB, Nginx\n* Experience with DevOps, SRE and/or InfoSec\n* Familiarity with machine learning technologies, concepts and operation\n\n**What we offer in return**\n\n* Competitive pay and equity\n* The chance to constantly work on stimulating intellectual challenges\n* Gym membership reimbursement\n* Free lunch, healthy drinks, and snacks every day\n* Medical, dental, and vision insurance with 100% paid premiums\n* A flexible schedule that leaves time for all of your other interests\n* A budget for whatever hardware or software will make you most effective\n* Resources to learn about the cutting edge of software engineering and computer vision\n\n*Matroid is committed to creating a diverse work environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, religion, color, sex, gender identity, sexual orientation, age, non-disqualifying physical or mental disability, national origin, veteran status, or any other basis covered by appropriate law.*",
+                                        "id": "1868727",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711053698,
+                                        "liveStartAt": 1709578088,
+                                        "locationNames": [
+                                            "Palo Alto"
+                                        ],
+                                        "primaryRoleTitle": "Backend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "30194",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "software-engineer-infrastructure",
+                                        "title": "Software Engineer, Infrastructure",
+                                        "compensation": "$140k \u2013 $160k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "1024870",
+                                "startupId": "1024870",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-1024870",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/19163-40b4beea1245cd9262307cd16d9e2e93-medium_jpg.jpg?buster=1486058339",
+                                        "id": "TOP_TIER_INVESTOR-1024870",
+                                        "label": "Same investor as Uber",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "New Enterprise Associates (NEA) invested in both Matroid and Uber"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Computer Vision Made Simple",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Palo Alto",
+                                        "id": "1694"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/1024870-0f10923c4f88b37247d15f81e03ae447-medium_jpg.jpg?buster=1455937682",
+                                "name": "Matroid",
+                                "slug": "matroid",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "August Schools is the first comprehensive Electronic Health Record (EHR) system for schools. Our product is the hub for K12 student support, including school nurses, counselors, athletic trainers, learning specialists, administrators, and more.\n\nNow in our third year, we\u2019ve deployed into many of the top private and independent schools in the country. We\u2019re expanding our footprint in public, and our student count will multiply next school year.\n\nWe\u2019re looking for engineers to join our team for our next stage of growth as we scale to serve millions of students nation-wide.\n\n**Technology**\n\n- React with Ant Design\n- GraphQL\n- Ruby on Rails\n- MongoDB\n- Kubernetes\n\n**Example projects**\n\n- Complex charting for encounter documentation by practitioners\n- Form builder for self-serve product customization by customers\n- \"Robo-nurse\" extraction of immunization data from raw PDFs powered by AI\n- Chat GPT interface for our in-house query language, AugQL\n- Report builder and analytics over arbitrary queries and calculations\n\n**Requirements**\n\n- New or recent graduate with degree in computer science or related field, or equivalent professional experience\n- Strong collaboration skills and hunger for technical growth\n- Ownership mindset &amp; passion for modular, efficient, and usable code\n- Internship experience preferred\n\n**What are we offering?**\n\n- Diverse and inclusive working environment\n- Hybrid in-person from our office in midtown Manhattan\n- Unlimited PTO (4 week minimum), great insurance, flexible work arrangements, and commuter benefits\n\n**IMPORTANT:** please include the word \"**september**\" somewhere near the start of your application message so we know you're not a chatbot",
+                                        "id": "2960902",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711226917,
+                                        "liveStartAt": 1711064344,
+                                        "locationNames": [
+                                            "New York City"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "155598",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer-product",
+                                        "title": "Software Engineer (Product)",
+                                        "compensation": "$125k \u2013 $145k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "August Schools is the first comprehensive Electronic Health Record (EHR) system for schools. Our product is the hub for K12 student support, including school nurses, counselors, athletic trainers, learning specialists, administrators, and more.\n\nNow in our third year, we\u2019ve deployed into many of the top private and independent schools in the country. We\u2019re expanding our footprint in public, and our student count will multiply next school year.\n\nWe\u2019re looking for engineers to join our team for our next stage of growth as we scale to serve millions of students nation-wide.\n\n**Technology**\n\n- Kubernetes\n- MongoDB\n- Ruby on Rails with GraphQL\n- React with Ant Design\n\n**Example projects**\n\n- Syncs with third-party data sources, like Student Information Systems (SISs)\n- GPT-driven translation of condition types between medical coding systems\n- Self-service tooling for environment provisioning and management\n- Data import builder for hands-off client implementations\n- State reporting at the scale of hundreds of thousands of students\n\n**Requirements**\n\n- New or recent graduate with degree in computer science or related field, or equivalent professional experience\n- Strong collaboration skills and hunger for technical growth\n- Ownership mindset &amp; passion for modular, efficient, and usable code\n- Internship experience preferred\n\n**What are we offering?**\n\n- Diverse and inclusive working environment\n- Hybrid in-person from our office in midtown Manhattan\n- Unlimited PTO (4 week minimum), great insurance, flexible work arrangements, and commuter benefits\n- **Compensation: $125,000 + equity**\n\n**IMPORTANT:** please include the word \"**september**\" somewhere near the start of your application message so we know you're not a chatbot",
+                                        "id": "2959573",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711226769,
+                                        "liveStartAt": 1710982721,
+                                        "locationNames": [
+                                            "New York City"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "155430",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer-backend-data",
+                                        "title": "Software Engineer (Backend/Data)",
+                                        "compensation": "$125k \u2013 $145k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8313077",
+                                "startupId": "8313077",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "The hub for K12 student support, serving counselors, school nurses and more",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York City",
+                                        "id": "1664"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8313077-c5916540c93b3e46181eef15ae6ce221-medium_jpg.jpg?buster=1628785634",
+                                "name": "August Schools",
+                                "slug": "august-22",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "We\u2019re hiring our first engineer at Kinsome\n\nWe\u2019re looking for the right person to join our tiny (&lt; 5 person) team with the mission of bringing grandkids and grandparents closer together, even when they\u2019re miles apart. This is an opportunity to have an outsized impact on our product, our culture, and to build something meaningful for families. \n\nScrappiness and dedication to our mission are the traits that will set candidates apart at this stage; years of experience or specific skills are far less important to us right now.  We need someone who is excited to get in the trenches with us and do everything possible to help us execute on the Kinsome vision.\n\nIf you, or an engineer you know, thrives in the uncertainty and chaos of early stage startup life and likes to move fast, please reach out to us at team@kinsome.com.\n\n**Why join Kinsome**\nWork on a meaningful problem. We\u2019re working to build stronger bonds between grandkids and grandparents, to help fight some of the forces leading to the break up of intergenerational families. We\u2019re also lucky to have raised funding from friends and Angels that believe in our team and are strongly aligned with this mission.\nMove fast. Our only goal at this stage is to build a product that families love, which means lots of experimentation and lots of shipping.\nSolve difficult product challenges. We\u2019re trying to reach kids and seniors\u2014two groups who are typically underserved by tech. This comes with a lot of fun, novel design and accessibility challenges.\nOwn the product. For a team our size (you\u2019ll be one of two engineers, along with yours truly), we all take full responsibility and ownership for what we build.\nCollaborate. We believe building great products is a team sport, and we try to look for thoughtful, curious, and low-ego collaborators. \nUse cutting-edge tech. We believe that some of the recent advancements in AI are an enabling technology to bridge the divide between grandkids and grandparents. As a new company, we\u2019re also using a small, modern tech stack (React Native, NextJS, Supabase) which you would help shape over time.\n\n**Things you should know**\nIt\u2019s a leap of faith. Startups are incredibly hard and, as an angel-backed startup, we need to be extremely capital efficient until we find true product-market fit. Compensation will skew towards equity compared to the broader tech market\u2013we believe in sharing success as a team.\nWe\u2019re based in Boston. We\u2019ve spent most of my career working remotely, however, we feel that collaborating in-person gives us the best chance to spark new ideas and helps to smooth out some of the emotional roller-coaster of trying to build something new. We\u2019ve got an awesome office space in Beacon Hill, where we work together a few times a week.",
+                                        "id": "2949246",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711133356,
+                                        "liveStartAt": 1709919234,
+                                        "locationNames": [
+                                            "Boston"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "153588",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "founding-software-engineer",
+                                        "title": "Founding Software Engineer",
+                                        "compensation": "$90k \u2013 $125k \u2022 0.5% \u2013 3.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 3.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10028060",
+                                "startupId": "10028060",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "RECENTLY_FUNDED",
+                                        "label": "Recently funded",
+                                        "name": "RECENTLY_FUNDED_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Raised funding in the past six months"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Intergenerational bonding for  the modern family",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Boston",
+                                        "id": "1620"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10028060-89c77af4cce52ffbf7e18276a8e2bd66-medium_jpg.jpg?buster=1709918880",
+                                "name": "Kinsome",
+                                "slug": "kinsome-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": "AtsIntegration::Ashby::Listing",
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "# Listen Labs\n\nEveryone hates surveys. They\u2019re tedious to fill out and give shallow data. That\u2019s because they\u2019re only a proxy for the real thing: *conversations*. Through a conversation, you can ask follow-up questions and get deep insights in a way that\u2019s fun for the interviewee. Except you can\u2019t have 1:1 conversations with everyone\u2026\n\nListen Labs has built an AI interviewer that can ask follow-up questions, like a conversation, but at the scale and ease of use of a survey.\n\n## **Technical Challenges**\n\n### **Turn qualitative data into quantitative insights**\n\nListen Labs clusters free-form conversation into a structured format. This is not a trivial task. We use embeddings, fine-tuned large language models, and more to solve these problems.\n\n### **Ask the right questions**\n\nHaving a great conversation is not trivial. We\u2019re fine-tuning and prompting in novel ways to get the right output from LLMs.\n\n### **Multi-modality**\n\nWe\u2019ve built the fastest speech-to-speech pipeline but there\u2019s a number of challenges we need to address to make it better. Our interviewer has audio input and output to the LLM and that\u2019s tricky to get right.\n\n## Investors\n\nThere\u2019s been $30B+ of market cap created from bringing surveys online. Our partner at Sequoia, [Bryan Schreier]([https://www.sequoiacap.com/people/bryan-schreier/](https://www.sequoiacap.com/people/bryan-schreier/)), was the first investor in Qualtrics \u2013 the $12B survey company.\n\n## About you\n\n- You love working on products end-to-end without detailed direction\n\n- You want to work in Next.js, TypeScript, and large language models\n\n- You are a collaborative builder and like to build systems with other engineers in mind.\n\n- You are an excellent written and verbal communicator.\n\n- You know when to seek assistance, and it's typically to discuss tradeoffs.\n\n- You don't scoff at unglamorous engineering tasks, yaks don't shave themselves.\n\n- Highly technical\n\n- Interested in building products end-to-end and owning the user experience\n\n- Excited about large language models\n\n### What we offer\n\n- $150,000 - $200,000 USD in cash.\n\n- High equity grant even for an early stage startup.\n\n- Work in person in our office @ 425 2nd St in San Francisco.\n\n",
+                                        "id": "2960895",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1711063832,
+                                        "locationNames": [
+                                            "Austin"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "155599",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "founding-product-engineer-listen-labs",
+                                        "title": "Founding Product Engineer - Listen Labs",
+                                        "compensation": "$150k \u2013 $200k \u2022 0.5% \u2013 1.5%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 1.5%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10045106",
+                                "startupId": "10045106",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-10045106",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Qualitative research, conducted and analyzed by AI",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10045106-2554ae444c3d18b208dc986b6512eaf0-medium_jpg.jpg?buster=1711063288",
+                                "name": "Listen Labs",
+                                "slug": "listen-labs",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "BeyondMD is revolutionizing population health management. Our proprietary, proactive, and data-driven care continuum is transforming healthcare practices across the nation. Located in Atlanta, we offer a hybrid work environment and encourage an entrepreneurial adhocracy culture. If you\u2019re passionate about healthcare or love solving complex problems, BeyondMD is the place for you!\n\nWe're seeking a dynamic software engineer to join our close-knit team. You'll be integral in maintaining and expanding our web applications and experimental full stack software that help healthcare providers manage their patients more effectively.\n\n**Responsibilities**\n* Develop, test, and deploy web applications\n* Collaborate with cross-functional teams to bring features from concept to completion\n* Maintain and improve existing codebases for performance and scalability\n* Participate in code reviews and architectural planning meetings\n* Take project ownership while working in a high-growth, fast-paced environment\n\n**Tech Stack**\n* React\n* JavaScript\n* Python\n* Django\n* SQL\n\n**Qualifications**\n* A bachelor's degree in computer science or a related field is preferred. Bootcamp graduates and self-taught developers are also welcome.\n* Familiarity with our tech stack\n* Strong problem-solving abilities\n* Excellent communication skills\n\n**Teamwork**\nYou'll be working closely with a team but will have high ownership over features.\n\n**Benefits &amp; Compensation**\n* Salary Range: $60,000 - $70,000\n* Fast promotion (Mulitiple cash and equity promotions within a year)\n* Basic healthcare coverage\n* Equity options\n* Flexible working hours\n* High growth opportunities within the company\n* Company outings\n* Entrepreneurial opportunities\n* Food and drinks often provided\n\nIf shortlisted, you'll be invited for a personality interview. Following that, you will receive a coding assignment. Lastly, candidates will participate in a group technical interview discussing the coding assignment\n\nIf you\u2019re a proactive, team-oriented, and motivated individual, we\u2019d love to hear from you. Join us at BeyondMD and contribute to improving healthcare across the nation!",
+                                        "id": "2778607",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710719783,
+                                        "liveStartAt": 1710537975,
+                                        "locationNames": [
+                                            "Atlanta"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "125264",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "software-engineer-start-up",
+                                        "title": "Software Engineer (Start up)",
+                                        "compensation": "$60k \u2013 $70k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8567737",
+                                "startupId": "8567737",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Leveraging tech to facilitate valuable prescriptions on medical-pathology combinations",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Atlanta",
+                                        "id": "1616"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8567737-8ea3d65202e732cbc811253294a3d8f6-medium_jpg.jpg?buster=1635194583",
+                                "name": "BeyondMD",
+                                "slug": "beyondmd",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "A steadily growing and profitable AI startup seeks deep learning researchers. The ability to solve vague and nontrivial problems on a tight schedule is critical. Top-notch written and verbal communication skills are essential. A strong sense of ownership is a prerequisite. Expect to work with intense, motivated, and competent peers.\n\n### Requirements\n\n* Solid understanding of theory, applications, and limitations of deep learning\n* Experience with at least one mainstream deep learning framework\n* Practical knowledge of data structures and algorithms\n* Experience building complex and extensible software\n* Hands-on experience with Python\n* Hands-on experience with C\n* Hands-on experience with PyTorch\n* Hands-on experience with CUDA\n* Knowledge of graph theory\n* Knowledge of probability theory",
+                                        "id": "2469953",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709689235,
+                                        "liveStartAt": 1709825388,
+                                        "locationNames": [
+                                            "Vancouver"
+                                        ],
+                                        "primaryRoleTitle": "Machine Learning Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "66814",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "deep-learning-researcher",
+                                        "title": "Deep Learning Researcher",
+                                        "compensation": "$75k \u2013 $120k \u2022 0.0% \u2013 0.1%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.1%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "A steadily growing and profitable AI startup seeks software engineers. The ability to solve vague and nontrivial problems on a tight schedule is critical. Top-notch written and verbal communication skills are essential. A strong sense of ownership is a prerequisite. Expect to work with intense, motivated, and competent peers.\n\n### Requirements\n\n* Experience building complex and extensible software\n* Practical knowledge of data structures and algorithms\n* Hands-on experience with C\n* Hands-on experience with Python\n* Hands-on experience with JavaScript\n* Hands-on experience with AWS\n* Hands-on experience with React\n* Hands-on experience with Android\n* Hands-on experience with iOS\n* Hands-on experience with CUDA\n* Knowledge of deep learning",
+                                        "id": "2421931",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711117223,
+                                        "liveStartAt": 1709825316,
+                                        "locationNames": [
+                                            "Vancouver"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "57080",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "software-engineer",
+                                        "title": "Software Engineer",
+                                        "compensation": "$75k \u2013 $120k \u2022 0.0% \u2013 0.1%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.1%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "A steadily growing and profitable AI startup seeks applied speech scientists. The ability to solve vague and nontrivial problems on a tight schedule is critical. Top-notch written and verbal communication skills are essential. A strong sense of ownership is a prerequisite. Expect to work with intense, motivated, and competent peers.\n\n### Requirements\n\n*  Deep expertise in speech-to-text, text-to-speech, and speaker recognition\n*  Solid understanding of theory, applications, and limitations of deep learning\n*  Experience with at least one mainstream deep learning framework\n*  Practical knowledge of data structures and algorithms\n*  Experience building complex and extensible software\n*  Hands-on experience with Python\n*  Hands-on experience with C\n*  Hands-on experience with PyTorch\n*  Hands-on experience with CUDA\n*  Knowledge of graph theory\n*  Knowledge of probability theory",
+                                        "id": "2482626",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1703904614,
+                                        "liveStartAt": 1709823286,
+                                        "locationNames": [
+                                            "Vancouver"
+                                        ],
+                                        "primaryRoleTitle": "Machine Learning Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "69860",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "applied-speech-scientist",
+                                        "title": "Applied Speech Scientist",
+                                        "compensation": "$75k \u2013 $120k \u2022 0.0% \u2013 0.1%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.1%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "5460737",
+                                "startupId": "5460737",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-5460737",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Picovoice is the end-to-end platform for adding voice to anything on your terms",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Vancouver",
+                                        "id": "1698"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Toronto",
+                                        "id": "1702"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/5460737-46a96f3e9177730862d7b7f6d5ad653a-medium_jpg.jpg?buster=1575420708",
+                                "name": "Picovoice",
+                                "slug": "picovoice",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Kaedim is a cutting-edge AI technology company specializing in developing Machine Learning algorithms for transforming 2D images into digital 3D models. Our primary focus is serving game developers, offering big speedups in their 3D asset production pipelines.\n\nThis position requires a technical candidate, with a strong development, consulting, and support background with proven customer-facing &amp; relationship management skills.\nFor working with us you:\n\n* Must be eager to be involved with both AI and product dev.\n* Must have done this before, or be willing to learn fast.\n* Must be customer driven. We think customers first and so should you.\n* Must be driven to go above and beyond.\n* Must be able to explain and communicate clearly.\n* Must be able to work autonomously.\n* Must want to work hard.\n* Must be a strong communicator, capable of justifying decisions, proposing new ideas and explaining solutions to the rest of the team\n\nResponsibilities\n* Excellent interpersonal and communication skills to maintain strong relationships with clients and provide customer service\n* Tech-savvy professional who is able to explain technical information to a non-technical audience\n* Strong planning and organization skills; ability to think critically\n* Hard-working self-starter capable of concurrently running multiple projects in a dynamic environment\n* Ability to grasp clients\u2019 needs and recommend value-added solutions\n* Collaborate with cross-functional teams to design, develop and deploy web applications that meet customer needs and exceed expectations.\n* Collaborate with the design team and manage MySQL databases, ensuring efficient and effective data storage and retrieval.\n* Conduct unit testing and end-to-end testing using Cypress and Jest to ensure application stability and reliability.\n* Understand and incorporate customer feedback into design and development decisions, ensuring a high level of customer satisfaction.\n* Communicate complex ideas and technical concepts clearly and concisely to cross-functional teams and stakeholders.\n* Work independently to manage projects, meet deadlines, and achieve business goals.\n\nQualifications\n* Experience with customer support.\n* Experience with at least one of the following: NodeJS, Express, Python, backend or frontend development.\n* Knowledge of MySQL and database design.\n* Preferred experience in REST API design and development using modern web development frameworks.\n* Debugging skills and the ability to troubleshoot complex issues across the tech stack.\n* Excellent collaboration and communication skills, including the ability to work in a fast-paced environment with cross-functional teams and manage multiple projects simultaneously.\n\n\nNice to haves\n* Experience with React and Tailwind CSS for frontend development.\n* Familiarity with WebGL and three.js for 3D graphics programming and rendering.\n* Experience with containerization using Docker for application deployment and management.\n* Experience with AWS-SDK for cloud computing, including experience with AWS services such as EC2, S3, and RDS.\n* Experience with 3D modelling would be a big plus.",
+                                        "id": "2782539",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710558917,
+                                        "liveStartAt": 1709570406,
+                                        "locationNames": [
+                                            "San Francisco",
+                                            "London"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "125782",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "customer-support-engineer",
+                                        "title": "Customer Support Engineer",
+                                        "compensation": "$70k \u2013 $150k \u2022 0.1% \u2013 0.5%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.5%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Kaedim is a cutting-edge AI technology company specializing in developing Machine Learning algorithms for transforming 2D images into digital 3D models. Our primary focus is serving game developers, offering big speedups in their 3D asset production pipelines.\n\nFor working with us you:\n* Must be eager to be involved with both AI and product dev.\n* Must have done this before, or be willing to learn fast.\n* Must be customer driven. We think customers first and so should you.\n* Must be driven to go above and beyond.\n* Must be able to explain and communicate clearly.\n* Must be able to work autonomously.\n* Must want to work hard.\n* Must be a strong communicator, capable of justifying decisions, proposing new ideas and explaining ML concepts to the rest of the team\n\nResponsibilitites\n* Coming up with solutions to hard problems\n* Making proof of concepts\n* Coming up and implementing improvements on existing ML algorithms\n* Bringing other team members up to speed\n* Report on key ML-related KPIs\n* Iterate based on customer feedback\n\n\nNice to haves\n* Experience with 3D modelling would be a big plus",
+                                        "id": "2650259",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710785680,
+                                        "liveStartAt": 1709314625,
+                                        "locationNames": [
+                                            "San Francisco",
+                                            "London"
+                                        ],
+                                        "primaryRoleTitle": "Machine Learning Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "102125",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "machine-learning-engineer",
+                                        "title": "Machine Learning Engineer",
+                                        "compensation": "$100k \u2013 $180k \u2022 0.1% \u2013 0.5%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.5%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "7778183",
+                                "startupId": "7778183",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-7778183",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Our ML algorithms turn 2D images into game-ready digital 3D models",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "London",
+                                        "id": "1695"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/7778183-67822a0032c12e6da882fd3b07881f37-medium_jpg.jpg?buster=1694599252",
+                                "name": "Kaedim",
+                                "slug": "kaedim",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**What We\u2019re Building** \nSelling to government has always been hard, and it\u2019s historically stopped companies from even thinking about this market. But things are changing. A surge of technology companies are rising to the occasion and building products to solve the domestic challenges and national security threats we\u2019re facing today.  It\u2019s our job to help them be successful, and we\u2019ve raised from an incredible group of investors + have heavy-hitting national security veterans and technology industry advisors behind us to do it.\n\nObviant is a software-enabled marketplace to make it easier for companies to sell to government. We're leveraging data and AI to build tools that bring access and transparency to an opaque industry, with the government as the stakeholder that ultimately benefits. If you\u2019re excited about having an impact on the future of gov/defense, we\u2019re probably for you.\n\n**What We\u2019re Looking For** \nSomeone with previous experience as a full stack developer to help build our web app. Your work will lay the foundation for our product and you\u2019ll get to see it come to fruition. \n\nYou\u2019ll be the first hire on our team, get in on the ground floor, and have sizable ownership. As we grow, ideally you will too, both in the skills that you acquire as well as responsibilities.\n\n**The Day-To-Day** \n* You\u2019ll be responsible for building and owning features end to end. You have input on how it\u2019s built, what it looks like, and how it works.\n* Set the product roadmap and develop detailed documentation - including timelines and associated milestones\n* Understand customer needs to build a web platform experience that matches closely\n* Develop creative methods for scraping data from disparate online sources\n* Create a first-of-its-kind AI model for the government market\n\n** What You\u2019ve Done That We\u2019d Love **\n* 3+ years as a Full Stack Developer or similar role\n* You\u2019re relentlessly customer focused and enjoy interacting with them. You have a strong sense of empathy, making their problems your own, then building solutions to solve them.\n* Experience building and owning features end-to-end\n* Background working in government, govtech, defense/intel, or government contracting. (Though not required.)\n* Experience working in startups\n\n**Tech Stack Experience** \n* AWS\n* Full stack JavaScript - React, Typescript, and NodeJS\n* Postgres (or similar SQL)\n* Python (bonus)\n* Previous experience with or ability to learn new AI tools and models\n* Experience scraping data or desire to learn\n\n**Why We Might Love Working Together**\n* **You care about government** - We think our work is needed and benefits a system that impacts us all. \n* **Perseverance and endurance** - Hard problems are worth solving, and solving them can take a long time. There is no such thing as exhausting all options, it\u2019s just time to look for new ones. \n* **Empowerment &gt; micro-management** - We believe our job is simply to eliminate roadblocks for team members by equipping them with what they need to accomplish goals; we trust their judgment, skills, and experience from there. \n* **We\u2019re collaborative and communicate well** - Constructive dialogue that takes all viewpoints into account is the only way we get to the right decision. Respect, trust, and complete transparency with each other is critical - keep it all in the open\n* **You\u2019re *really* good at what you do\u2026 but it speaks for itself** - We\u2019re confident in what we bring to the table, but it comes without ego. Being humble is important to us\n* **You don\u2019t mind change and are comfortable with uncertainty** - We\u2019re deliberate about setting goals, but we\u2019re comfortable changing course and crawling through mud to get there. We\u2019re still figuring things out, and that demands being flexible and iterative.\n* **You like to move fast and have a bias towards action** - Our roadmap is directional at this stage - speed and a feeling of urgency is key to prove it out. We expect each other to proactively determine what needs to get done and just go for it. No waiting around.\n* **Work doesn\u2019t feel like \u201cwork\u201d to you** - We\u2019re passionate about what we\u2019re going after, and we devote more time to it than a typical 9-5. That often means putting in some extra time at night and occassionally on weekends . However, maintaining your own personal balance comes above all else, and you should establish that however you need to - flexible schedule, taking advantage of time off, or anything else you need.\n\n**The Details - Benefits &amp; Structure** \n* We\u2019re building a remote-first team eventually, but for founding team members, we have a strong preference for being located in the Washington, DC area in the early days.  \n* Competitive compensation + Sizeable equity - We\u2019re building something big, and you\u2019ll have ownership in that. This is ours.\n* Flexible vacation time - Use what you want, as long as you\u2019re taking care of what needs to get done. \n* Flexible schedule - We all have other things going on in our lives. Doctor visits, kids\u2019 activities, dog walks, take care of it whenever you need to. \n* Full health and benefits\n* And more\u2026\n\n**Our Values** \n* **Impact** \u2013 We have high conviction that our work matters and affects important outcomes. And we take a lot of pride in that. If we don\u2019t fix this, who will?\n* **Empathy** \u2013 Our customers\u2019 &amp; users\u2019 problems are our own. We\u2019re grateful for their trust, so we go above and beyond to show it - in both our work and our interactions.\n* **Straight Hustle** - We get stuff done, no matter what it takes.\n* **Integrity** -Transparency and respect comes above all else. It\u2019s non-negotiable. \n* **Humility** \u2013 We\u2019re not afraid to admit what we don\u2019t know, and we\u2019re constantly looking for ways to learn and grow.",
+                                        "id": "2630909",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710774686,
+                                        "liveStartAt": 1710773887,
+                                        "locationNames": [
+                                            "Washington DC"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "98777",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "founding-engineer",
+                                        "title": "Founding Engineer",
+                                        "compensation": "$110k \u2013 $160k \u2022 0.5% \u2013 2.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 2.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9463089",
+                                "startupId": "9463089",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "A SaaS-enabled marketplace to make selling to government easy",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Washington DC",
+                                        "id": "1691"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9463089-3e910100752a44cb0f26b5227b2f19ff-medium_jpg.jpg?buster=1680532779",
+                                "name": "Obviant",
+                                "slug": "obviant-3",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About Feathery**\nFeathery is the most powerful form and workflow automation platform on the market. Our customers build complex, user-facing workflows ranging from customer onboarding to insurance qualification to payments. We're the only tool that allows business users to build mission-critical user journeys without code.\n\n**Why we're looking for you**\nFeathery has been growing at breakneck speed (40% MoM) and we\u2019ve been taking on more, and larger, customers. We're looking for our founding deployed engineer to partner closely with our strategic customers and help them find success with Feathery. The ideal candidate for this role should love working with customers and solving their problems, while being comfortable with building a complex Feathery workflow. If you\u2019re someone who has strong commercial instincts but also enjoys engineering, you\u2019ll love this role.\n\n**About the Role**\nAs the founding deployed engineer, you'll own and help build out our customer success and support functions. It's an interdisciplinary role that will have you working with customers, helping them with implementation, and sometimes solving their issues with code (bug, missing features, etc.)\n\nFeathery has been growing at breakneck speed, and you'll be working with a range of customers from our self-serve community members to large enterprise organizations.\n\nBeyond your customer work, you'll gain leadership responsibilities early on as we grow the team and close customers. You'll be involved in scaling the product, the team, and the entire company.\n\n**What You'll Do**\n* Own customer onboarding and implementation\n* Be a thought partner to Feathery customers to help them build out complex forms and workflows for new teams and use cases\n* Tackle technical limitations or opportunities in Feathery that need solving via code (e.g. a bug, a missing feature, etc.) or partner with our engineering teams to tackle the problem\n* Be the voice of our largest customers and represent their needs to the rest of the team\n* Create technical content to demonstrate best practices (e.g. sample apps, documentation, videos, etc.)\n* Help interview and grow the deployed engineering team",
+                                        "id": "2886149",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1709523492,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "143378",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "deployed-engineer",
+                                        "title": "Deployed Engineer",
+                                        "compensation": "$70k \u2013 $120k \u2022 0.1% \u2013 0.5%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.5%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About Feathery**\nFeathery is the most powerful form and workflow automation platform on the market. Our customers build complex, user-facing workflows ranging from customer onboarding to insurance qualification to payments. We're the only tool that allows business users to build mission-critical user journeys without code.\n\n**About the Role**\nFeathery has been growing at breakneck speed (50% MoM) and we\u2019ve been taking on more, and larger, customers. We're looking for our backend lead to own large parts of the architecture and critical features of the product. We put innovation first, which means you'll drive cutting-edge features that customers are eagerly waiting for.\n\nBeyond your technical work, you'll gain leadership responsibilities early on as we grow the team and close customers. You'll be involved in scaling the product, the team, and the entire company.\n\n**What You'll Do**\n* Own end-to-end features and drive development decisions to create a robust, scalable, and easy-to-use platform. For example, you'll be working on our latest AI features and visual editor.\n* Improve the reliability of our engineering systems, like our real-time system that synchronizes user edits.\n* Work closely with our users to deliver a fantastic product experience.\n* Experience in open source or with our technology stack is a plus. We build on AWS, with a Django backend, RDS Aurora database, and React frontend.",
+                                        "id": "2886156",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708827814,
+                                        "liveStartAt": 1704339024,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "143385",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "full-stack-engineer",
+                                        "title": "Full Stack Engineer",
+                                        "compensation": "$110k \u2013 $180k \u2022 0.1% \u2013 0.7%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.7%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About Feathery**\nFeathery is the most powerful form and workflow automation platform on the market. Our customers build complex, user-facing workflows ranging from customer onboarding to insurance qualification to payments. We're the only tool that allows business users to build mission-critical user journeys without code.\n\n**About the Role**\nFeathery has been growing at breakneck speed (50% MoM) and we\u2019ve been taking on more, and larger, customers. We're looking for our backend lead to own large parts of the architecture and critical features of the product. We put innovation first, which means you'll drive cutting-edge features that customers are eagerly waiting for.\n\nBeyond your technical work, you'll gain leadership responsibilities early on as we grow the team and close customers. You'll be involved in scaling the product, the team, and the entire company.\n\n**What You'll Do**\n* Own end-to-end features and drive development decisions to create a robust, scalable, and easy-to-use platform. For example, you'll be working on our latest AI features and visual editor.\n* Improve the reliability of our engineering systems, like our real-time system that synchronizes user edits.\n* Work closely with our users to deliver a fantastic product experience.\n* Experience in open source or with our technology stack is a plus. We build on AWS, with a Django backend, RDS Aurora database, and React frontend.",
+                                        "id": "2136134",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1704721958,
+                                        "liveStartAt": 1703730768,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Backend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "143377",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "backend-engineering-lead",
+                                        "title": "Backend Engineering Lead",
+                                        "compensation": "$110k \u2013 $190k \u2022 0.1% \u2013 0.7%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.7%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8455661",
+                                "startupId": "8455661",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "RECENTLY_FUNDED",
+                                        "label": "Recently funded",
+                                        "name": "RECENTLY_FUNDED_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Raised funding in the past six months"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/37595-5e63ea53e61d388ddfc445e744fcecdf-medium_jpg.jpg?buster=1676004043",
+                                        "id": "TOP_TIER_INVESTOR-8455661",
+                                        "label": "Same investor as Apple",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Index Ventures invested in both Feathery and Apple"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Powerful forms and workflows without code",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8455661-227389c44a77e2eb49d5a19b037f71a7-medium_jpg.jpg?buster=1628213000",
+                                "name": "Feathery",
+                                "slug": "featheryforms",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### About Us\n\nAxle Health builds scheduling and workforce management software to empower in-home healthcare providers to deliver exceptional, personalized care right where patients feel most comfortable\u2014at home.\n\nSome of the biggest providers in the country use our software to improve the utilization of their field teams by 15%+, and automate the operational burden of scheduling and dispatching.\n\nOur platform includes proprietary logistics algorithms to optimize scheduling, a mobile app for field staff, an operations dashboard for office teams, engagement and booking tools for patients, and a wide range of integrations and external APIs for modular access.\n\nWe\u2019re a team of all-star engineers and operators, backed by $4m from top investors such as Y Combinator and Pear VC, applying our intellect and logistics experience to upend how home healthcare is delivered.\n\n### About You \u2014 The Role\n\nWe're looking for a transformative Sr Software Engineer \u2014 someone who wants to spend all day designing and implementing high leverage technical processes and systems. We value hands-on experience and a relentless drive to push personal boundaries.\n\nOur dream candidate can effortlessly adapt to different domains and is fueled by a passion for tackling complex problems head-on. Whether you've built your expertise designing scaled systems at large companies, or scaling startups from 0 to 100, we want to hear your story.\n\n### What You'll Do\n\n* Design advanced logistics algorithms and Electronic Health Record (EHR) integrations\n* Rearchitect technical systems to scale by 1000x and improve reliability from 99.9% to 99.99%\n* Empower customers to build API integrations with the Axle Heath ecosystem\n* Collaborate with internal teams and customers to gain insights and translate those insights into world class products\n* Evaluate and prioritize between tasks and projects based on their strategic value and potential impact\n\n### Requirements\n\n**Must have**:\n\n* Bachelor\u2019s degree in a STEM field\n* 4-7 years of experience in a SWE role (or equivalent)\n* Experience defining and communicating technical trade offs to non-technical stakeholders\n* Experience conducting code reviews yourself\n* Experience mentoring and/or managing junior engineers on the above skills\n* Expertise in an industry-standard programming language (preferably JS and Python)\n* Experience designing, building, deploying, and maintaining web services\n* Experience writing applications which interact with databases (Postgres, MySQL, NoSQL)\n* Expertise in a modern web framework (React, Anular, etc.)\n* Familiarity with CI/CD, DevOps, and Build Systems\n\n**Nice to have**:\n\n* Bachelor\u2019s or Master\u2019s in CS or an equivalent technical field\n* Experience teaching yourself new skills and technologies\n* Experience working with Electronic Health Records (EHRs)\n* Experience with healthcare interoperability (FHIR)\n* Experience with our existing programming languages and tools\n* Tools You'll Use\n* Django + Python3\n* React + NodeJS\n* PostgresSQL\n* AWS + Terraform\n* Git\n\n### What We Offer\n\nIn addition to offering a competitive salary and best-in-class equity, we want to ensure every team member has the tools they need to work to the best of their ability. To that end:\n\n**We are committed to your Ownership**:\n* We cultivate an environment where team members feel ownership over the work they do. Everyone in an organization has big ideas and we want to hear them and implement them\n* All of our employees have equity compensation. We want you to benefit from all the hard work you do in helping patients and catalyzing this shift in healthcare.\n* We are committed to your Wellness:\n* Comprehensive Medical, Dental, Vision\n* Unlimited PTO and sick days\n* Flexible working hours\n* We are committed to your Growth:\n* Fast paced work environment geared towards professional growth\n* Get the chance to move roles within the organization to learn new skills and contribute in other areas\n* We are committed to building Community:\n* Monthly team events, dinners, &amp; happy hours\n* Special team events: yacht party, Universal Studios, Magic Castle, Vegas, etc.",
+                                        "id": "2933752",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709090196,
+                                        "liveStartAt": 1708580235,
+                                        "locationNames": [
+                                            "Los Angeles",
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "151031",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "senior-software-engineer",
+                                        "title": "Senior Software Engineer",
+                                        "compensation": "$170k \u2013 $200k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### About Us\nAxle Health builds scheduling and workforce management software to empower in-home healthcare providers to deliver exceptional, personalized care right where patients feel most comfortable\u2014at home.\n\nSome of the biggest providers in the country use our software to improve the utilization of their field teams by 15%+, and automate the operational burden of scheduling and dispatching.\n\nOur platform includes proprietary logistics algorithms to optimize scheduling, a mobile app for field staff, an operations dashboard for office teams, engagement and booking tools for patients, and a wide range of integrations and external APIs for modular access.\n\nWe\u2019re a team of all-star engineers and operators, backed by $4m from top investors such as Y Combinator and Pear VC, applying our intellect and logistics experience to upend how home healthcare is delivered.\n\n### About You \u2014 The Role\n**We're looking for a dynamic Software Engineer** \u2014 someone who is insatiably curious and who thrives on solving the toughest challenges. We value hands-on experience and a relentless drive to push personal boundaries.\n\n**Our dream candidate** can effortlessly adapt to different domains and is fueled by a passion for tackling complex problems head-on. Whether you've honed your skills through diverse internships, mastering multiple technology stacks, or poured your heart into a long-term personal project, we want to hear your story.\n\n### What You'll Do\n- Write human readable, high-performance, and maintainable code\n- Collaborate with internal teams and customers to gain insights and translate those insights into world class products\n- Evaluate and prioritize between tasks and projects based on their strategic value and potential impact\n\n### Requirements\n- Bachelor\u2019s in Computer Science or an equivalent technical field\n- Very strong skills in an industry-standard programming language (preferably JS and Python)\n- Effective communication, both written and verbal\n- Motivation to learn new skills and solve hard problems\n\n### Tools You'll Use\n- Django + Python3\n- React + NodeJS\n- PostgresSQL\n- AWS + Terraform\n- Git\n\n### What We Offer\nIn addition to offering a competitive salary and best-in-class equity, we want to ensure every team member has the tools they need to work to the best of their ability. To that end:\n\n**We are committed to your Ownership:**\n\n- We cultivate an environment where team members feel ownership over the work they do. Everyone in an organization has big ideas and we want to hear them and implement them\n- All of our employees have equity compensation. We want you to benefit from all the hard work you do in helping patients and catalyzing this shift in healthcare.\n\n**We are committed to your Wellness:**\n\n- Comprehensive Medical, Dental, Vision\n- Unlimited PTO and sick days\n- Flexible working hours\n\n**We are committed to your Growth:**\n\n- Fast paced work environment geared towards professional growth\n- Get the chance to move roles within the organization to learn new skills and contribute in other areas\n\n**We are committed to building Community:**\n\n- Monthly team events, dinners, &amp; happy hours\n- Special team events: yacht party, Universal Studios, Magic Castle, Vegas, etc.",
+                                        "id": "2931334",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711054092,
+                                        "liveStartAt": 1708405401,
+                                        "locationNames": [
+                                            "San Francisco",
+                                            "Los Angeles"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "150634",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer",
+                                        "title": "Software Engineer",
+                                        "compensation": "$130k \u2013 $160k \u2022 0.2% \u2013 0.4%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.2% \u2013 0.4%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8100619",
+                                "startupId": "8100619",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/32677-b873be4bf180abbcdad149b584b7e66f-medium_jpg.jpg?buster=1589637282",
+                                        "id": "TOP_TIER_INVESTOR-8100619",
+                                        "label": "Same investor as Airbnb",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Y Combinator invested in both Axle Health and Airbnb"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Scheduling and workforce management software for home healthcare providers",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8100619-d96b02fd6137b8f7530ff2eb6f235b09-medium_jpg.jpg?buster=1708573055",
+                                "name": "Axle Health",
+                                "slug": "axle-health",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        }
+                    ]
+                },
+                "totalStartupCount": 47
+            }
+        }
+    },
+    "schemaVersion": 2
+}

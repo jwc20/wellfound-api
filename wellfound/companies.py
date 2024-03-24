@@ -79,6 +79,10 @@ class Companies:
                         "min": null,
                         "max": null
                     },
+                    "keywords": [
+                        "entry",
+                        "junior",
+                    ],
                     "excludedKeywords": [
                         "web3",
                         "crypto",
