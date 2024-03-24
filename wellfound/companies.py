@@ -1,14 +1,11 @@
-import csv
 import time
 import json
 import sys
 from .utils import *
 from collections import namedtuple, defaultdict
-from requests.models import PreparedRequest
 from pprintpp import pprint
 from datetime import datetime
 
-from bs4 import BeautifulSoup
 
 now = datetime.now()
 date_time_format = now.strftime("%Y-%m-%d_%H-%M-%S")
@@ -21,12 +18,6 @@ class Companies:
         # self.data = self.get_companies()
 
     def make_companies_url(self, query):
-        return
-
-    def _load_page(self, url):
-        return
-
-    def _scrape_page(self, soup):
         return
 
     def get_companies(self, query):
