@@ -30,45 +30,13 @@ class Companies:
         return
 
     def get_companies(self, query):
-
-        ############################################################
-        ## Scroll all the way to the bottom
-        ## Get scroll height
-        # last_height = self.driver.execute_script("return document.body.scrollHeight")
-        # scroll_delay = 5
-        # time.sleep(scroll_delay)
-
-        # while True:
-        #    # Scroll down to bottom
-        #    self.driver.execute_script(
-        #        "window.scrollTo(0, document.body.scrollHeight);"
-        #    )
-
-        #    # Wait to load page
-        #    time.sleep(scroll_delay)
-
-        #    # Calculate new scroll height and compare with last scroll height
-        #    new_height = self.driver.execute_script("return document.body.scrollHeight")
-        #    if new_height == last_height:
-        #        break
-        #    last_height = new_height
-
-        # for remaining in range(scroll_delay, 0, -1):
-        #    sys.stdout.write("\r")
-        #    sys.stdout.write("{:2d} seconds remaining.".format(remaining))
-        #    sys.stdout.flush()
-        #    time.sleep(1)
-        # sys.stdout.write("\rComplete!                       \n")
-        ############################################################
-
         soup = BeautifulSoup(self.driver.page_source, "lxml")
         # pprint(soup.prettify())
 
-
-
-        for i in range(1, 2):
+        for i in range(1, 100):  # TODO: 100 pages, change this later
             # JavaScript code to execute a POST request
-            js_script = """
+            js_script = (
+                """
             var callback = arguments[0];
             var xhr = new XMLHttpRequest();
             xhr.open('POST', 'https://wellfound.com/graphql?fallbackAOR=talent', true);
@@ -95,7 +63,9 @@ class Companies:
                 "operationName": "JobSearchResultsX",
                 "variables": {
                     "filterConfigurationInput": {
-                    "page": """ + str(i) + """,
+                    "page": """
+                + str(i)
+                + """,
                     "remoteCompanyLocationTagIds": [
                         "1692", 
                         "1693"
@@ -120,13 +90,13 @@ class Companies:
                     "jobTypes": [
                         "full_time"
                     ],
-                    "remotePreference": "REMOTE_OPEN",
+                    "remotePreference": "NO_REMOTE", // "REMOTE_OPEN" or "NO_REMOTE"
                     "salary": {
                         "min": null,
                         "max": null
                     },
                     "yearsExperience": {
-                        "max": null,
+                        "max": 2,
                         "min": null
                     }
                     }
@@ -136,8 +106,7 @@ class Companies:
                 }
             }));
             """
-
-
+            )
 
             # Execute the JavaScript
             response = self.driver.execute_async_script(js_script)
@@ -147,8 +116,8 @@ class Companies:
 
             # Parse the JSON response
             response = json.loads(response)
-            
-            # convert the response json 
+
+            # convert the response json
             response = json.dumps(response, indent=4)
 
             # save the response to a file
@@ -158,9 +127,7 @@ class Companies:
                 print("writing to file...")
                 file.write(response)
 
-
-        # time.sleep(1000)
-
+        # time.sleep(10000)
 
         # save the soup to a file
         # with open(f"companies_{date_time_format}.html", "w") as file:
