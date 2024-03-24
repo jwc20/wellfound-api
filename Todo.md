@@ -14,6 +14,8 @@
 - [ ] Create custom query method to send as javascript post request script 
 - [ ] Find a way to get multiple pages of data (infini scroll)
 
+- [ ] Implement proxy server when logging in
+
 
 &nbsp;
 
