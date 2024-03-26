@@ -1,3 +1,5 @@
+- Use id to get the job url
+
 
 Request url (post request)
 - https://wellfound.com/graphql?fallbackAOR=talent
