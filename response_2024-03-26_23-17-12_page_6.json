@@ -1,0 +1,384 @@
+{
+    "data": {
+        "talent": {
+            "__typename": "Talent",
+            "jobSearchResults": {
+                "__typename": "SearchResult",
+                "hasNextPage": false,
+                "rawQuery": null,
+                "startups": {
+                    "__typename": "StartupSearchResultConnection",
+                    "edges": [
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "At Acrylic, we\u2019re on a mission to build the fine art creation tools of the future and make art accessible to all while making it easier for creators to earn a living. We leverage robotics and machine learning to enable visual artists to produce textured artwork made with real paint on canvas \u2014 at scale.\n\n**The TL;DR:**\n* APPLY HERE: https://5dd3t7leicc.typeform.com/to/xwAhJdNq\n* We\u2019re a robotics startup based in Montreal, QC, recruiting for a full-time software engineer starting ASAP.\n* This role is in-person.\n* The start date is flexible, and applications are accepted on a rolling basis (priority to early applicants).\n\n**Duties and Responsibilities**\nThis is an exciting time for Acrylic! We\u2019re fresh off releasing our first collection, a collaboration with Matt Chessco, one of Canada\u2019s most prominent artists. You may have seen us on Instagram, where we went viral, gaining over 6 million views, or during our appearance on CBC\u2019s Dragons\u2019 Den. Right now, we\u2019re collaborating with internationally acclaimed artists, launching a partnership with Canada\u2019s top online art marketplace, and working on putting Acrylic paintings in every home in Canada. Come join us as we continue to grow on this rocketship trajectory!\n\n* Design, implement, &amp; deploy new tools and capabilities for end users\n* Develop interfaces for software tool testing and deployment\n* Automate the artwork processing pipeline to allow us to scale production\n* Maintain existing products and support client requests\n\n**What we\u2019re looking for:**\n* University degree in software engineering, computer engineering, computer science, or equivalent\n* Experience in software application development\n* Strong proficiency in C++\n* Strong proficiency in Python\n* Strong technical communication skills\n* Ability to scope out new projects and areas of future research\n\n**Nice to haves:**\n* Familiarity with application design\n* Experience building CI/CD pipelines\n* Proven track record with creating interfaces and websites\n* A creative thinker with a passion for thinking outside of the box\n* Experience working in an agile environment\n* Prior experience in cloud computing\n* Hands-on experience with painting or fine arts",
+                                        "id": "2910103",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1707366244,
+                                        "liveStartAt": 1706575854,
+                                        "locationNames": [
+                                            "Montreal"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "147293",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer",
+                                        "title": "Software Engineer",
+                                        "compensation": "$60k \u2013 $70k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8510712",
+                                "startupId": "8510712",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Accessible art for all",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Montreal",
+                                        "id": "1776"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8510712-496d385f1de25e1d55c7dcb214acffc1-medium_jpg.jpg?buster=1631637231",
+                                "name": "Acrylic Robotics",
+                                "slug": "acrylic-robotics",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "## About Arlo\nArlo powers healthcare innovation through modern underwriting technology. Small and medium-sized businesses have long seen little innovation in their health plan options and are hit with ever-increasing healthcare costs. As a technology-forward MGU (managing general underwriter), we use modern data science techniques to help health plan architects design novel health plans and leverage value-based care. Our mission is to bring affordable, value-based health benefits to employees of small and medium-sized businesses nationwide.\n\nArlo\u2019s founding team has extensive experience in claims analytics, data science, benefits administration systems, and health plan underwriting. Arlo\u2019s team members previously worked at Palantir, Willis Towers Watson, McKinsey, and a Y-Combinator startup. Arlo has raised a $4M seed round from Upfront Ventures, 8VC, and General Catalyst.\n\nAt Arlo, we value diverse opinions and debate. We are team-focused learners and seek to understand the missing perspective. Our team is collaborative, ambitious, and passionate about advancing the future of healthcare.\n\nWe are looking for a motivated team member to join us locally in NYC.\n\n## Team Overview &amp; Role Impact\nAs a Data Engineer, you will own the next iterations of the Arlo underwriting API from modeling to deployment. You will partner closely with our head actuary to refine our model and ideate novel underwriting strategies.\n\n## Responsibilities\n* Define and manage the architecture of the Arlo data and machine learning deployment pipelines\n* Setup a system to manage and maintain the Arlo underwriting models\n* Design and implement reporting tools from quote data and in-force business\n* Support the next development iterations of the Arlo underwriting approach\n* Deploy the Arlo underwriting models into our production environment\n* Evaluate new data sources for health underwriting and use SDOH features to predict health outcomes\n\n## Qualifications &amp; Experience\n**Required**\n\n* 2+ years working as a data scientist or engineer\n* Experience setting up and managing large data pipelines\n* Experience working with standard machine learning techniques\n* Experience setting up production-ready API services for model evaluations\n* An interest in using the best tool for the job. Our current favorites are Python, Sklearn, SQL, PySpark, SparkML, Snowpark, Python API frameworks, AWS, Docker\n\n**Nice to Haves**\n\n* Familiarity with health insurance industry and financial terminology\n* Experience working with medical and prescription drug claims data\n* Experience working with probabilistic modeling techniques\n* Experience working with social determinants of health data sources\n\n## Our Culture\nWe cultivate a high-performance culture. We greatly care about the work we do and have a passion for solving the \u201cunsexy\u201d parts of healthcare infrastructure. We strongly believe that addressing these problems is a key enabler for unlocking affordable, high-quality care.\n\nWe value collaboration, a high sense of ownership for every team member's work, and getting things done quickly and efficiently. We are curious and love to learn as we push the boundaries in an industry often devoid of first-principle thinking.\n\nWe are ambitious and are on a mission to build an industry-defining company.\n\n## Location\nNYC onsite\n\n## Equal Employer Opportunity Statement\nAt Arlo, we\u2019re challenging the status quo with the power of diversity, inclusion, and collaboration. When we connect different perspectives, we can imagine new possibilities, inspire innovation, and release our people's full potential. We\u2019re building an employee experience that includes appreciation, belonging, growth, and purpose for everyone.\n\n## Compensation &amp; Benefits\nWe offer a competitive base salary and meaningful equity in Arlo. We also offer medical coverage, unlimited paid time off, free lunches on workdays in the office, a stipend for professional development, company-wide off-sites, 16 weeks of fully paid parental leave, and biannual performance reviews with 360\u00b0 feedback.\n\nPlease apply via [our website here](https://app.dover.io/apply/Arlo/02311d68-5fe0-4e45-bee6-78eecb33c16f/?rs=76643084).",
+                                        "id": "2896556",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1706707406,
+                                        "liveStartAt": 1705247231,
+                                        "locationNames": [
+                                            "New York City"
+                                        ],
+                                        "primaryRoleTitle": "Data Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "144866",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "data-engineer-underwriting-api",
+                                        "title": "Data Engineer - Underwriting API",
+                                        "compensation": "$125k \u2013 $160k \u2022 0.0% \u2013 0.5%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.5%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9952996",
+                                "startupId": "9952996",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Underwriting technology for health plans",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York City",
+                                        "id": "1664"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9952996-1d86e963649c327a488ff944754af844-medium_jpg.jpg?buster=1705246842",
+                                "name": "Arlo",
+                                "slug": "arlo-mgu",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**A quick note about us**\n\nAt HeyTaco, we help 1000s of teams around the world create a world-class culture built on gratitude. With a taco in our name, we enjoy making work fun for others and for ourselves. With 7 years of experience and growth behind us, we are expanding our team to spread the taco gratitude to even more people in more awesome ways. We\u2019re searching for someone to help us create a world-class customer driven company built on purpose. We are customer-driven, customer-funded and everything we do has the customer at the center.  If working on feel-good software that truly makes people\u2019s lives better gets you excited, read on.\n\n**About the role **\n\nWe are looking for a full stack developer to join our team as the first full time engineering hire. In this role, you will help set up our tech infrastructure for years of future growth, and identify and execute on opportunities to make our product and business better. This role is ideal for someone who is motivated to make a significant impact with a growing company by having a wide range of responsibilities and opportunities for growth. \nTo be successful in this role, you\u2019ll have to be proactive and opportunistic. What\u2019s the most important thing you can do today to make our product and technology bulletproof, while also staying poised for sustainable growth?\n\n\n**Who you are**\n\nYou are a self-directed proactive individual who approaches situations and people with curiosity. You care about your work more than you care about your title. You like to wear lots of different hats and create your own future vs being told what to do. You like working with a team as much as you enjoy getting your sleeves rolled up deep in code while listening to your favorite tunes. You are a builder who likes to create value in everything you do. \n\n###  Responsibilities\n\nExamples of things you\u2019ll be working on include:\n\n* Brainstorm and define software solutions that can drive business growth, improve our technical posture, and/or delight our customers\n* Collaborate on the design of a software architecture that is built to last\n* Design and implement features from back end to front end that function elegantly and effectively in workspace platforms like Slack and Teams, as well as on the web\n* Assist in the management and maintenance of databases, network architecture, and other assets in the cloud\n* Test software to ensure accuracy, responsiveness,efficiency, and solution fit\n* Troubleshoot, debug and upgrade legacy software, driving the adoption of new technologies, including vendor and open source software\n* Help improve processes around security and data governance\n* Write technical documentation to define processes and improve future onboarding\n* Serve as a technical resource to support Customer Success &amp; Support in resolving issues and delighting customers \n\n### Requirements and skills\n\n* Proven experience as a Full Stack Developer or similar role, including professional experience developing applications for the web or desktop\n* Proficiency with JavaScript/Node.js and Express, or a similar high-level language and framework \n* Familiarity with SQL-based databases such as PostgreSQL or MySQL\n* A solid understanding of basic UI/UX principles, with an eye and enthusiasm for designing software features that users will love\n* Ability to communicate and work effectively within a hybrid team \n* Great attention to detail\n* Organizational skills\n* Ability to quickly empathize and understand others\n* Patience, a sense of humor, and a knack for relating to people\n\n\n**Location**\n\nThis is a hybrid role with 1-2 days per week of in-person time in Alexandria, VA. We love the flexibility, but we sure do love some facetime. Plus, how else would we get to enjoy tacos at our favorite spot (Don Taco on King Street - get used to it)? ;) \n\n**Compensation &amp; benefits**\n\nWe offer a competitive salary based on your results and experience level, 401k, health care benefits, flexible PTO and an annual performance bonus. Other benefits you have in mind? Let us know. This is a small team, we get to create an environment that takes care of what is important to us as we go. Nothing is set in stone, besides our core values, which are listed below. We live them, on purpose, every day.\n\n**People First:** *We value every relationship. Within our team and among our customers.*\n**Do The Right Thing:** *Integrity is the foundation for everything we do. So we do what is right \u2014 even when no one is watching.*\n**Always Optimistic:** *We look at things with a positive eye and an open mind and always try to see the good in something first.*\n**Be Authentic:** *We celebrate all of the nuances that make us unique. For it\u2019s our differences that make us thrive and do better when together.*\n**Make It Fun:** *The fun doesn\u2019t just happen, we gotta make it happen.*",
+                                        "id": "2829622",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711424395,
+                                        "liveStartAt": 1705945062,
+                                        "locationNames": [
+                                            "Alexandria"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "133639",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "full-taco-stack-developer",
+                                        "title": "Full Taco Stack Developer",
+                                        "compensation": "$90k \u2013 $110k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "6162708",
+                                "startupId": "6162708",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Peer-to-peer rewards and recognition",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Remote",
+                                        "id": "616175"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/6162708-442a6d58df81af3f4fe1a63fc049dfc7-medium_jpg.jpg?buster=1628898726",
+                                "name": "HeyTaco",
+                                "slug": "heytaco",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "As part of our Engineering team, a Controls Engineer will be involved with the design, commissioning, ramp-up, and operations of our farms and will support Facilities and Maintenance teams in preparing preventative maintenance and standard operating procedures documentation. Our Control Engineers work on PLC programming, SCADA system development, process implementation, and optimization across multiple systems.\n\n**What you\u2019ll be responsible for: **\n* Maintain existing controls systems; this  includes checking programming settings and repairing/troubleshooting sensors.\n* Perform updates to existing controls systems to meet the needs of our farm team; this includes, but is not limited to adding new components, changing HMI screens, and editing PLC programs.\n* Continually improving the system by finding ways to increase resiliency in the system with hardware and software.\n* Design and improve libraries for new and existing installations using AOIs.\n* Create and update SCADA screens, alarms, and Historian.\n* Develop models for prescriptive maintenance and anomaly detection using machine learning techniques on historical data.\n* Work closely with cross functional partners throughout facilities to ensure a cohesive operation amongst different functions such as farming. Partner to escalate gaps to leadership as necessary. \n* Commission new facilities from IO checkout to start-up.\n* Who will love this job: Individuals who identify with our Core Values and exhibit skills within those values will thrive at Oishii.\n\n**What We Look for in a Controls Engineer:**\n* Associate\u2019s or Bachelor\u2019s Degree in an engineering discipline or 2-3 years of related work experience \n* Experience in a farming, manufacturing, warehousing, production or similar environment. \n* Experience and knowledge of multiple systems, areas and programing including PLCs (Allen Bradley Prefered), HMIs/SCADA (Panelview 5000 &amp; Ignition Prefered), VFDs, PID control, analog &amp; digital field components, Ethernet and Modbus communication protocols, python programming, SQL, and AutoCAD. \n* Comfortable with ambiguity with proven capabilities to provide/implement structure. \n* Experience working with an organization during a time of expansion or scale is a plus!\n\n**Shift &amp; Schedule:**\nThis is a 5 day/week onsite role. \nThe role does require on-call support/troubleshooting which may include some nights and weekends.\n\n\nLearn More https://oishii.com/",
+                                        "id": "2917586",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708719898,
+                                        "liveStartAt": 1707149732,
+                                        "locationNames": [
+                                            "Phillipsburg"
+                                        ],
+                                        "primaryRoleTitle": "Embedded Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "148385",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "controls-engineer-i",
+                                        "title": "Controls Engineer I",
+                                        "compensation": "$85k \u2013 $90k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "7365366",
+                                "startupId": "7365366",
+                                "badges": [],
+                                "companySize": "SIZE_51_200",
+                                "highConcept": "Growing delicious fruit by pushing the boundaries of indoor vertical farming",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Jersey City",
+                                        "id": "8746"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Phillipsburg",
+                                        "id": "400667"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/7365366-26108520aea861a40723470f68d0d238-medium_jpg.jpg?buster=1615480963",
+                                "name": "Oishii",
+                                "slug": "oishii",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "[Subtidal](https://https://www.subtidal.com/) is on a mission to accelerate the 5+ gigaton annual carbon removal potential of our oceans. Our goal is ambitious: to introduce the first scalable solution for monitoring, reporting, and verifying ocean carbon removals. This effort is crucial for addressing climate change and maintaining ecological balance. As a part of Subtidal, you will play an integral role in a project with a profound global impact.\n\nTHE OPPORTUNITY\n\nThis role presents a distinctive chance to build a never-before-seen technology poised to shift the dynamics in climate action. You will be our first hire and will play a core role in designing and building Subtidal\u2019s Ocean Carbon Sensing Grid, the first solution for measuring, analyzing, and reporting on ocean carbon sequestration, accurately, in real-time, and at scale. We're on the hunt for a proactive, creative, self-starter who has a passion for crafting systems from inception, who loves working on moonshots, and who shares our passion for working with the oceans to fight climate change.\n\nTHE ROLE\n\nLocation: Falmouth, MA onsite OR hybrid remote with 3 days onsite per week.\n\nSubtidal is seeking an Embedded Systems &amp; Electrical Engineer to assist with the fabrication, demonstration, and validation of an autonomous, field-deployable Ocean Carbon Sensing Grid. We have a strong interdisciplinary focus, and a successful applicant will have essential responsibilities in embedded systems and electrical engineering, with a desire to learn from and engage with other team members, with the following responsibilities:\n\n* Owning the overall hardware electronics implementation for Subtidal products.\n* Designing and developing PCB schematics and layouts using CAD software tools.\n* Developing firmware for microcontrollers using programming languages such as C/C++ and Python.\n* Creating and maintaining documentation, including schematics, bill of materials, and assembly drawings.\n* Leading cross-functional design reviews to ensure the designs meet performance and reliability requirements.\n* Generating ideas, designs, and plans on how to take the next generation of Subtidal\u2019s Ocean Carbon Sensing Grid and future ocean monitoring solutions to the next level. \n\nReports directly to the Co-founder &amp; Chief Scientist\n\nKEY QUALIFICATIONS\n\n* Passion for climate and the oceans\n* Bachelor\u2019s or higher level of education in Electrical Engineering or related engineering field\n* 2+ years experience in embedded systems development and PCB design (ideally in the context of wirelessly connected/IoT devices) \n* Strong knowledge of wireless electronics, including digital and analog circuits, microprocessors, and other electronic components\n* Experience with board bring-up and soldering of SMT components\n* Proficiency in firmware (FW) development: skilled in writing and debugging FW using programming languages such as C/C++, as well as experience using debug probes and command line tools\n* Skilled in troubleshooting and identifying issues with PCB/FW, and able to propose and implement effective solutions\n* Familiarity with Git or another version control system\n\nADDITIONAL GREAT-TO-HAVES\n\nHere are additional skills and experience that aren\u2019t required, but would be strong assets in your role: \n\n* Ability to prioritize, multitask, and meet production deadlines, while also able to independently explore new innovative ideas\n* Experience with mechanical design and/or 3D printing\n* Strong communication and collaboration skills\n* Passion for continuous iteration, tinkering, and exploring ways to take products to a new level\n* Skills, experience, and/or a desire to learn new interdisciplinary skills in areas such as marine sciences, physics, chemistry, and ocean engineering\n* Experience with ocean environments, using electronics in harsh environments, and/or driving sea-going vessels for field research\n* Experience working in a scientific environment and independently conducting experiments\n* Experience in computer programming for data analysis (e.g., Matlab, Python)\n\nSound intriguing? Contact:\n\n* hiring@subtidal.com with a detailed cover letter addressing your qualifications and interests in this role and a resume. We look forward to hearing from you!",
+                                        "id": "2868327",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1701889994,
+                                        "locationNames": [
+                                            "Falmouth"
+                                        ],
+                                        "primaryRoleTitle": "Embedded Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "140073",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "embedded-systems-electrical-engineer",
+                                        "title": "Embedded Systems & Electrical Engineer",
+                                        "compensation": "$80k \u2013 $130k \u2022 0.25% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.25% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9912936",
+                                "startupId": "9912936",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Accelerating the oceans' 5+ gigaton annual CO2 removal potential via advanced sensing solutions",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Falmouth",
+                                        "id": "31289"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9912936-507859b2ea8668904edca4d7cd52c0f8-medium_jpg.jpg?buster=1701889721",
+                                "name": "Subtidal",
+                                "slug": "subtidal-2",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Unibui is a fast-paced startup looking for an Full Stack engineer to build our web portals.\n\nYou will work under the CTO and the engineering team to build the future of the application. \n\nBasic Requirements \nKnowledge in Next.JS\nReact.js\nJavascript\nDatabases\n\nPreferred Candidates \nStartup experience \nExcited to work in a growth stage startup\nOkay not recieving compensation until we raise Capital\nOkay recieving equity in exchange for services\n\nWe are taking top aplicants who want to build something that will change the world.",
+                                        "id": "300057",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709986556,
+                                        "liveStartAt": 1705903787,
+                                        "locationNames": [
+                                            "San Francisco",
+                                            "San Jose",
+                                            "San Francisco Bay Area"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "146023",
+                                            "kind": "REMOTE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "full-stack-engineer",
+                                        "title": "Full Stack Engineer",
+                                        "compensation": "$20k \u2013 $30k \u2022 0.5% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "2628428",
+                                "startupId": "2628428",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Map Based AI Student Talent Engagement Platform",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Jose",
+                                        "id": "1693"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/2628428-cdadd98812e26d0938abbf9304e4f9f7-medium_jpg.jpg?buster=1558303559",
+                                "name": "Unibui",
+                                "slug": "unibui",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        }
+                    ]
+                },
+                "totalStartupCount": 56
+            }
+        }
+    },
+    "schemaVersion": 2
+}

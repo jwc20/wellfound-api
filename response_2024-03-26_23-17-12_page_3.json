@@ -1,0 +1,785 @@
+{
+    "data": {
+        "talent": {
+            "__typename": "Talent",
+            "jobSearchResults": {
+                "__typename": "SearchResult",
+                "hasNextPage": true,
+                "rawQuery": null,
+                "startups": {
+                    "__typename": "StartupSearchResultConnection",
+                    "edges": [
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Mathpix is building the interface between image data and LLMs, by building the most sophisticated software for extracting structured data from images. \n\nWe are profitable, funded, growing, and having lots of fun building things that have never been built before. \n\nWe are looking for a Python developer to help build our machine learning pipelines. Perfect role for a Python dev who wants to get into AI or a seasoned ML engineer who is looking for a leadership role at a fast growing AI startup. \n\nYou must meet one or more of the following requirements:\n- you have published something interesting on Github\n- you have published an academic paper \n- you have studied math or physics at a top school with top SAT scores \n- you have real world experience building data products in tech or finance with demonstrated success\n\nTo apply, please mention which of these criteria you meet, along with any evidence. \n\nExperience with PyTorch, SQL, Linux, git, docker, are nice to have but not hard requirements.",
+                                        "id": "2775715",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1702043527,
+                                        "liveStartAt": 1708457078,
+                                        "locationNames": [
+                                            "New York City",
+                                            "Brooklyn",
+                                            "San Francisco Bay Area"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "124730",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "python-developer-for-ai-product",
+                                        "title": "Python developer for AI product",
+                                        "compensation": "$200k \u2013 $280k \u2022 0.1% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "5063303",
+                                "startupId": "5063303",
+                                "badges": [],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Bridging the analog and digital world through OCR",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York",
+                                        "id": "2071"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Brooklyn",
+                                        "id": "2078"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/5063303-394e8e0c12304f4687836ced7eef4c67-medium_jpg.jpg?buster=1629856557",
+                                "name": "Mathpix",
+                                "slug": "mathpix-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Company Description\n\n \nJcttek is an Information Technology company that specializes in IT services, including website and app development, as well as video games. The company is located in Denver, CO.\n\n\n Role Description\n\n \nThis is a full-time on-site role for a React Native Developer. The React Native Developer will be responsible for day-to-day tasks that include front-end and back-end app development, software development, and working with JavaScript. Build features for the Bills Treasury App. \n\n\n\n Qualifications\n\n \nFront-end development skills\nBack-end web development skills\nSoftware development skills\nExperience working with JavaScript and Redux.js\nExperience with mobile development frameworks\nExperience with application development on iOS and Android platforms\nExpo App experience with troubleshooting and procedures\nAWS experience with back end development experience \nBachelor's Degree, Associate\u2019s degree or certificate in Computer Science or related field\nStrong problem solving and critical thinking skills\nExcellent written and verbal communication skills\n\n\n\n\n \nExperience with other programming languages, such as Swift and Kotlin, would be beneficial. Knowledge of Flutter is a plus. \n\n\n\nSchedule \n\n\n\nMonday through Friday 8 am to 5 PM (1 hour lunch break)\n\n\n\n\nInterview Process\n\n\n\n15 minute phone call interview\nIn person Interview\n3 Hour technical interview to test expertise in what we are looking for \nJob Offer\nStart of Job\n\nMore Info\n\n\nThis position is 100% office based meaning that you will never be working from home. \n\nWe are looking for someone that can give great results for our app by building great features to get more users as well as keep our users.",
+                                        "id": "2947694",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711402137,
+                                        "liveStartAt": 1709799175,
+                                        "locationNames": [
+                                            "Denver"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "153252",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "react-native-developer",
+                                        "title": "React Native Developer",
+                                        "compensation": "$45k \u2013 $60k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10026146",
+                                "startupId": "10026146",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "App, Software and video games",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Denver",
+                                        "id": "1635"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10026146-6a21b99dfe0464b274d31544c0e1b422-medium_jpg.jpg?buster=1709798932",
+                                "name": "JCTTEK",
+                                "slug": "jcttek",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "How often do you feel overwhelmed by the amount of information you're working across every day?\n\nAre you tired of all your information being scattered?\n\nHow many browser tabs do you have open right now?\n\nAt Edvo, we care deeply about helping people think well. The same way everyone has a personal computer (now multiple personal computers), we have a thesis that everyone will have a personal database that augments them wherever they are, on whichever device they use.\n\nWe're creating the next generation tools for interpersonal computing, to help us make better sense of information and transform passive consumption into active thinking. That means we have to shed some traditional assumptions about UI affordances, and think way outside the box. We think of the interface as being like a game \u2013 where people can construct, navigate, and collaborate in their universes of knowledge. We need to model N-dimensional graphs (hypergraphs actually) comprised of interpersonal knowledge \u2013 in a way that a human being can understand.\n\nSome of these considerations are rather straightforward, like compositing and scaling browser windows into an integrated view with other components, or efficiently animating between different \u201cgame-states\u201d - but some of this role entails the invention (with team assistance of course) of totally new UI affordances, so that we can render the relationships between subgraphs using the entire gestalt toolbox, not just boxes, lists, and \u201ccanvases.\"\n\nWe are building for the web, desktop, and mobile environments. We love wasm, and we hope you do too.\n\n**You should be experienced with:**\n* Strong Typescript skills\n* Fearless with large codebases\n* Experience using Cordova / PhoneGap\n* Some experience with React\n* Some experience with MVC style architectures\n* Some Web assembly experience\n* Some Objective C experience\n* Good understanding of UX fundimentals\n\n**What's it like to work at Edvo? **\n\nWe're a lean team of seven and remote. We maintain core working hours of 9:30AM to 3PM Pacific, when we're all online and available at the same time. We strive to be clear in our communication and our foundation is based on trust and self-agency.\n\n**How to apply **\n\nIf you\u2019re interested in this role, reach out to Shireen at shireen@edvo.com and let her know what you\u2019re up to and why you align with Edvo. Feel free to share any relevant projects that you\u2019ve been working on. We\u2019re excited to meet you!",
+                                        "id": "2963105",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1711306601,
+                                        "locationNames": [
+                                            "Canada",
+                                            "United States",
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Mobile Developer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "155919",
+                                            "kind": "REMOTE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "cordova-mobile-app-developer",
+                                        "title": "Cordova Mobile App Developer",
+                                        "compensation": "$70k \u2013 $120k \u2022 0.1% \u2013 0.2%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.2%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "5476117",
+                                "startupId": "5476117",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Personal AI for everyone",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Remote",
+                                        "id": "616175"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/5476117-752bb7794ab92c941392dacdcc64b9b6-medium_jpg.jpg?buster=1588824444",
+                                "name": "Edvo",
+                                "slug": "edvo",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Our AI startup has been featured on VICE, New York Times, Futurism, Fox News, and more for disrupting our industry. We are hiring our first engineer!\n\n\nWe still operate in stealth so we aren't able to discuss exactly what we do until you are selected for an interview directly with our CTO, but here is what we can share:\n\n\nAbout us\n\nWe are a viral startup creating AI tools. We are the biggest AI company in our niche.\n\n\nWhy you should join us\n\n100% remote\nYou decide your working hours\nComplete ownership of projects\nNo micromanaging whatsoever\nExciting unsolved engineering problems\nYou will build with the CTO daily and directly report to our CEO\nHuge growth and leadership potential. As engineer #1 of the company, we want you to soon manage a team of engineers and eventually replace our CTO!\n\n\nWho we are looking for\n\nTop 1% problem solving\nTop 1% in learning speed, our CTO will train you directly\nDesire to lead a team of engineers in the future\nWe are an international team, international applicants are OK!\n\n\nTo summarize we are looking for an extremely talented engineer that can grow into managing a team of engineers and eventually replace our CTO. We are selecting our first engineer with great care because we know this person will eventually lead the entire engineering team and hire more people like himself.\n\n\nUseful technical skills (not required)\n\nPython\nTypescript\nChrome extensions\nNLP\nReact\nDjango\nPostgreSQL\nGCP\nLLMs\nGeneral AI understanding\n\n\nWe are looking to hire talent as soon as possible, if you have a strong application expect to hear from us and get an interview with our CTO within a day or two.",
+                                        "id": "2959980",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711239941,
+                                        "liveStartAt": 1710997167,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "155443",
+                                            "kind": "REMOTE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "hiring-a-founding-engineer-for-viral-ai-startup",
+                                        "title": "Hiring a founding engineer for viral AI startup",
+                                        "compensation": "$70k \u2013 $150k \u2022 0.0% \u2013 5.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 5.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10044019",
+                                "startupId": "10044019",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "We build the best AI software in a secret niche. Apply to learn more",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10044019-ab206a8d4d0b00037c1601f5031fa05a-medium_jpg.jpg?buster=1710995198",
+                                "name": "AI Stealth",
+                                "slug": "ai-stealth-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "About Hive\n\nHive is the leading provider of cloud-based enterprise AI solutions to power the next wave of intelligent automation. We offer a portfolio of best-in-class deep learning models, built with consensus-validated training data sourced and annotated by our distributed workforce of more than 2 million contributors globally. Hive's APIs enable use cases including automated content moderation, contextual advertising, advertising and sponsorship measurement, document parsing, and more. We process billions of API requests per month for many of the world's largest and most innovative companies.\n\nHive has raised over $120M in capital from leading investors, including General Catalyst, 8VC, Glynn Capital, Jericho Capital, Bain &amp; Company, Visa Ventures, and others. We have over 170 employees globally in our San Francisco and Delhi offices. Please reach out if you are interested in joining the future of AI!\n\nThe Frontend Engineering Role\n\nFrontend Engineers are an essential part of the Hive Data and Hive Enterprise products. Working closely with designers, product owners, and other engineers, we implement the user interfaces that define our core platforms. We leverage the latest web technologies such as React, Redux, Webpack, and ES6 to deliver innovative interfaces and rich user experiences. The team is small and fast moving, and you will be expected to iterate quickly and make software design decisions on product features. As a front-end engineer at Hive, your breadth of skills paired with our bottom-up product process will give you as much autonomy and responsibility as you can handle. We are looking for technically-strong teammates who are passionate about frontend technologies and thrive in a fast-paced environment.\n\nResponsibilities\n\n* Build secure, robust, high performance, and scalable applications\n* Work with the design and product teams to develop new features that are focused on user experience\n* Actively participate in product decisions, ensuring we set reasonable development deadlines\n* Look for opportunities to improve team efficiency and work with your team to implement improvements\n* Utilize OWASP top 10 techniques to secure code from vulnerabilities\n* Maintenance handling as it relates to your role\n* Adhere to policies, guidelines and procedures pertaining to the protection of information assets\n* Report actual or suspected security and/or policy violations/breaches to an appropriate authority\n\nRequirements\n\n* You have at least 1 year of experience working in web development\n* You have experience working with 3rd party APIs and libraries\n* You have in-depth knowledge of JavaScript, HTML, CSS, and related web technologies\n* You have a good grasp of React and Redux (or similar frameworks) and the concepts behind it\n* You are capable of creating beautiful web products and have good UX sensibilities\n* You are eager to learn new technologies and share your knowledge with your teammates\n* You are receptive to feedback and always looking for opportunities to sharpen your skills\n* You have excellent communication skills and experience in collaborative environments\n* You write understandable, testable code with an eye towards maintainability and scalability\n\nWho We Are\n\nWe are a group of ambitious individuals who are passionate about creating a revolutionary AI company. At Hive, you will have a steep learning curve and an opportunity to contribute to one of the fastest growing AI start-ups in San Francisco. The work you do here will have a noticeable and direct impact on the development of the company.\n\nThank you for your interest in Hive and we hope to meet you soon!\n\n*Employees are eligible to participate in a number of Company-sponsored benefits, including health, vision and dental insurance. Employees are also eligible to participate in a gym membership as part of our commitment to employee wellness. In addition, employees will be entitled to paid vacation in accordance with the Company's vacation policy. \nHired applicant may receive an equity grant in the form of an option to purchase stock in the future for a specified price. *",
+                                        "id": "81819",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710881995,
+                                        "liveStartAt": 1708452718,
+                                        "locationNames": [
+                                            "Seattle",
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Frontend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "20612",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "frontend-engineer",
+                                        "title": "Frontend Engineer",
+                                        "compensation": "$120k \u2013 $180k \u2022 0.0% \u2013 0.05%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.05%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "About Hive\n\nHive is the leading provider of cloud-based enterprise AI solutions to power the next wave of intelligent automation. We offer a portfolio of best-in-class deep learning models, built with consensus-validated training data sourced and annotated by our distributed workforce of more than 2 million contributors globally. Hive's APIs enable use cases including automated content moderation, contextual advertising, advertising and sponsorship measurement, document parsing, and more. We process billions of API requests per month for many of the world's largest and most innovative companies.\n\nHive has raised over $120M in capital from leading investors, including General Catalyst, 8VC, Glynn Capital, Jericho Capital, Bain &amp; Company, Visa Ventures, and others. We have over 170 employees globally in our San Francisco and Delhi offices. Please reach out if you are interested in joining the future of AI!\n\nMachine Learning Role\n\nIn order to execute our vision, we need to grow our team of best-in-class machine learning engineers. We are looking for developers who are excited about staying at the forefront of deep learning technology, prototyping state-of-the-art neural net models and launching these models into production. We value hard workers who have no qualms working with terabyte-scale datasets, who are interested in learning new technologies at all levels of the machine learning stack, and who move fast and take ownership of their projects. Our ideal candidate has experience creating a working machine learning-powered project from the ground up, contributes innovative ideas and ingenious implementations to the team, and is capable of planning out scalable, maintainable data pipelines.\n\nResponsibilities\n\n* Everything involved in applying a ML model to a production use case, including, designing and coding up the neural network, gathering and refining data, training and tuning the model, deploying it at scale with high throughput and uptime, and analyzing the results in the wild in order to continuously update and improve accuracy and speed\n* Interface closely with the Backend and DevOps teams as well as with our internal data labeling services\n* Utilize OWASP top 10 techniques to secure code from vulnerabilities\n* Maintain awareness of industry best practices for data maintenance handling as it relates to your role\n* Adhere to policies, guidelines and procedures pertaining to the protection of information assets\n* Report actual or suspected security and/or policy violations/breaches to an appropriate authority\n\nRequirements\n* You have an undergraduate or graduate degree in computer science or similar technical field, with significant coursework in mathematics or statistics\n* You have 1-2 years industry machine learning experience\n* You have successfully trained and deployed a deep learning machine model (image, NLP, video, or audio) into production, with measurably improved performance over baseline, either in industry or as a personal project\n* You have strong experience with a high-level machine learning frameworks such as Tensorflow, Caffe, or Torch, and familiarity with the others\n* You know the ins and outs of Python, especially as it applies to the above ML frameworks\n* You are capable of quickly coding and prototyping data pipelines involving any combination of Python, Node, bash, and linux command-line tools, especially when applied to large datasets consisting of millions of files\n* You have a working knowledge of the following technologies, or are not afraid of picking it up on the fly: C++, Scala/Spark, SQL, Cassandra, Docker\n* You are up-to-date on the latest deep neural net research and architectures, both in understanding the theory and motivations behind the techniques, as well as how to implement them in the ML framework of your choice\n* You have great communication skills and ability to work with others\n* You are a strong team player, with a do-whatever-it-takes attitude\n\nWho We Are\n\nWe are a group of ambitious individuals who are passionate about creating a revolutionary AI company. At Hive, you will have a steep learning curve and an opportunity to contribute to one of the fastest growing AI start-ups in San Francisco. The work you do here will have a noticeable and direct impact on the development of the company.\n\nThank you for your interest in Hive and we hope to meet you soon!\n\n*Employees are eligible to participate in a number of Company-sponsored benefits, including health, vision and dental insurance. Employees are also eligible to participate in a gym membership as part of our commitment to employee wellness. In addition, employees will be entitled to paid vacation in accordance with the Company's vacation policy. \nHired applicant may receive an equity grant in the form of an option to purchase stock in the future for a specified price. *",
+                                        "id": "292187",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1689698373,
+                                        "liveStartAt": 1708452717,
+                                        "locationNames": [
+                                            "Seattle",
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "20614",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "machine-learning-engineer",
+                                        "title": "Machine Learning Engineer",
+                                        "compensation": "$120k \u2013 $180k \u2022 0.0% \u2013 0.1%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.1%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "150892",
+                                "startupId": "150892",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/407570-dcd52bfe40b59a30389ee1eaddfe1e64-medium_jpg.jpg?buster=1401320837",
+                                        "id": "TOP_TIER_INVESTOR-150892",
+                                        "label": "Same investor as Snapchat",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "General Catalyst invested in both Hive and Snapchat"
+                                    }
+                                ],
+                                "companySize": "SIZE_201_500",
+                                "highConcept": "Cloud-based AI solutions to understand, search, and generate content",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Seattle",
+                                        "id": "1680"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Delhi",
+                                        "id": "2203"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/150892-41afe1e49c5b17046d15367642623c3a-medium_jpg.jpg?buster=1703212015",
+                                "name": "Hive",
+                                "slug": "hiveai",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "***EQUITY ONLY***\nDO NOT APPLY IF YOU ARE NOT OK WITH EQUITY ONLY. THIS IS A STARTUP, YOU CAN'T NEGOTIATE A SALARY. WE WILL REJECT YOU THE MOMENT YOU ASK. \n\n**NERG Culture:**\nIf you passionate about harnessing the power of biotechnology to unlock human potential. If you're interested in building a AI company that pioneers innovative solutions to enhance human capabilities, whether through personalized medicine, bioinformatics, or wearable health tech. If you are willing to work hard and keep your commitments, you've found you home. Come be a part of a growing team that is set on changing the world. \n\n**Welcome To NERG:**\nIf your passion lies in harnessing the power of biotechnology to unlock human potential. If you're interested in building a bio-tech company that pioneers innovative solutions to enhance human capabilities, whether through personalized medicine, bioinformatics, or wearable health tech. If you're an A+ player who believes in betting on yourself, you have found your home! Come help us change the world! \n\n**The Day To Day Work:**\nWrite the backend code we need to successfully integrate our hardware SDK, APIs, and microservices into our react native apps. Works closely with Front-end Developers to define and execute both Android and iOS mobile app updates including ongoing maintenance, new development initiatives, and quality control.\n\n**Responsibilities:**\n1. Writing clean, readable, and testable code\n2. Cooperating with front-end developers, designers, and the rest of the team to deliver well-architected and high-quality solutions\n3. Develop and maintain technical documentation related to mobile app projects\n4. Publish weekly to Github. \n5. Ensuring the best performance and user experience of the application\n6. Fixing bugs and performance problems\n\n**Required Skill Set:**\n1. Extensive knowledge about mobile app development. This includes the whole process, from the first line of code to publishing on the Apple App Store.\n2. Deep knowledge of iOS, and React Native. \n3. Relevant understanding of Oracle Cloud. \n4. Proficiency with writing automated testing.\n5. Familiarity with RESTful APIs and mobile libraries for networking.\n6. Experience with profiling and debugging mobile applications.\n7. Strong knowledge of architectural patterns\u2014MVP, MVC, MVVM, and Clean Architecture\u2014and the ability to choose the best solution for the app.\n8. Familiarity with Git, push notifications, BLE, and other native app functions in relation to hardware and wearable sensor connectivity. \n\n**Higher equity based on additonal skill sets**\nBiostatistician, Data Scientist, Machine Learning Engineer, Master Degree in Computer Science, Primary Programming Langauge is Python.",
+                                        "id": "2952413",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711141139,
+                                        "liveStartAt": 1710436017,
+                                        "locationNames": [
+                                            "Atlanta",
+                                            "Dallas",
+                                            "Los Angeles",
+                                            "San Jose",
+                                            "Santa Clara",
+                                            "San Francisco Bay Area"
+                                        ],
+                                        "primaryRoleTitle": "Mobile Developer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "154149",
+                                            "kind": "REMOTE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "ios-app-developer-equity-only-for-now",
+                                        "title": "iOS APP Developer - EQUITY ONLY FOR NOW!",
+                                        "compensation": "0.5% \u2013 3.0%",
+                                        "usesEstimatedSalary": true,
+                                        "equity": "0.5% \u2013 3.0%",
+                                        "estimatedSalary": "$110k \u2013 $165k",
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "***EQUITY ONLY***\nDO NOT APPLY IF YOU ARE NOT OK WITH EQUITY ONLY. THIS IS A STARTUP, YOU CAN'T NEGOTIATE A SALARY. WE WILL REJECT YOU THE MOMENT YOU ASK. \n\n**NERG Culture:**\nIf you passionate about harnessing the power of biotechnology to unlock human potential. If you're interested in building a AI company that pioneers innovative solutions to enhance human capabilities, whether through personalized medicine, bioinformatics, or wearable health tech. If you are willing to work hard and keep your commitments, you've found you home. Come be a part of a growing team that is set on changing the world. \n\n**Welcome To NERG:**\nIf your passion lies in harnessing the power of biotechnology to unlock human potential. If you're interested in building a bio-tech company that pioneers innovative solutions to enhance human capabilities, whether through personalized medicine, bioinformatics, or wearable health tech. If you're an A+ player who believes in betting on yourself, you have found your home! Come help us change the world! \n\n**The Day To Day Work:**\nWrite the backend code we need to successfully integrate our hardware SDK, APIs, and microservices into our react native apps. Works closely with Front-end Developers to define and execute both Android and iOS mobile app updates including ongoing maintenance, new development initiatives, and quality control.\n\n**Responsibilities:**\n1. Writing clean, readable, and testable code\n2. Cooperating with front-end developers, designers, and the rest of the team to deliver well-architected and high-quality solutions\n3. Develop and maintain technical documentation related to mobile app projects\n4. Publish weekly to Github. \n5. Ensuring the best performance and user experience of the application\n6. Fixing bugs and performance problems\n\n**Required Skill Set:**\n1. Extensive knowledge about mobile app development. This includes the whole process, from the first line of code to publishing on the Google Play.\n2. Deep knowledge of Android and React Native. \n3. Relevant understanding of Oracle Cloud. \n4. Proficiency with writing automated testing.\n5. Familiarity with RESTful APIs and mobile libraries for networking.\n6. Experience with profiling and debugging mobile applications.\n7. Strong knowledge of architectural patterns\u2014MVP, MVC, MVVM, and Clean Architecture\u2014and the ability to choose the best solution for the app.\n8. Familiarity with Git, push notifications, BLE, and other native app functions in relation to hardware and wearable sensor connectivity. \n\n**Higher equity based on additonal skill sets**\nBiostatistician, Data Scientist, Machine Learning Engineer, Master Degree in Computer Science, Primary Programming Langauge is Python.",
+                                        "id": "2952415",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710381016,
+                                        "liveStartAt": 1710436011,
+                                        "locationNames": [
+                                            "Atlanta",
+                                            "Dallas",
+                                            "Los Angeles",
+                                            "San Jose",
+                                            "Santa Clara",
+                                            "San Francisco Bay Area"
+                                        ],
+                                        "primaryRoleTitle": "Mobile Developer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "154151",
+                                            "kind": "REMOTE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "android-app-developer-equity-only-for-now",
+                                        "title": "Android App Developer - EQUITY ONLY FOR NOW!",
+                                        "compensation": "0.5% \u2013 2.5%",
+                                        "usesEstimatedSalary": true,
+                                        "equity": "0.5% \u2013 2.5%",
+                                        "estimatedSalary": "$110k \u2013 $165k",
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8889901",
+                                "startupId": "8889901",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-8889901",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Sport Science and Technology",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Santa Clara",
+                                        "id": "1843"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8889901-43ee6c34e18b06a519ce04fdf2c07fa4-medium_jpg.jpg?buster=1668131958",
+                                "name": "NERG",
+                                "slug": "nerg",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Join Gattaca.dev as we embark on developing a visionary product set to productivity through AI, design, and advanced technology. Situated in NYC and backed by prestigious Silicon Valley investors, we're poised to redefine productivity software on a global scale.\n\nAbout the Position:\nWe're searching for talented full-stack engineers with a passion for spearheading projects and crafting groundbreaking solutions from the ground up. Our aim is to create customized productivity tools for diverse sectors, challenging the conventional one-size-fits-all approach.\n\nYour Role:\nDive into projects that are set to revolutionize document management, incorporating AI for sophisticated versioning systems and utilizing the latest technologies to elevate user experiences.\n\nYour Profile:\nWe appreciate engineers who can detail a standout technical project, with at least 2 years of experience in React and Typescript. We seek generalists who are customer-centric, product-oriented, and eager to lead in building aesthetically pleasing, impactful products.\n\nOur Culture:\nGattaca.dev is dedicated to fostering a diverse and innovative workplace, inviting applicants from all walks of life to join our mission to impact billions through our productivity suite.",
+                                        "id": "2914364",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1706825592,
+                                        "locationNames": [
+                                            "New York City"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "147912",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "founding-software-engineer",
+                                        "title": "Founding Software Engineer",
+                                        "compensation": "$150k \u2013 $200k \u2022 0.0% \u2013 2.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 2.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9886879",
+                                "startupId": "9886879",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Stealth Fintech + AI",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco Bay Area",
+                                        "id": "151282"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9886879-9c8af054fd916a31b0f4bd09696f2e55-medium_jpg.jpg?buster=1699915076",
+                                "name": "Gattaca.dev",
+                                "slug": "gattaca-dev",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### The Role\n\nPut simply, engineers at Up&amp;Up solve the hardest problems in the business by whatever means get the job done most effectively. This is not your typical big tech software engineering role - as an engineer at Up&amp;Up, you\u2019ll be expected to own the solution to the most impactful problems in the business end to end, acting as your own PM, designer, and software architect. \n\nBy owning problems end to end, engineers at Up&amp;Up have an unprecedented opportunity to grow quickly with the company and lead mission critical parts of the business. If rapid growth, building new things, and ownership of challenging problems excite you, this is a perfect opportunity to jump straight into the deep end. \n\n\n**Job Description:**\n\n- Own the most impactful and challenging problems in the business from end to end\n- Make intelligent and pragmatic technical trade-offs in the service of getting results quickly\n- Design foundational technical systems from scratch\n- Write scalable, simple, readable, and well-tested code\n- Explore and implement new ways to deliver on our mission of building a fairer way to rent\n- Work side by side with our Operations, Finance and Real Estate teams to shine a fresh, technical light on their biggest pain points\n\n\n**Qualifications**\n*We\u2019re looking for candidates who have the following:*\n\n* Strong programming skills, ideally in Node JS/Typescript, Python, and/or a low level language\n* Ability to rapidly diagnose and structure large, ambiguous problems\n* A keen sense of the balance between technical complexity, first principles thinking, and implementation cost that best solves the problem at hand\n* Have broad understanding across the engineering stack\n* Learn quickly and are comfortable in a fast-paced environment\n* Understand that great engineering is a means to create world class products for our customers * the customer always comes first\n* Comfortable joining an in-person first culture (our office is located in Brooklyn, NYC)\n* Care more about getting to the truth than being right\n* Are unreasonably ambitious and excited to build something new\n* Are kind, positive, and optimistic\n* Love to proactively help/teach their teammates\n\n\n**Also nice to have:**\n\n*(Note: We are more interested in growth potential than prior experience for this role, so don't worry if you don't fulfill all (or any) of these additional criteria)*\n\n* Experience with machine learning and statistical modeling techniques\n* Experience incorporating Large Language Models into operational and technical workflows\n* Experience with data visualization, building dashboards\n* Experience with data engineering\n* Experience architecting and building large scale, mission critical technical systems\n* Experience with a lower level programming language such as C/C++/Java\n* Experience with the Google Cloud Platform\n\n\n**What You'll Get From Up&amp;Up:**\n\n* The opportunity to join a mission-driven company that is working on a novel solution to a major problem\n* A culture that prioritizes thoughtfulness, first principles thinking, and hard work\n* The chance to collaborate with a rockstar team with a diverse set of expertise across Engineering, Data Science, Real Estate, Finance, and Sales\n* Competitive compensation and thoughtfully designed perks\n* Comprehensive benefits (medical, dental, vision, commuter, 401k, etc)\n* Flexible vacation policy with required time off * we work incredibly hard but also encourage taking time off to relax, reflect, and do what you love outside of work\n* A vibrant office culture with frequent happy hours, team dinners, and other events\n\n\n### Background\n\n\u2190 **The Problem**\n\nAmerica is going through a housing affordability crisis, where access to ownership is growing increasingly out of reach. 33% of Americans are renting, and 25% of those that are renting spend over half of their income on rent. As a direct result, nearly 75% of Americans have less than $1,000 in savings. These numbers are projected to only get worse for future generations, as student debt and the cost of living continue to balloon.\n\n**Where Up&amp;Up Comes In \u2192**\n\nUp&amp;Up is building a new way to live where renters build wealth like owners.\n\nInstead of having a large portion of their cash stuck in a security deposit and making their landlords rich by paying off their mortgage, our renters have the opportunity to build wealth by sharing in the investment and generate the\u00a0exact same\u00a0returns as an owner. By paying rent on time and keeping property expenses low, renters can build their wealth each month and grow the value of their investment. At the end of their lease, renters can use the wealth they've accumulated to purchase the home or cash out and receive a check.\n\nYou can read more about how it works here:\u00a0https://upandup.co/how-it-works\n\nWe aim to unlock a decade of compounding wealth creation that will drastically change our customers\u2019 financial futures. To pull off this ambitious mission, we\u2019ve built an incredible early team and are backed by Founders Fund, Khosla Ventures, and strategic angels from Opendoor, Morgan Stanley, JP Morgan, and Millennium. See our recent feature in Forbes [here](https://www.forbes.com/sites/amydobson/2021/11/19/upup-which-aims-to-build-wealth-for-renters-surpasses-300-million-with-latest-funding-raise/?sh=c85b6d24da5f) and in the Charlotte Business Journal [here](https://www.bizjournals.com/charlotte/inno/stories/news/2023/08/07/startup-up-and-up-build-300-homes-charlotte.html) for more!\n\n**Our Stack:**\n\n* Frontend: React, NextJS, React Native, GraphQL\n* Backend: Typescript, Hasura, HAPI\n* Infrastructure: Google Cloud, App Engine, Cloud Functions, Airflow\n* Data Engineering and Data Science: Python, Sklearn, NetworkX, Pandas, Plotly\n* Storage: Postgres, Firebase, BigQuery\n\n*Up&amp;Up is committed to building a diverse and inclusive company that celebrates and develops individuals of all backgrounds. We are an equal opportunity employer and encourage all applicants to apply.*",
+                                        "id": "2872592",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710719783,
+                                        "liveStartAt": 1702401003,
+                                        "locationNames": [
+                                            "Brooklyn"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "140822",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer",
+                                        "title": "Software Engineer",
+                                        "compensation": "$90k \u2013 $170k \u2022 0.01% \u2013 0.75%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.01% \u2013 0.75%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "5072838",
+                                "startupId": "5072838",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Rent like you own the place",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York City",
+                                        "id": "1664"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/5072838-9d35c043f24e1283cb00b8ead4dac58a-medium_jpg.jpg?buster=1590495553",
+                                "name": "Up&Up",
+                                "slug": "upandup",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About the Role**\n\nAs a Full-Stack Engineer at FINESSE, you'll play a pivotal role in creating &amp; elevating digital interfaces that impact millions of customers globally. You'll collaborate closely with a team of exceptional engineers and world-class creatives to create unforgettable experiences for our customers as well as internal tools that help us run as the most efficient fashion house in the industry. Your scope includes work across website, mobile app, and other tech-centric touchpoints, ensuring they remain cutting-edge and impactful.\n\n**About You**\n\nYou love building the most memorable experiences for people. You are a brilliant and versatile engineer who is logical, creative and artistic, with an extreme eye for detail in getting the aesthetic and design just right. You are always thinking about how to enhance the experience you build by leveraging the full capabilities of the latest technologies (e.g. animations, video, even VR, you tell us!) and think outside of the box when it comes to creating experiences that stick. You strive to constantly improve performance and reliability and consistently try to understand the mindset of the consumer. You are highly collaborative and communicative and both a self-starter and go-getter. Above all, you\u2019re excited to build something from the ground up that will touch the lives of millions of people worldwide.\n\n**Recommended Background**\n\n- Experience in full-stack web development (front-end, back-end, and/or mobile), with a portfolio showcasing production-level projects.\n- Deep knowledge and experience proficiency in full-stack development technologies, including but not limited to:\n    - **Front-End**: Proficient in modern frameworks (React.js, Angular, Vue.js, Liquid), HTML5, CSS3, and front-end development tools.\n    - **Back-End**: Strong experience in server-side languages (Node.js, Python, Ruby, PHP) and frameworks (Express, Django, Rails).\n    - **Database Management**: Knowledge of SQL and NoSQL databases (MySQL, PostgreSQL, MongoDB), and understanding of database design and management.\n    - **Cloud and DevOps**: Experience with cloud services (AWS, Azure, Google Cloud) and familiarity with containerization (Docker, Kubernetes) and continuous integration/continuous deployment (CI/CD) pipelines.\n    - **Mobile Development**: Experience with mobile development frameworks like React Native or Flutter for cross-platform mobile app development.\n    - **Design:** Experience with prototyping tools (Miro, Figma, Sketch) for rapid iteration of new designs and ideas.\n    - **Testing:** Testing frameworks (Jest, Mocha, Jasmine), Selenium, Cypress, TDD and BDD approaches to ensure code quality and application performance\n\n**What You\u2019ll Love at FINESSE**\n- Being at the forefront of and working towards creating a culture-defining new product\n- A close-knit, extremely passionate\u00a0&amp;\u00a0world class team excited about changing the face of fashion\n- A diverse team and culture that values inclusivity and individuality as highest priority\n- Company sponsored happy hours and outings\n- Comprehensive benefits: Medical, dental and vision insurance; 401k\n- Paid maternity and paternity leave\n- Sponsored weekly team lunches\n- Unlimited PTO\n\n**Our Culture**\n\nFINESSE has a dreamer\u00a0&amp;\u00a0doer culture. We envision the next age of fashion\u00a0&amp;\u00a0consumer and then get to work to implement it, always thinking creatively, innovatively and collaboratively to create real change. We are energetic, highly creative and hungry for change that is both revolutionizing as well as ethical.",
+                                        "id": "2963641",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1711416595,
+                                        "locationNames": [
+                                            "Los Angeles",
+                                            "London"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "156068",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "full-stack-engineer",
+                                        "title": "Full-Stack Engineer",
+                                        "compensation": "",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "7719643",
+                                "startupId": "7719643",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Netflix meets Zara",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "London",
+                                        "id": "1695"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/7719643-66c7405e6ef0f9b9505cacf77edfb654-medium_jpg.jpg?buster=1590350312",
+                                "name": "FINESSE",
+                                "slug": "finesseus",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Research and Development Software Engineer\nOnsite\nWilmington, MA\n\nAbout BigRio: BigRio is a remote technology consulting firm headquartered in Boston. We deliver a range of solutions including custom machine learning/AI integrations and data warehousing and processing solutions. Our comprehensive approach serves clients from a variety of industries as a result of our ability to consistently, and quickly deliver cutting-edge and cost-conscious software solutions.\n\nSoftware Engineer \u2013 Technology Development (R&amp;D)\nAs a member of the Controls Groups supporting Technology Development group, you\u2019ll have a critical role in both developing innovative technology and materials required for our client\u2019s ambitious next-generation Area Printer. In this role you\u2019ll be primarily responsible for data acquisition, data processing, networking, and lab equipment control. Secondarily, you\u2019ll be working with motion control and vision systems. For example, you\u2019ll capture and sync images, batch process images to output contrast ratio, implement light valve control hooks, and drive waveforms.\n\nThis role requires advance knowledge of Python; intermediate knowledge of C++, C#, and LabVIEW; and basic knowledge of C.\n\nWhat you\u2019ll achieve\nDesign and implement data acquisition, analysis and control software systems in Python, C# and/or C++for machine, laser control and user interfaces for use in technology demonstration and proof of concept activities.\nBe on the ground floor in supporting implementation of successful new technologies in client\u2019s printers.\nIdeation of practical and creative solutions to satisfy Technology Development requirements.\nDevelop, maintain, and support thorough software functionality documentation.\nContinuously improve user experience &amp; equipment performance through cross-team collaboration.\nFormal software development lifecycle and configuration management system.\n\nAbout you\nExperience with Python, C# and C++.\nExperience working within Optical and Lab.\nExperience writing code to automate instrumentation\nExperience with DAQ, PLC, I/O (RS-232, RS-485, EtherCAT, Ethernet, SCPI)\nFamiliarity with Motion Control systems such as Newport, Delta Tau, Galil, etc.\nExperience with machine vision, high speed data acquisition, and data manipulation\nExperience writing self-documenting (or well documented), readable code.\nMust be able to work in a collaborative environment.\nStrong analytical and communication skills.\n\nNice to have, not required\nExperience with Standard Commands for Programmable Instruments i.e SCPI also known as skippy\nExperience with database systems and formulating queries (SQL).",
+                                        "id": "2799868",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1704926737,
+                                        "liveStartAt": 1704475744,
+                                        "locationNames": [
+                                            "Boston",
+                                            "United States",
+                                            "Massachusetts",
+                                            "Cambridge"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "128629",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "r-d-software-engineer",
+                                        "title": "R&D Software Engineer",
+                                        "compensation": "$110k \u2013 $140k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8541921",
+                                "startupId": "8541921",
+                                "badges": [],
+                                "companySize": "SIZE_51_200",
+                                "highConcept": "Project implementation in the field of Data Science, Artificial Intelligence, Cloud Solutions",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Cambridge",
+                                        "id": "2390"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8541921-235b7d606c400d89c463dad6201633a5-medium_jpg.jpg?buster=1633547496",
+                                "name": "BigR.io",
+                                "slug": "bigr-io-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        }
+                    ]
+                },
+                "totalStartupCount": 56
+            }
+        }
+    },
+    "schemaVersion": 2
+}

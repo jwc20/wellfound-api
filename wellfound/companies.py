@@ -1,17 +1,39 @@
-import csv
 import time
 import json
 import sys
 from .utils import *
-from collections import namedtuple, defaultdict
-from requests.models import PreparedRequest
+from collections import namedtuple
 from pprintpp import pprint
 from datetime import datetime
 
-from bs4 import BeautifulSoup
 
 now = datetime.now()
 date_time_format = now.strftime("%Y-%m-%d_%H-%M-%S")
+
+# Badge = namedtuple('Badge', ['id', 'label', 'name'])
+# JobListingRemoteConfig = namedtuple('JobListingRemoteConfig', ['id', 'kind'])
+JobListingSearchResult = namedtuple(
+    "JobListingSearchResult",
+    [
+        "typename",
+        "atsSource",
+        "autoPosted",
+        "currentUserApplied",
+        "description",
+        "id",
+        "jobType",
+        "lastRespondedAt",
+        "liveStartAt",
+        "primaryRoleTitle",
+        "remote",
+        "reposted",
+        "slug",
+        "title",
+        "compensation",
+        "usesEstimatedSalary",
+    ],
+)
+# StartupSearchResult = namedtuple('StartupSearchResult', ['id', 'startupId', 'name', 'companySize', 'highConcept', 'locationTaggings', 'logoUrl', 'highlightedJobListings', 'badges'])
 
 
 class Companies:
@@ -23,14 +45,8 @@ class Companies:
     def make_companies_url(self, query):
         return
 
-    def _load_page(self, url):
-        return
-
-    def _scrape_page(self, soup):
-        return
-
     def get_companies(self, query):
-        soup = BeautifulSoup(self.driver.page_source, "lxml")
+        # soup = BeautifulSoup(self.driver.page_source, "lxml")
         # pprint(soup.prettify())
 
         for i in range(1, 100):  # TODO: 100 pages, change this later
@@ -82,6 +98,10 @@ class Companies:
                         "min": null,
                         "max": null
                     },
+                    // "keywords": [
+                    //     "entry",
+                    //     "junior",
+                    // ],
                     "excludedKeywords": [
                         "web3",
                         "crypto",
@@ -90,7 +110,7 @@ class Companies:
                     "jobTypes": [
                         "full_time"
                     ],
-                    "remotePreference": "NO_REMOTE", // "REMOTE_OPEN" or "NO_REMOTE"
+                    "remotePreference": "REMOTE_OPEN", // "REMOTE_OPEN" or "NO_REMOTE"
                     "salary": {
                         "min": null,
                         "max": null
@@ -114,34 +134,51 @@ class Companies:
             time.sleep(5)
             # pprint(response)
 
-            # Parse the JSON response
             response = json.loads(response)
+            job_listings = list()
+            startups = response["data"]["talent"]["jobSearchResults"]["startups"]["edges"]
+            for j in range(0, len(startups)):
+                startup_info = startups[j]["node"]
+                startup_job_listings = startup_info["highlightedJobListings"]
 
-            # convert the response json
-            response = json.dumps(response, indent=4)
+                for job in startup_job_listings:
+                    job_listings.append(
+                        JobListingSearchResult(
+                            job["__typename"],
+                            job["atsSource"],
+                            job["autoPosted"],
+                            job["currentUserApplied"],
+                            job["description"],
+                            job["id"],
+                            job["jobType"],
+                            job["lastRespondedAt"],
+                            job["liveStartAt"],
+                            job["primaryRoleTitle"],
+                            job["remote"],
+                            job["reposted"],
+                            job["slug"],
+                            job["title"],
+                            job["compensation"],
+                            job["usesEstimatedSalary"],
+                        )
+                    )
 
-            # save the response to a file
-            # with open(f"response_{date_time_format}.json", "w") as file:
-            # include the page number in the filename
+            for job in job_listings:
+                print(f"{job.title} | {job.compensation} | {job.id}")
+
+            response_json = json.dumps(response, indent=4)
+
             with open(f"response_{date_time_format}_page_{i}.json", "w") as file:
                 print("writing to file...")
-                file.write(response)
+                file.write(response_json)
 
-        # time.sleep(10000)
+            has_next_page = response["data"]["talent"]["jobSearchResults"]["hasNextPage"]
+            if not has_next_page: break
 
-        # save the soup to a file
-        # with open(f"companies_{date_time_format}.html", "w") as file:
-        #     print("writing to file...")
-        #     file.write(soup.prettify())
 
-        # print("sleeping for 10 seconds...")
-        # time.sleep(10)
         for remaining in range(10, 0, -1):
             sys.stdout.write("\rsleeping in {:2d} seconds...".format(remaining))
             sys.stdout.flush()
             time.sleep(1)
         sys.stdout.write("\rComplete!                       \n")
 
-        # results = self._scrape_companies(soup)
-
-        # return self.companies

@@ -1,0 +1,856 @@
+{
+    "data": {
+        "talent": {
+            "__typename": "Talent",
+            "jobSearchResults": {
+                "__typename": "SearchResult",
+                "hasNextPage": true,
+                "rawQuery": null,
+                "startups": {
+                    "__typename": "StartupSearchResultConnection",
+                    "edges": [
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": "AtsIntegration::Greenhouse::Listing",
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**Company overview:**\n\nHi \ud83d\udc4b we\u2019re Clerkie, a fintech startup based in SF. We\u2019re a team of nearly 30 spread across the country, and we\u2019re on a mission to help Americans get out of debt.\n\nThe consumer debt crisis is at an all-time high ($17T) and most Americans live paycheck-to-paycheck. When people fall into debt, it\u2019s typically driven by scenarios outside of their control, and for many families, it can be incredibly difficult to navigate. We\u2019re here to help Americans manage their debt and give them the tools to succeed. We work closely with borrowers to help triage their financial situation, increase their credit score, and automatically negotiate their outstanding debts. We provide powerful and innovative tooling to both consumers and creditors to streamline repayment through the next generation of financial tooling.\n\nClerkie launched in 2018 and has significant financial backing from leading financial and venture institutions like Citi, Left Lane Capital, Wellington Ventures, Flourish Ventures, and Vestigo Ventures.\n\n**Culture:**\n\nEvery day, we obsess about how we can provide the best possible experience and outcome for our users. Our goal is to create a lasting business, one that uses true innovation to rethink the financial journey for Americans.\n\nWe\u2019re a group of hard-working professionals who are located across the US - 4 different time zones! We have a customer-first mindset and an appetite for getting stuff done. We\u2019re looking for a rock star Frontend Engineer to help us deliver life-changing solutions to those who need them most. \ud83d\udcaa\n\n**What we look for:**\n\n- You can pivot on the fly. Clerkie is constantly evolving, so our priorities do, too. What you worked on last month may not be what you work on today, and that excites you. You\u2019re not looking for a boring job.\n- You have a \u201ccan do\u201d attitude. Our teams create high-quality work on quick timelines. Owning a problem doesn\u2019t scare you, but rather empowers you to take 100% responsibility for achieving our mission.\n- You\u2019ve got positive energy. You\u2019re optimistic about the future and determined to get there.\n- You\u2019re never tired of learning.\n- You appreciate direct communication and look for feedback. You\u2019re both an active communicator and an eager listener.\n\n**Why work for us:**\n\n- Competitive salary + equity\n- Top-notch medical, dental, and vision\n- 401k\u00a0&\u00a0retirement benefits\n- Fully remote position\n- Fantastic coworkers\n- Annual destination company retreat\n- You\u2019ll have the opportunity to see how all aspects of the business operate and have the chance to be a part of a startup from the very beginning.\n\n**Job Description:**\n\nAs a React JS developer, you will be joining Clerkie\u2019s FE engineering team. Together, you will be focused on building Fiber, Clerkie\u2019s newest web app product. Fiber is a CRM designed with the goal of transforming America's debt industry.\n\nWe are looking for developers who are accustomed to finding solutions when there aren\u2019t clear answers available, have a strong understanding of front end development best practices, and have an ability to work in a fast-paced environment. If that sounds like you, we\u2019d love to hear from you!\n\nHere\u2019s what you will do:\n\n- Collaborate with our back end, product, and design teams to develop and launch Clerkie Fiber.\n- Code entirely in Typescript with Next.js.\n- Build responsive UIs with Tailwind CSS, focusing on aesthetic appeal and user experience.\n\nMinimum qualifications:\n\n- Bachelor\u2019s degree in computer science (CS) or a similar technical field of study, or equivalent practical experience\n- Strong JavaScript or Typescript skills with at 2+ years of experience in React.js\n- An eye for design and a passion for creating pixel perfect layouts\n- Standalone self-starter able to manage individual project priorities, deadlines and deliverables\n\nPreferred qualifications:\n\n- Excellent leadership, communication, and collaboration skills\n- Experience with designing RESTful APIs\n- Experience with building financial apps\n- Excitement for being a part of a small team where you will be expected to solve new challenges and learn new things everyday\n\nSalary range:\n\n- $90k - $150k (+ equity)\n\nAdditional compensation in the form(s) of equity and/or bonus are dependent on the position offered. Pay is based on factors such as (but not limited to) scope and responsibilities of the position, candidate's work experience and skill set, and location.\u00a0\n\n**Want to be a part of something bigger than yourself?**\n\nSubmit your resume and share why you are passionate about joining our team.\u00a0Clerkie is an equal opportunity employer and values diversity in the workplace. We encourage individuals from all backgrounds to apply.\n\nNote: Applicants must be authorized to work for ANY employer in the U.S. We are unable to sponsor or take over sponsorship of an employment visa at this time.\n\n",
+                                        "id": "2551015",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711417234,
+                                        "liveStartAt": 1710840758,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Frontend Engineer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "83984",
+                                            "kind": "ONSITE_OR_REMOTE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "front-end-engineer-web",
+                                        "title": "Front-End Engineer (Web)",
+                                        "compensation": "$90k \u2013 $150k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "4668391",
+                                "startupId": "4668391",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-4668391",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Your very own money manager dedicated to simplifying and automating your financial life",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco Bay Area",
+                                        "id": "151282"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/4668391-571af64dafaf073a27873d03390f6f31-medium_jpg.jpg?buster=1602116818",
+                                "name": "Clerkie",
+                                "slug": "clerkie",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About us**\n\nOpenTug is a digital freight management and brokerage platform connecting shippers, barge operators, and terminals. Our mission is to supercharge inland marine shipping by enhancing visibility, efficiency, and connectivity. We\u2019re a startup seeking a full-stack engineer to help us digitize and revolutionize maritime shipping, making it more affordable, greener, and easier to use. More information at https://opentug.com/about-us.\n\n**Role overview**\n* Collaborate with fellow engineers and the executive team to design, develop, and own full-stack features for our web application\n* Design and build intuitive interfaces using SolidJS with TypeScript\n* Design and build API endpoints and data representations using Django and Django Rest Framework\n\n**Qualifications**\n* 5+ years of experience building software\n* 2+ years Python development experience, preferably with Django\n* At least one year of SolidJS or similar reactive (e.g. ReactJS) development experience\n* At least one year of TypeScript development experience\n* Strong communication skills\n* Able to help define our engineering culture, choosing our shared tools, and help us build a world-class team\n* Hard-working, self-driven, and excited to work on impactful projects in a fast-moving environment\n\n**Benefits**\n* Hybrid in Seattle, WA, or Los Angeles, CA\n* Medical, Dental, and Vision Insurance\n* 401k with Employer Matching\n* Equity in a Seed stage startup",
+                                        "id": "2952331",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710466305,
+                                        "liveStartAt": 1710282018,
+                                        "locationNames": [
+                                            "Los Angeles",
+                                            "Seattle"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "154141",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "full-stack-software-engineer",
+                                        "title": "Full-stack Software Engineer",
+                                        "compensation": "$70k \u2013 $90k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9193925",
+                                "startupId": "9193925",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "The first digital freight management and brokerage platform for Tug and Barge services",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Seattle",
+                                        "id": "1680"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9193925-792b5ade703dd3d5f57a6655ae2c2615-medium_jpg.jpg?buster=1667881328",
+                                "name": "OpenTug",
+                                "slug": "opentug",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Apply here-&gt; https://matroid.breezy.hr/p/83de2b9c9464-software-engineer-infrastructure?source=angellist\n\nAbout Matroid\n\nWith the rapid growth of artificial intelligence, expert knowledge must use cutting-edge machine learning techniques to solve real-world problems. At Matroid, we\u2019re building an intuitive product that allows anyone to train and deploy computer vision models without the need to write code.\n\nFounded in 2016 by a Stanford professor, Matroid has raised $33.5 million from NEA, Energize Ventures, and Intel Capital and has a broad range of customers and partners in manufacturing, industrial IoT, and security.\n\nWe\u2019re looking for a talented Software Engineer in Infrastructure to help develop the systems that powers Matroid\u2019s computer vision platform. Working alongside software and computer vision experts, you\u2019ll collaborate to solve problems, enable features and increase efficiency by building new shared services, systems, and tooling.\n\nYou\u2019ll be working onsite at our new office in downtown Palo Alto, located near the Stanford campus and a 5-minute walk from Caltrain.\n\n**What you\u2019ll be doing**\n\n* Developing new infrastructure on AWS and Kubernetes that is secure, reliable, and scalable\n* Coding up new capabilities for the systems that power our computer vision platform\n* Increasing efficiency across engineering with better libraries, tooling and automation\n* Applying modern best practices such as infrastructure-as-code and observability\n\n\n**How you\u2019ll be doing it**\n\n* You\u2019ll be working with modern technologies like Python, Kubernetes, Helm, and Prometheus\n* You\u2019ll be part of a world-class, multidisciplinary engineering team, where each member identifies and prioritizes valuable and interesting new features to work on\n* You will operate in a collaborative but highly autonomous environment that isn\u2019t bogged down by unnecessary meetings or project management\n* You will know that almost everything you build affects real-world users, and you will set the quality standards for your work appropriately\n* You will work collaboratively alongside software and computer vision experts to deploy new infrastructure solutions empowering Matroid features and capabilities\n* You will learn a lot along the way, diving into new technologies and the world of computer vision both on your own and during frequent company tech talks.\n\n\n**What you bring to the table**\n\n* Enthusiasm for working on infrastructure and backend systems\n* Strong Python coding skills\n* Expertise with Linux, and some of: Kubernetes, AWS, Docker, Helm\n* Bachelors in CS or equivalent\n* 2+ years experience developing software\n* Adept at communicating to both technical and commercial audiences\n* Willingness and eligibility for security clearance up to TS/SCI\n\n**Bonus points if...**\n\n* Work experience as a software engineer in backend infrastructure\n* Personal projects that demonstrate an interest/expertise in systems and/or infrastructure\n* Experience with: Kafka, Redis, gRPC, Prometheus, MongoDB, Nginx\n* Experience with DevOps, SRE and/or InfoSec\n* Familiarity with machine learning technologies, concepts and operation\n\n**What we offer in return**\n\n* Competitive pay and equity\n* The chance to constantly work on stimulating intellectual challenges\n* Gym membership reimbursement\n* Free lunch, healthy drinks, and snacks every day\n* Medical, dental, and vision insurance with 100% paid premiums\n* A flexible schedule that leaves time for all of your other interests\n* A budget for whatever hardware or software will make you most effective\n* Resources to learn about the cutting edge of software engineering and computer vision\n\n*Matroid is committed to creating a diverse work environment and is proud to be an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, religion, color, sex, gender identity, sexual orientation, age, non-disqualifying physical or mental disability, national origin, veteran status, or any other basis covered by appropriate law.*",
+                                        "id": "1868727",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711053698,
+                                        "liveStartAt": 1709578088,
+                                        "locationNames": [
+                                            "Palo Alto"
+                                        ],
+                                        "primaryRoleTitle": "Backend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "30194",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "software-engineer-infrastructure",
+                                        "title": "Software Engineer, Infrastructure",
+                                        "compensation": "$140k \u2013 $160k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "1024870",
+                                "startupId": "1024870",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-1024870",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/19163-40b4beea1245cd9262307cd16d9e2e93-medium_jpg.jpg?buster=1486058339",
+                                        "id": "TOP_TIER_INVESTOR-1024870",
+                                        "label": "Same investor as Uber",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "New Enterprise Associates (NEA) invested in both Matroid and Uber"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Computer Vision Made Simple",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Palo Alto",
+                                        "id": "1694"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/1024870-0f10923c4f88b37247d15f81e03ae447-medium_jpg.jpg?buster=1455937682",
+                                "name": "Matroid",
+                                "slug": "matroid",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### **Your day-to-day:**\n\n- Develop new features and software improvements\n- Test, deploy and debug backend API services\n- Write clear, tested, documented code that delivers real business value\n- Create and review technical design, code, and documentation\n- Contribute to Wynd\u2019s infrastructure which includes desktop and server-side applications\n\n### What Experience You Need\n\n- BS or MS degree in a STEM major or equivalent job experience required\n- 2+ years experience in software development and writing very high quality code that is robust and easy to maintain\n- 2+ years experience in network engineering\n- Knowledge and experience in identifying and solving issues with intricate, live software systems, as well as in-depth familiarity with contemporary software development processes such as continuous integration and continuous deployment.\n- Professional or native English language proficiency\n\n**Technical Requirements:**\n\nGolang, Python, PostgreSQL, Redis, Typescript, NoSQL",
+                                        "id": "2536110",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710884358,
+                                        "liveStartAt": 1710775975,
+                                        "locationNames": [
+                                            "Toronto"
+                                        ],
+                                        "primaryRoleTitle": "Backend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "81075",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "software-engineer-backend",
+                                        "title": "Software Engineer (Backend)",
+                                        "compensation": "$80k \u2013 $160k \u2022 0.2% \u2013 2.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.2% \u2013 2.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9294011",
+                                "startupId": "9294011",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-9294011",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "RECENTLY_FUNDED",
+                                        "label": "Recently funded",
+                                        "name": "RECENTLY_FUNDED_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Raised funding in the past six months"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Making AI Data Accessible.  Building a suite of products powered by Grass",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Toronto",
+                                        "id": "1702"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9294011-995578210f6f046ba4d20697c49a34c8-medium_jpg.jpg?buster=1709661090",
+                                "name": "Wynd Labs",
+                                "slug": "wynd-labs",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Gridspace is looking for an IT Security Lead to manage compliance and security operations. The candidate should be organized, thorough, and have a strong technical background in IT, systems administration, and/or network engineering. Most importantly, candidates should have a desire to work with a world-class engineering team to secure massively scaled cloud services. \n\nTechnical responsibilities will include:\n\n* IT security\n* Become the primary security expert for multiple product lines, and act as the point of contact for engineering and security.\n* Support engineering with implementing security fixes, ensuring security scanners are utilized correctly, and develop strategies to proactively secure the architecture. \n* Help to automate common security tasks and patterns.\n* Research and analyze the latest capabilities of specific Information Security (e.g. Cloud services, encryption, PKI etc.) and IT technologies (e.g. operating systems, networks, storage, virtualization etc.).\n* Manage the IT infrastructure including endpoint management, single sign-on, anti-malware, event notifications, etc.\n* Assist co-workers in maintaining security of their devices and processes.\n \n\nOperational responsibilities will include:\n\n* Familiarize yourself with common private sector security standards including PCI, HITRUST, and SOC2.\n* Act as the primary contact with all security compliance audits and client due diligence questionnaires.\n* Work directly with partner teams to understand our corporate infrastructure and business operations solutions and serve as subject matter expert to identify key risks to our security posture.\n* Create threat models for both external and insider threats that directly influence designs, risk tolerance, and roadmaps.\n* Maintain the schedule of daily, weekly, monthly, and annual compliance related tasks.\n* Lead the physical security efforts of Gridspace assets and properties.\n* Run company-wide phishing tests, security awareness training, and regular status meetings with management.\n* Manage and evaluate third party services and vendors.\n \n\nYou have:\n\n* Strong technical aptitude with project management skills, capable of learning emerging products and creating plans to support the business\n* Experience with GCP, Kubernetes, or distributed cloud-based environments\n* Experience working in a high security and/or highly regulated industry. We would love to have you take the essentials of what you\u2019ve learned and apply them to the unique challenges Gridspace faces\n* Experience securing large Python codebases is a plus\n* Experience managing a SIEM such as SumoLogic\n* Experience with endpoint management and security such as JumpCloud and Crowdstrike Falcon is a plus\n* Experience with performing or managing network and application penetration tests\n* Experience achieving PCI, HITRUST, SOC2, or FedRAMP certifications are a plus\n* Experience with managing outside vendors and customer relationships is a plus\n* Military experience is a strong plus",
+                                        "id": "2848749",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709668081,
+                                        "liveStartAt": 1709742833,
+                                        "locationNames": [
+                                            "Los Angeles"
+                                        ],
+                                        "primaryRoleTitle": "Security Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "136598",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "it-security-lead",
+                                        "title": "IT Security Lead",
+                                        "compensation": "$100k \u2013 $130k \u2022 0.005% \u2013 0.01%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.005% \u2013 0.01%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Gridspace is looking for a Security Lead to manage compliance and security operations. The candidate should be organized, thorough, and have a strong technical background in IT, systems administration, and/or network engineering. Most importantly, candidates should have a desire to work with a world-class engineering team to secure massively scaled cloud services. \n\nTechnical responsibilities will include:\n\n* Become the primary security expert for multiple product lines, and act as the point of contact for engineering and security.\n* Support engineering with implementing security fixes, ensuring security scanners are utilized correctly, and develop strategies to proactively secure the architecture. \n* Help to automate common security tasks and patterns.\n* Research and analyze the latest capabilities of specific Information Security (e.g. Cloud services, encryption, PKI etc.) and IT technologies (e.g. operating systems, networks, storage, virtualization etc.).\n* Manage the IT infrastructure including endpoint management, single sign-on, anti-malware, event notifications, etc.\n* Assist co-workers in maintaining security of their devices and processes.\n \n\nOperational responsibilities will include:\n\n* Familiarize yourself with common private sector security standards including PCI, HITRUST, and SOC2.\n* Act as the primary contact with all security compliance audits and client due diligence questionnaires.\n* Work directly with partner teams to understand our corporate infrastructure and business operations solutions and serve as subject matter expert to identify key risks to our security posture.\n* Create threat models for both external and insider threats that directly influence designs, risk tolerance, and roadmaps.\n* Maintain the schedule of daily, weekly, monthly, and annual compliance related tasks.\n* Lead the physical security efforts of Gridspace assets and properties.\n* Run company-wide phishing tests, security awareness training, and regular status meetings with management.\n* Manage and evaluate third party services and vendors.\n \n\nYou have:\n\n* Strong technical aptitude with project management skills, capable of learning emerging products and creating plans to support the business\n* Experience with GCP, Kubernetes, or distributed cloud-based environments\n* Experience working in a high security and/or highly regulated industry. We would love to have you take the essentials of what you\u2019ve learned and apply them to the unique challenges Gridspace faces\n* Experience securing large Python codebases is a plus\n* Experience managing a SIEM such as SumoLogic\n* Experience with endpoint management and security such as JumpCloud and Crowdstrike Falcon is a plus\n* Experience with performing or managing network and application penetration tests\n* Experience achieving PCI, HITRUST, SOC2, or FedRAMP certifications are a plus\n* Experience with managing outside vendors and customer relationships is a plus\n* Military experience is a strong plus",
+                                        "id": "2056974",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709929168,
+                                        "liveStartAt": 1708830113,
+                                        "locationNames": [
+                                            "Los Angeles"
+                                        ],
+                                        "primaryRoleTitle": "Security Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "34169",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "director-of-security",
+                                        "title": "Director of Security",
+                                        "compensation": "$100k \u2013 $130k \u2022 0.005% \u2013 0.01%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.005% \u2013 0.01%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Gridspace is looking for a DevOps Security Analyst to manage compliance and security operations. The candidate should be organized, thorough, and have a strong technical background in IT, systems administration, and/or network engineering. Most importantly, candidates should have a desire to work with a world-class engineering team to secure massively scaled cloud services. \n\nTechnical responsibilities will include:\n\n* Standard DevOps best practices\n* Become the primary security expert for multiple product lines, and act as the point of contact for engineering and security.\n* Support engineering with implementing security fixes, ensuring security scanners are utilized correctly, and develop strategies to proactively secure the architecture. \n* Help to automate common security tasks and patterns.\n* Research and analyze the latest capabilities of specific Information Security (e.g. Cloud services, encryption, PKI etc.) and IT technologies (e.g. operating systems, networks, storage, virtualization etc.).\n* Manage the IT infrastructure including endpoint management, single sign-on, anti-malware, event notifications, etc.\n* Assist co-workers in maintaining security of their devices and processes.\n \n\nOperational responsibilities will include:\n\n* Familiarize yourself with common private sector security standards including PCI, HITRUST, and SOC2.\n* Act as the primary contact with all security compliance audits and client due diligence questionnaires.\n* Work directly with partner teams to understand our corporate infrastructure and business operations solutions and serve as subject matter expert to identify key risks to our security posture.\n* Create threat models for both external and insider threats that directly influence designs, risk tolerance, and roadmaps.\n* Maintain the schedule of daily, weekly, monthly, and annual compliance related tasks.\n* Lead the physical security efforts of Gridspace assets and properties.\n* Run company-wide phishing tests, security awareness training, and regular status meetings with management.\n* Manage and evaluate third party services and vendors.\n \n\nYou have:\n\n* Strong technical aptitude with project management skills, capable of learning emerging products and creating plans to support the business\n* Experience with GCP, Kubernetes, or distributed cloud-based environments\n* Experience working in a high security and/or highly regulated industry. We would love to have you take the essentials of what you\u2019ve learned and apply them to the unique challenges Gridspace faces\n* Experience securing large Python codebases is a plus\n* Experience managing a SIEM such as SumoLogic\n* Experience with endpoint management and security such as JumpCloud and Crowdstrike Falcon is a plus\n* Experience with performing or managing network and application penetration tests\n* Experience achieving PCI, HITRUST, SOC2, or FedRAMP certifications are a plus\n* Experience with managing outside vendors and customer relationships is a plus\n* Military experience is a strong plus",
+                                        "id": "2848739",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710820041,
+                                        "liveStartAt": 1707759300,
+                                        "locationNames": [
+                                            "Los Angeles"
+                                        ],
+                                        "primaryRoleTitle": "Security Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "136595",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "devops-security-analyst",
+                                        "title": "DevOps Security Analyst",
+                                        "compensation": "$100k \u2013 $130k \u2022 0.005% \u2013 0.01%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.005% \u2013 0.01%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "523636",
+                                "startupId": "523636",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "State of the art voice technology and automation for customers, patients, and call centers",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/523636-8ca98db90c0b0c48665b4aa67f977e5f-medium_jpg.jpg?buster=1589304967",
+                                "name": "Gridspace",
+                                "slug": "gridspace",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**\ud83c\udfa8 Opus is the world's No.1 AI video agent for social media.**\n\nBacked by DCM, Fellows Fund, AI Grant, and many other institutional investors, we are building a fully distributed global team and a universal product. As one of the world's fastestgrowing AI startups, we have 3+ million of users in just over 5 months after the launch.\n\n**More information:** https://www.linkedin.com/company/opusclip\n\n**Try the product**: https://www.opus.pro\n\n**Company core values:** Competitive innovation &amp; Relentless Execution\n\nOur engineering culture is centered around several core values\n\n* Customer obsession. We go through UX feedback and bugs from our users daily, and continuously prioritize and address them within as soon as 2 days.\n \n* Debriefing. We value the radical, transparent debriefing culture of a battlewise army to learn and grow from previous projects.\n \n* Over communication. We encourage everyone to over share key updates and risks as we believe that key information is easily lost during meetings and conversations in a globalized team.\n\n* Craftsmanship. We improve craftsmanship together through shared learnings such as Clean Code, Agile Principles and AI sharing. Our tech stack: GCP, Typescript, Python, Redis/MongoDB/Cloud Storage, Kubernetes, lots of AI models\n\n**\ud83d\udcdd Your Responsibilities**\n\n* Design, execute, and maintain core metrics for company level OKRs, ensuring their observability, effective communication, and ongoing enhancement.\n\n* Take on the role of a hands-on engineering leader, owning tech scoping, architectural design, and leading AI-centric initiatives. Direct and mentor junior engineers in deploying enhancements to the primary product.\n \n* Areas of focuses such as: transcription, content curation, and video comprehension.\n \n* Collaborate with product teams, marketers, data analysts, and other engineering teams to execute highly cross functional and time sensitive projects.\n \n* Lead and manage our backend services, which include finely-tuned models running on CPU/GPU clusters, by addressing project infrastructure requirements and collaborating with customer-facing teams to boost reliability, performance, and cost efficiency.\n\n* These models include Automatic Speech Recognition, active event detection, salient object identification, detection of background or filler words, among other leading-edge AI/CV technologies.\n \n* Aid internal AI research and product teams in refining the prompt/model iteration process and in bringing models to market to support demonstrations and official product launches.\n \n**\ud83d\udcdd Qualifications**\n\n* 3-8 years of proven experience managing backend services at scale, with a track record of either developing complex services from the ground up or significantly enhancing existing ones.\n \n* A strong entrepreneurial spirit or experience in a rapidly growing startup.\n \n* A deep understanding of distributed systems, operating systems, networking, and both batch and stream processing, with a keen interest in enhancing reliability, performance, observability, and cost management.\n \n* Availability to work remotely with senior engineers across the Asia time zone, including periodic evening meetings, and willingness to work on-site following the establishment of a local office.\n\n**\ud83d\udcdd Preferred Experiences.**\n\n* Comfortable collaborating with engineers from diverse cultures and time zones.\n \n* Proficiency in computer vision, prompt iterations, and fine-tuning of models (audio, video, large language).\n \n* Previous leadership experience in engineering projects.\n \n* Contributions to open-source projects.\n \n* Having full stack experiences is a plus\n \n**\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udffe Our offering**\n\n* Competitive salary\n \n* Stock equity for senior candidates\n\n* 10 days of PTO per year",
+                                        "id": "2927185",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708285392,
+                                        "liveStartAt": 1707943231,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "149929",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "senior-staff-software-engineer-ai-core-product",
+                                        "title": "Senior / Staff Software Engineer - AI Core Product",
+                                        "compensation": "$170k \u2013 $200k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8844063",
+                                "startupId": "8844063",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "OpusClip is the world's No.1 AI video agent for social media",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Redwood City",
+                                        "id": "2161"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8844063-3a9f5c2b69f8878afa1f6d031757db2f-medium_jpg.jpg?buster=1682574225",
+                                "name": "OpusClip",
+                                "slug": "immersiveopus",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": "AtsIntegration::Lever::Listing",
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "About Nominal \n\nNominal is a venture-backed company with offices in Los Angeles, Austin, and New York City that specializes in software and data management products for organizations that are testing and validating complex physical systems (like drones, planes, rockets, engines, satellites, nuclear reactors, etc.). We are backed by prolific and experienced venture capital firms like Founders Fund, Lux Capital, XYZ, Haystack, Human Capital, BoxGroup, etc., and have raised significant venture funding with strong early traction in both commercial aerospace as well as defense applications with the Department of Defense (DoD).\n\nThe Nominal team comes from commercial companies like SpaceX, Palantir, Anduril, Lockheed Martin, and NASA and is active amongst customers in aerospace, defense, industrial, and advanced energy applications (autonomous aviation, eVTOL/VTOL, flight testing, satellite development, etc.). We are also building and delivering solutions to the United States Air Force (USAF) who are looking to expand use cases across the broader DoD test community.\n\nOur product is a data visualization and computation platform designed to\u00a0accelerate how engineering teams test and validate\u00a0hardware systems. We specifically aim to shorten the data review process after running tests and helping engineering organizations scale testing campaigns more efficiently and effectively to save time and lower costs. It works by combining heterogeneous data into\u00a0runs\u00a0and allowing users to easily build custom visualization and analysis. Users write test logic with interactive computation, and these\u00a0checks\u00a0can be applied to historical and future runs to compound learnings. Data sources can include telemetry, sensor data, logs, simulations, and other testing metadata like environment, vehicle, part, version, etc.\n\nAs a Software Engineer at Nominal, you will be responsible for architecting and building end-to-end features and tooling, deploying them to users, and ensuring they meet user needs with a delightful UX and performance.\n\n\n\ud83d\ude80 About the role \n- Innovate at the cutting edge of data infrastructure, considering high frequency, high volume, streaming data with transformation and alerting capabilities\n- Design and build scalable APIs to power a low-friction user experience while fetching and transforming massive volumes of data\n- Help grow the team by sourcing, interviewing, and onboarding new engineers\n\n\n\ud83d\ude4c We\u2019d love to hear from you if you have \n- Experience developing and deploying infrastructure for high-scale- distributed systems or complex internal tools\n- Excitement to be a foundational member of the early team building software tools to amplify the capabilities of remarkable hardware engineering teams\n- Interest in occasionally traveling to spend time with end-users on-site (e.g. rocket test stands, spacecraft clean rooms, automated manufacturing facilities)\n\n\n\u26a1 Skills that supercharge us \n- **Relevant data technologies**: Apache Arrow, DataFusion, Flink, Beam, Kafka, D3.js, Superset, DuckDB, Plotly.js, TimescaleDB, QuestDB, Druid, Parquet, InfluxDB\n- **Modern technologies**: Typescript, Next.js, tRPC, Java, Wasm, WebGL, ZeroMQ, serverless functions, React, Postgres\n- **DevOps tools and infrastructure**: AWS, K8s, EKS, Helm, FluxCD\n\n\n\u2728  Benefits/Perks\n- Medical, dental, and vision insurance with 100% of premiums covered\n- Unlimited PTO /sick leave\n- Free lunch, snacks, and coffee\n- Learning stipend\n- Quarterly company retreats\n\n\nDon\u2019t meet every single requirement? If you\u2019re excited about this role but your past experience doesn\u2019t align perfectly with every qualification in the job description, we encourage you to apply anyway! \n",
+                                        "id": "2877399",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1707442360,
+                                        "liveStartAt": 1702942597,
+                                        "locationNames": [
+                                            "Los Angeles"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "141716",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer",
+                                        "title": "Software Engineer",
+                                        "compensation": "$120k \u2013 $180k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9924853",
+                                "startupId": "9924853",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "GROWING_FAST-9924853",
+                                        "label": "Growing fast",
+                                        "name": "GROWING_FAST_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Showed strong hiring growth in the past month"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/32677-b873be4bf180abbcdad149b584b7e66f-medium_jpg.jpg?buster=1589637282",
+                                        "id": "TOP_TIER_INVESTOR-9924853",
+                                        "label": "Same investor as Airbnb",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Founders Fund invested in both Nominal and Airbnb"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Continuous Validation for industrials. Test and deploy your complex hardware system 10x faster",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Austin",
+                                        "id": "1617"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York City",
+                                        "id": "1664"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9924853-ac0b7d1760eef9e5208b5c856044e173-medium_jpg.jpg?buster=1702940046",
+                                "name": "Nominal",
+                                "slug": "nominal-2",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": "AtsIntegration::Ashby::Listing",
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "We're looking for a software engineer to join us on our mission to build AI superpowers for developers.\n\n## **About Codeium**\n\nIn just over a year, Codeium has risen to become a leader in the AI developer tools space, giving hundreds of thousands of users around the world code autocomplete, in-editor chat assistants, and search. Our IDE extensions span 70+ programming languages and 40+ editors. Our state-of-the-art proprietary language models and custom inference stack allow us to deliver the best experience possible to our users. We've achieved substantial revenue and enterprise traction as proof of the quality and usefulness of our tools.\n\nWe're a small but experienced team that ships relentlessly. We welcome feedback to improve both our product and ourselves. We work hard, and we operate with a high degree of trust, agency, and ownership.\n\n## Challenges\n\n- How do we develop a code generation and editing system capable of solving many everyday developer tasks?\n\n- What's the next big interface after autocomplete and chat for interacting with AI?\n\n- How do we maintain reliability and scalability of our service across a wide range of IDEs, platforms, hardware, and programming languages?\n\n## What we're looking for\n\n(There are no hard requirements, as long as you can demonstrate you'll be able to write a lot of good code.)\n\n- Ability to learn and become an expert quickly.\n\n- A team player.\n\n- A self-starter. Hunger to dream up, plan, and execute tasks independently.\n\n- Ability to work across the stack (frontend, backend, IDE extensions, ML, infra, data).\n\n- Previous experience working with AI/ML, distributed systems, HPC, and systems/infrastructure is a plus.\n\n- Familiarity with AI-powered developer tools like Codeium, Copilot, ChatGPT, and others is a strong plus.\n\n## What we believe\n\n- Our best work is done in person. The team goes in 5 days a week into our office in [**_downtown Mountain View, CA_**](https://maps.app.goo.gl/Q4DxMPr4vtFnkwEK8) (within walking distance of the Caltrain station).\n\n- Research is in service of a better product. While we read many papers, we won't have time to write them. The best AI researchers have excellent software engineering skills and know that infrastructure and evaluation work are critical.\n\n## Recent projects\n\nSome of the things that our engineers have worked on recently:\n\n- Regularly deploying an [**_autocomplete and chat product_**](https://marketplace.visualstudio.com/items?itemName=Codeium.codeium) that scales to hundreds of thousands of daily active users.\n\n- [**_Codeium Live_**](https://codeium.com/blog/codeium-live): Chat in your browser with popular repositories.\n\n- An internal Kubernetes-native data processing framework to handle petabytes of data across thousands of spot CPUs.\n\n- A code attribution service for customers who want to ensure any generated code is licensed properly.\n\n- Instruction and edit fine-tuned models for [**_Codeium Command._**](https://codeium.com/blog/codeium-command-launch-announcement)\n\n- Model inference performance optimization using Nvidia CUTLASS, CUDA C++, and PTX assembly language.\n\n- Remote parsing, embedding, and indexing of users' codebases.\n\n",
+                                        "id": "2889954",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711448248,
+                                        "liveStartAt": 1704759568,
+                                        "locationNames": [
+                                            "Mountain View"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "144037",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "software-engineer",
+                                        "title": "Software Engineer",
+                                        "compensation": "$140k \u2013 $220k \u2022 0.0% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9945876",
+                                "startupId": "9945876",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    },
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/32677-b873be4bf180abbcdad149b584b7e66f-medium_jpg.jpg?buster=1589637282",
+                                        "id": "TOP_TIER_INVESTOR-9945876",
+                                        "label": "Same investor as Airbnb",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Founders Fund invested in both Codeium and Airbnb"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "AI tools for developers",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Mountain View",
+                                        "id": "1701"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9945876-7e9b78c45f94c2880f3fdb96fa04b1e8-medium_jpg.jpg?buster=1704759148",
+                                "name": "Codeium",
+                                "slug": "codeium-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### **What We Do** \ud83d\ude80\n\nStealth. Our mission is to empower ambitious industrial companies, and America\u2019s most critical workforce\u2014the dedicated machine operators, machinists, welders, and more\u2014who make the cars, rockets, planes, and everyday physical products we rely on. There\u2019s a huge labor inefficiency in our industrial economy. Companies like Ford, Boeing, and SpaceX are losing billions of dollars due to labor shortages caused by outdated staffing agencies that run on back office and tedious manual processes.\n\nWe have an opportunity to modernize and streamline this $500B global market and change how our critical workers get hired. **We\u2019re already piloting with Fortune 500 Manufacturers.** \n\nWe\u2019re well funded and proud to be backed by world-class investors who have operated and invested in generational internet companies like Airbnb, Instacart, eBay, LinkedIn, Facebook, Workday, and more.\n\nIt\u2019s day 0 and almost all of the work lies ahead of us; if that excites you apply!\n\n## **Founding team  \ud83e\udde0**\n\nOur team is small and talent-dense. We\u2019re former founders, engineers, and researchers. Between us, we\u2019ve spent time at Stanford, [HAI](https://hai.stanford.edu/), Microsoft\u2019s Open AI team, Zoox (self-driving), National Labs, and several other startups (Series A and above). We also spent some time in hardware and manufacturing, so we know a thing or two about who we\u2019re building software for :)\n\n### **Role Summary** \ud83d\udcbc\n\nWe are a stealth company looking for a full-stack engineer to join the founding team to help build our core product. You will have very high autonomy in designing, executing, and iterating on our product. We are a startup, and we move fast. You will be the world\u2019s leading expert on what you build. We look for world-class engineers who have both a vision for the product and the ability to go heads down and write exceptional code.\n\n### **About You** \ud83d\udee0\ufe0f\n\n- **You\u2019re a good person.** We\u2019re believers in the \u201c[No Asshole Rule](https://www.amazon.com/Asshole-Rule-Civilized-Workplace-Surviving/dp/0446698202)\u201d. At the end of the day, we\u2019re all people, and we value good people above all else.\n- **You\u2019re an owner.** You will be a part of the founding team and will shape the product and company. We\u2019re looking for people with high agency and urgency, that will take on building the product as their \u201cbaby\u201d. To you, it\u2019s not just about clocking in, completing tasks, or fixing bugs, it\u2019s about thinking about the product as a whole \u2013 today, tomorrow, and decades from now.\n- **You embody a growth mindset**. We are a startup. We\u2019re building from the ground up, and we\u2019ll earn every user and customer. There\u2019s a lot of uncertainty and ambiguity. We will make mistakes. We\u2019re looking for people who are continuous learners, optimists, are open-minded, compound themselves, and believe they can get 1% better every day.\n- **You value communication and collaboration**. A team or company\u2019s success depends on how well it communicates. We\u2019re looking for people who recognize the importance of clear and timely communication, documentation, and transparent, frequent feedback.\n- **You\u2019re a builder and care about what you\u2019ve built**. You have built products from 0 to 1. You love a challenge and are ready to roll up your sleeves. Building and designing performant, scalable applications is your specialty. Every detail matters \u2013 from the tiniest pixel to the overarching design choices, the atomic user experience, and more.\n\n### **Our Tech Stack** \ud83e\udd16\n\nFrontend: JavaScript, React.JS, Netlify, experience using Redwood.JS\n\nBackend: JavaScript/Typescript, Python\n\nGraphQL, Prisma\n\nDatabases: PostgreSQL, Supabase, other vector databases\n\nOther: We\u2019re also leveraging other APIs, LLMs, and tools as part of our AI product strategy. We have a serverless architecture.\n\n### **What You Will Do** \ud83d\ude03\n\n- Lead the development of our web &amp; mobile applications, guiding other engineers as needed\n- Establish best practices in code reusability + build processes for our frontend &amp; backend\n- Collaborate with product &amp; design to build a best-in-class user experience\n- Build analytics &amp; monitoring to help understand our user experience &amp; application health\n- Contribute in a ton of other ways to a scrappy founding team building the future of work!\n\n### **What You Bring** \u2705\n\n- You have 2+ years of experience with exposure to both frontend + backend development. Internships / Projects are most welcome. Please reference our tech stack.\n- BS/MS in Computer Science or related field (preferred but not mandatory)\n- Proven history of delivering exceptional products\n- Exceptional attention to detail, striving for pixel-perfect outcomes\n- Experience with API development and usage\n- Background in early-stage engineering environments, comfortable with ambiguity, and proactive\n- Genuine passion for connecting people with meaningful employment opportunities\n\n### **What We Offer** \ud83d\udcb8\u00a0\ud83c\udfe5\n\n- Competitive salary and meaningful early equity. Actual pay is determined by multiple factors such as skills, qualifications, experience, and market demand.\n- Full health/vision/dental coverage\n- Monthly Meal stipend\n- An opportunity to build a massive company as part of the founding team\n- Unlimited PTO\n\n### How to Apply\n\nApply on this [form](https://tally.so/r/n9Wq9p)",
+                                        "id": "2953654",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710699291,
+                                        "liveStartAt": 1710371742,
+                                        "locationNames": [
+                                            "San Francisco",
+                                            "San Francisco Bay Area"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "154362",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "founding-engineer-full-stack",
+                                        "title": "Founding Engineer (Full Stack)",
+                                        "compensation": "$100k \u2013 $150k \u2022 1.0% \u2013 1.5%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "1.0% \u2013 1.5%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10015182",
+                                "startupId": "10015182",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "AI-powered talent marketplace for industrial labor",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco Bay Area",
+                                        "id": "151282"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10015182-958f46db2539bcf9e6eb97409a16b713-medium_jpg.jpg?buster=1709163542",
+                                "name": "Stealth",
+                                "slug": "stealth-248",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### We are building the future of caregiving.\n\n### **The Role**\nWe\u2019re looking for an entrepreneurial founding engineer (full-stack) to help build our core product to **transform the caregiving industry**. \n\nYou\u2019ll partner with our CEO to help provide key input on the product roadmap, own product devisions, build our foundational tech platform, and more.\n\nYou will:\n\n- Write and ship high quality, performant code for our web-based caregiver and employer products.\n- Architect and document our platform while advising key product and infrastructure decisions.\n- Closely collaborate with our founding team across go-to-market, operations, customer support, and more.\n- Flex between frontend, backend, product, and more among a scrappy founding team.\n\n### **Requirements**\nWe are looking for killer engineers with a high empathy for caregiving.\n\n- 1-3+ years of experience shipping and iterating code in a professional or personal projects.\n- Experience building from scratch with little to no guidance.\n- Experience with Javascript, React, Python, but more importantly, able to build and learn fast.\n- Experience with API development, SQL, devops, CI/CD.\n- High empathy for caregivers and families who need care.\n- Insane intensity and curiosity across everything you do.\n\n\n### **About Us**\nOur mission is to transform how families receive care by putting caregivers at the center.\n\nCaregiving is a $290B market that impacts nearly every person at some point in their life. We need to fill 7.8M caregiver job openings by 2026 to care for the 55M+ older adults in the US. We have the opportunity to completely reinvent the caregiving industry.\n\nWe are creating the leading talent marketplace for caregivers to find their next job and manage their career. We connect caregivers of older and disabled adults with the best job opportunities and provide the core career platform for caregivers to increase their earning potential, upskill, and optimize care for the exponentially growing population of older and disabled adults.\n\nWe recently closed our Seed round, backed by leading investors and founders.\n\nThe future of caregiving is coming.\n\n### **Our Core Values**\n1. **Olympian\u2019s Work Ethic**: We bend the structures to transform health care. We work harder, longer, **and** smarter.\n2. **Bias for Action**: We have to shoot game shots to make game shots. From facing seemingly impossible challenges to an individual day\u2019s work, we are always biased for action. We do the thing.\n3. **No Ego:** Everyone takes out the trash, metaphorically and literally. Everything we do is to move the company forward.\n4. **Customer Obsession**: Caregivers are the heart of our company. We do everything to make their experience phenomenal. As a result, we deliver the best care to Families and Employer partners.\n\n### **Our Commitment to You**\n- **Competitive Compensation**: We only hire the top 0.1% of talent and offer the compensation package to match. We offer competitive medical, vision, and dental.\n- **Company Equity**: We are all owners. When we succeed, we all benefit. We provide generous company equity.\n- **No Bullshit**: Nothing in your way to own your work. We are always honest with one another and act in the best interest of the company\u2019s success, not individual feelings.\n- **Exponential Growth**: Growth drives everything, including careers. Everyone receives mentorship from our team investors, and advisors. You will have endless opportunities to drive incredible impact, flex diverse skillsets, and scale your career trajectory.\n- **Elite Team**: Our team is composed of elite performers. We elevate and 10x each other to drive the greatest impact.",
+                                        "id": "2962191",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1711409859,
+                                        "liveStartAt": 1711162855,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": true,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "155816",
+                                            "kind": "ONSITE_OR_REMOTE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "founding-engineer-full-stack",
+                                        "title": "Founding Engineer (Full-Stack)",
+                                        "compensation": "$100k \u2013 $150k \u2022 1.0% \u2013 2.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "1.0% \u2013 2.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10046263",
+                                "startupId": "10046263",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Building the future of caregiving",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10046263-40aa87eb6088918eae96c23d67647cea-medium_jpg.jpg?buster=1711162663",
+                                "name": "Stealth Caregiving Company",
+                                "slug": "stealth-caregiving-company",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        }
+                    ]
+                },
+                "totalStartupCount": 56
+            }
+        }
+    },
+    "schemaVersion": 2
+}

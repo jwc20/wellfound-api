@@ -17,6 +17,10 @@
 - [ ] Implement proxy server when logging in
 
 
+- [ ] Store response data in namedtuples
+    - this will make it easier to look up
+    - store later in mssql database
+
 &nbsp;
 
 - [ ] Implement Proxy Support (?)

@@ -1,0 +1,810 @@
+{
+    "data": {
+        "talent": {
+            "__typename": "Talent",
+            "jobSearchResults": {
+                "__typename": "SearchResult",
+                "hasNextPage": true,
+                "rawQuery": null,
+                "startups": {
+                    "__typename": "StartupSearchResultConnection",
+                    "edges": [
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### About Hamilton AI\n\nWe are on a mission to build the premier operating system for private aviation. Beginning with a comprehensive productivity suite tailored for private aviation charter brokers and operators, we are transforming how charters are sourced, trips are managed, payments are processed, and trip progress is tracked. Despite being a market valued at over $30 billion annually, private charter operations are currently run with technology that lags two decades behind. Hamilton AI is set to change that by leveraging cutting-edge technology and user-centered design.\n\n### What You'll Be Working On\n\n- Enhancing our artificial intelligence assistant's user interface, ensuring seamless interaction across the application, including the marketplace, trip management, payments, and more.\n- Leading the development and refinement of our web application's front-end, focusing on trip management and streamlined request generation.\n- Collaborating closely with backend developers to integrate real-time global aircraft availability and live airplane transponder data into our user-facing features.\n- Utilizing advanced machine learning insights to inform UI/UX decisions, particularly for features forecasting pricing and market depth by route and aircraft type.\n- Implementing and improving payment solution integrations within the application to offer a frictionless user payment experience.\n- Incorporating AI-driven suggestions into the application's UI to enhance user experience across our technology stack.\n\n### What We're Looking For\n\n- Hamilton AI is assembling its initial technology team, comprising four engineers specialized in backend, frontend, full-stack development, and one UX/UI engineer, with a current focus on expanding our front-end development capabilities.\n- We are seeking a Front-End Engineer who is enthusiastic about startups and eager to contribute to the foundational engineering team.\n- Ideal candidates will have a robust portfolio demonstrating proficiency in front-end development, with a deep understanding of user experience design, performance optimization, and cross-platform development.\n- Expertise in modern front-end technologies and frameworks, particularly ReactJS, is essential.\n- A passion for developing intuitive, responsive, and visually appealing web applications.\n- The ability to work closely with UX/UI designers and translate design concepts into functional and dynamic user interfaces.\n- Excellent communication skills to effectively collaborate with team members across different disciplines.\n\n### Minimum Requirements\n\n- A degree in computer science or a related field.\n- 2-4 years of relevant experience in front-end development.\n- Profound understanding of front-end technologies, including HTML5, CSS3, JavaScript/ES6.\n- Extensive experience with ReactJS or similar modern front-end frameworks (e.g., Vue.js, Angular).\n- Experience with responsive and adaptive design principles.\n\n### Additional Pluses\n\n- 4-6+ years of relevant work experience in front-end development.\n- Experience leading or mentoring junior front-end developers.\n- Experience in working closely with the product side of a business to translate business requirements into technical solutions.\n- Knowledge of web performance optimization techniques.\n- Familiarity with front-end testing frameworks and methodologies.\n- Experience with additional front-end technologies such as TypeScript, Sass/Less, Webpack, and Babel.\n- Experience integrating with RESTful APIs and understanding of backend technologies.",
+                                        "id": "2932290",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709682792,
+                                        "liveStartAt": 1708478301,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Frontend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "150792",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "front-end-engineer",
+                                        "title": "Front-end Engineer",
+                                        "compensation": "$120k \u2013 $140k \u2022 0.5% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About Hamilton AI**\nWe are on a mission to build the premier operating system for private aviation. Beginning with a comprehensive productivity suite tailored for private aviation charter brokers and operators, we are transforming the way charters are sourced, trips are managed, payments are processed, and trip progress is tracked. Despite being a market valued at over $30 billion annually, private charter operations are currently run with technology that lags two decades behind. Hamilton AI is set to change that.\n\n\n**What You'll Be Working On**\n- Enhancing our artificial intelligence assistant, which interacts with every component of our application, including the marketplace, trip management, payments, and more.\n- Developing and refining our web application for efficient trip management and streamlined request generation.\n- Integrating with flight management systems for real-time global aircraft availability.\n- Leveraging live airplane transponder data to predict aircraft availability accurately.\n- Advancing our machine learning algorithms to accurately forecast pricing and market depth by route and aircraft type.\n- Implementing payment solutions that offer a frictionless payment experience.\n- Incorporating AI-driven suggestions throughout our technology stack to optimize operations.\n\n**What We're Looking For**\n- Hamilton AI is assembling its initial technology team, comprising four engineers specialized in backend, frontend, full-stack development, and one UX/UI engineer.\n- We are seeking candidates who are enthusiastic about startups and eager to be part of the foundational engineering team.\n- Ideal candidates will have experience in either a startup environment or a large tech company, with a comprehensive understanding of the technology stack, including databases, backend frameworks, services, and frontend technologies.\n- A passion for crafting simple, well-tested code that is both scalable and robust.\n- The ability to communicate technical concepts effectively to business stakeholders, product managers, and engineers.\n\n**Minimum Requirements**\n- A degree in computer science or a related field.\n- 2-4 years of relevant work experience.\n- Profound understanding of object-oriented programming.\n- Profound understanding of SQL databases.\n- Proficiency in at least one programming language, such as Python, Typescript, Java, or JavaScript.\n\n**Additional Pluses**\n- 4-6+ years of relevant work experience.\n- Experience in leading a team of engineers.\n- Experience collaborating closely with the product side of a business.\n- Knowledge of Large Language Models (LLMs), machine learning (ML) techniques.\n- Experience with Redis / Celery.",
+                                        "id": "2932289",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708631529,
+                                        "liveStartAt": 1708478134,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Backend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "150791",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "back-end-engineer",
+                                        "title": "Back-end Engineer",
+                                        "compensation": "$120k \u2013 $140k \u2022 0.5% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10001724",
+                                "startupId": "10001724",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "A marketplace and productivity tool for private aviation powered by AI",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10001724-8531afcb9f40ab4121fd5540eef30617-medium_jpg.jpg?buster=1708470561",
+                                "name": "Hamilton AI",
+                                "slug": "hamilton-ai",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Finch Computing - Full Stack Developer\n**Clearance Level: Top Secret w/Polygraph**\n\n**Skills Required**\nMust be a US Citizen\nMust have a TS/SCI with Full Scope Polygraph\nWilling to work onsite in Government customer sites in Northern Virgina\n\n\nFinch AI is a fast-growing, fast-paced software development organization; our mission is to build new ways of interacting with information. We do that by leveraging game-changing intellectual property, cloud infrastructure expertise, and a staff that is second to none. Together, we build and support products that address complex, real-time data and analytics needs in the enterprise.\n\nWe are looking for Full-Stack Developers for re-architecting the customer's mission-focused operational system. This includes web application, backend database and ingest capability for existing and new data providers. The majority of the legacy code is written in Java and will need to be updated, improved or rewritten in Python as we modernize and migrate to the cloud.\n\n**Responsibilities**\nModify Java-based applications and scripts to support new requirements.\nEvaluate and migrate legacy Java code to Python for backend processes.\nDevelop and integrate new capabilities in a Java-based web application, as well as develop a custom interface to compile and display metrics for the system and its users.\nCollaborate with system stakeholders to identify new capabilities and development timeline for implementation, triage issues and quickly develop system patches to minimize impact to customer workflows.\nSubmit monthly written summary reports of accomplishments.\n\n**Accepting:**\nJunior: 1-3 years of related experience with a Bachelor's degree; or a Master's degree without experience; or a PhD without experience; or equivalent work experience\nMid: T 3-7 years of related experience with a Bachelor's degree; or 1-5 years and a Master's degree; or a PhD without experience; or equivalent work experience\nSenior: 8-12 years of related experience with a Bachelor's degree; or 6-8 years and a Master's degree; or a PhD with 3-5 years experience; or equivalent experience\nMinimum 2 years of experience with software development\n\n**Preferred Skills:**\nProgramming experience with Java and Python programming\nExperience with Postgres SQL\nFamiliarity building front-end user interfaces using JavaScript\nFamiliarity building REST APIs with a back-end framework such as Django or Flask\nFunctional knowledge using version control with Git\nFunctional knowledge of various build tools (e.g., webpack, gradle, maven)\nExperience with building containerized microservices and web applications with Docker and Kubernetes\nExperience configuring and managing Elastic Stack components to include configuring and managing an Elasticsearch cluster, installing and configuring Logstash and other Beats data providers, and building visualizations and dashboards in Kibana.\nUnderstanding of Geospatial concepts and exposure to GIS technologies\nUnderstanding of imagery data, metadata ingest, processing, storage, and retrieval\nUnderstanding of Full Motion Video (FMV), metadata ingest, storage and display\nExperience building CI/CD pipelines with Jenkins or GitLab\nExperience with Amazon Web Services (AWS) and its core services (i.e., EC2, S3, SQS)\nExperience with NetApp storage and retrieval\n\nLocation: ONSITE, Washington, DC metro area in Virginia.",
+                                        "id": "2644153",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1705448092,
+                                        "liveStartAt": 1705685774,
+                                        "locationNames": [
+                                            "Virginia",
+                                            "Washington DC",
+                                            "Maryland"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "101050",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "top-secret-w-poly-full-stack-developer",
+                                        "title": "Top Secret w/Poly - Full Stack Developer",
+                                        "compensation": "$120k \u2013 $200k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9418748",
+                                "startupId": "9418748",
+                                "badges": [],
+                                "companySize": "SIZE_51_200",
+                                "highConcept": "Powerful NLP software company using AI/ML; provides insight unstructured/unstructured data",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Washington DC",
+                                        "id": "1691"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Reston",
+                                        "id": "1845"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "District of Columbia",
+                                        "id": "2073"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Dayton",
+                                        "id": "2377"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Herndon",
+                                        "id": "8764"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Tysons",
+                                        "id": "14070"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "McLean",
+                                        "id": "406159"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9418748-30d58e0999120c478c69d150a67d2f57-medium_jpg.jpg?buster=1686958538",
+                                "name": "Finch AI",
+                                "slug": "finch-computing-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "We are building a unique data and process integration platform dedicated to real-time, collaborative exploration of complex, information-based problems. We've recently spun out of MIT, and thriving as we create an awesome product and company.\n\nOur users want to unlock the power of data-driven analysis, and can now do so using the Composable Analytics flexible analytics environment. Users can discover and develop solutions, through real-time discovery, manipulation and enrichment of data.\n\nWe are looking for new team members with amazing technical skills and collaborative attitudes, that enjoy having the freedom to innovate and invent, while advancing new ideas and implementations, and shaping the product direction.\n\nThis is your chance to be a critical part of this development team.\n\nFull-time positions are available immediately for:\n\nFront-End UI/UX Developers passionate about creating well-architected user interfaces and fluent in current best practices for responsive and accessible design\n________________________________________\n\nWe're looking for a UI/UX Designer with strong graphic design expertise, with an interest in designing and building Web applications.\n\nThe UI/UX Designer should have:\nIntermediate to Advanced skill level in Adobe Creative Cloud software (Illustrator, InDesign, Photoshop) [in a Windows/PC environment]\n\nA solid understanding of basic design, color, and typography principles\nExpertise in modern web development: HTML5, JavaScript, CSS\n\nFamiliarity with common libraries and frameworks, such as Bootstrap, jQuery, AngularJS, React, D3\n\nThis position offers the rare opportunity for someone with strong graphic design skills to take a leadership role as a front-end UI/UX developer.",
+                                        "id": "99231",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1707436163,
+                                        "liveStartAt": 1704908202,
+                                        "locationNames": [
+                                            "Cambridge"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": null,
+                                        "reposted": true,
+                                        "slug": "ui-ux-designer-lead-developer",
+                                        "title": "UI/UX Designer / Lead Developer",
+                                        "compensation": "$50k \u2013 $100k \u2022 0.0% \u2013 0.25%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.25%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Due to rapid growth, Composable Analytics, a company that has breakthrough technology for advanced analytics, is seeking to add software developers and data scientists to its team.\n\n-----------------------------------------\n\nComposable Analytics is building a unique data and process integration platform dedicated to real-time, collaborative exploration of complex, information-based problems. We\u2019ve recently spun out of MIT, and thriving as we create an awesome product and company.\n\nWe are looking for new team members with amazing technical skills and collaborative attitudes, that enjoy having the freedom to innovate and invent, while advancing new ideas and implementations, and shaping the product direction.\n\nThis is your chance to be a critical part of this development team.\n\nFull-time positions are available immediately for Junior and Senior level Software Engineers that have the ability to work across all layers of the application, from back-end databases through to the UI.\n\nWe\u2019re looking for big data software developers with knowledge of software systems and design principles, that can code the entire stack, with an interest in:\n\nDesigning and building Web applications using HTML5, JavaScript, XML, JSON and RESTful web services;\nBuilding and maintaining large-scale, distributed, web-based platforms, utilizing cutting-edge technologies and delivering innovative features;\nDeveloping novel data models, integrating diverse data types, utilizing SQL, NoSQL and other technologies.\n\nExpertise in some of the following technologies is desired: C#, SQL, WCF, Javascript, HTML5, CSS, Asp.NET, JQuery, Entity Framework, R, Matlab, Python, F#",
+                                        "id": "99230",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708894291,
+                                        "liveStartAt": 1703785004,
+                                        "locationNames": [
+                                            "Cambridge"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "133753",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "big-data-software-engineer",
+                                        "title": "Big Data Software Engineer",
+                                        "compensation": "$50k \u2013 $130k \u2022 0.0% \u2013 0.25%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.25%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "582305",
+                                "startupId": "582305",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Intelligent DataOps",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Cambridge",
+                                        "id": "2390"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/582305-c9d1a07bdb0740fafa878c6013395508-medium_jpg.jpg?buster=1467724703",
+                                "name": "Composable Analytics",
+                                "slug": "composable-analytics",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**About Us:**\n\nLivewell is a high growth telehealth startup focused on increasing accessibility and affordability of care for Canadians. We are revolutionizing telehealth for medical providers and their patients alike.\n\nWe are backed by Xavier Niel, a member of the LVMH family, and other VC investors.\n\nOur website: https://joinlivewell.ca/\n\n\n**About the Role:**\n\nLivewell is looking for a Full-Stack Software Engineer to help build a fast, reliable, and frictionless telemedicine experience.\n\nYou Will:\n\n* Build great product experiences for Patients that make it as easy as possible to get access to care in a fast and affordable way.\n* Build great product experiences for Medical Providers so they can deliver care virtually in a safe, compliant, and efficient manner.\n* Create beautiful and interactive dashboard experiences using technologies such as React/Next, JavaScript, CSS and HTML. Build the APIs that power these experiences, defining composable data models and durable interfaces.\n* Scope, design, and lead technical projects, laying the groundwork for early-stage products to iteratively evolve and scale.\n* Ensure our UI components and libraries are reliable, secure, extensible and accessible.\n* Debug production issues across services and multiple levels of the stack with an eye towards improving maintainability over the long term.\n* Improve engineering standards, tooling, and processes.\n\nYou Have:\n\n* 2+ years of experience in a software engineering role, with experience across the stack (front-end and back-end)\n* Experience with front-end technologies: HTML, CSS, React/NextJS\n* Experience with back-end technologies: Node, GCP, Firebase\n* Experience integrating 3rd-party APIs and webhooks such as Twilio, Sendgrid, Stripe\n* Bachelor degree or equivalent in Computer Science\n* Strong written and oral communication skills in English\n* Ability to balance attention to detail with efficient execution in a fast-paced environment\n \nBenefits:\n\n* Competitive compensation\n* Gain exposure and have a large impact at an high growth startup\n* Work closely with co-founders of the business, and report directly to the Co-Founder &amp; CTO\n* Possibility for both remote and in-office role at a beautiful Montreal office (Old Port)",
+                                        "id": "2851882",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1710000867,
+                                        "liveStartAt": 1708105025,
+                                        "locationNames": [
+                                            "Montreal"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "137179",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "full-stack-software-engineer-full-time",
+                                        "title": "Full-Stack Software Engineer (Full Time)",
+                                        "compensation": "$50k \u2013 $80k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9888347",
+                                "startupId": "9888347",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Leading telehealth startup for Canadians",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Montreal",
+                                        "id": "1776"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9888347-ec5be4dfbd3c7f11212def5f3c756414-medium_jpg.jpg?buster=1699999110",
+                                "name": "Livewell",
+                                "slug": "livewell-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Semiconductor chips are the driving force behind the modern technology-driven world. They power everything from cars to rockets, sensors to servers, and have a crucial role to play in several major industries, making the $1T semiconductor industry a vital component of the global economy. However, designing modern semiconductor chips is a costly, engineering-intensive process, further worsened with archaic tools. With the rising complexity of chips, time and cost to market continues to rise.\n\nTo address this, we're reimagining how chips are designed using modern advancements in AI to reduce time/cost to market dramatically. With a growing number of organizations designing their own chips and the rising consumption of semiconductors in day-to-day life, the work you will do will significantly impact the lives of many. We are super excited about what we are building; come join us!\n\n**What are we looking for?**\nWe are looking for an exceptional Applied Research Engineer to join our founding team and contribute to improving our in-house large language models (LLMs). In this role, you will apply cutting-edge techniques to fine-tune LLMs and implement novel ways to improve their performance on our target applications.\n\nThis is a unique opportunity to work at the forefront of LLMs while surrounded by exceptional researchers and builders at AI2. As a founding member of a rapidly growing startup, you will significantly impact the product and shape its future. We offer competitive pay, benefits, and equity, and believe this position will be fulfilling for you.\n\n**Ideal Candidate**\nSeveral years of full-time experience in applied ML roles, preferably in a fast-paced environment like early-stage startups.\n\n**Non-negotiable**\n\n* Deep passion for technology. Self-driven individual with a sense of urgency\n* Detail oriented and a strong desire to build high-quality customer-focused products\n\n**Requirements**\n\n* Strong basics and understanding of Machine Learning/Deep Learning\n* Experience in building diverse and high-quality datasets and training deep learning models\n* Strong programming skills in Python\n* Familiarity with deep learning frameworks such as TensorFlow or PyTorch\n* Exposure to or active participation in the latest research and advancements in NLP\n\n**Preferences**\n\nExperience in code generation with LLMs\nPrior experience in fine-tuning large language models desirable\nExperience setting up infrastructure for training large deep-learning models\n\n**Not Necessary**\n\nExperience in chip design great but NOT necessary\n\n**ABOUT US**\n\nWe are a small but passionate group with a mission to dramatically reduce the time, cost, and engineering effort needed to build complex silicon chips. Our founding team comprises of experts in chip design, AI, and modern software stacks. In past lives\u2014we were researchers, engineers, and leaders at major chip design/AI companies like Qualcomm, Nvidia, Facebook, Google, etc. We also count the Paul Allen Institute for AI as a co-founder, one of the world\u2019s leading A.I. research institutions. We recently raised a pre-seed funding round and are moving fast to build for our customers.\n\n**WHY JOIN**\n\nAs a funded startup, we also have several unique benefits that you can\u2019t really get anywhere else:\n\nPersonal impact \u2014 The opportunity to build something from the ground up and define a new product for an industry that is at the core of the modern technological revolution.\nAccess to unique learning opportunities \u2014 With the Allen Institute for AI (AI2) as a co-founder, our team gets access to numerous talks by leading AI researchers/paper authors, knowledge sharing amongst the community of hundreds of engineers working for AI2 companies, and much more. As a part of the multi-disciplinary team, you get to interact with people from very different backgrounds (from chip design to AI to software engineers).\nFounding title \u2014 You will be one of our first hires. For the rest of our days, no matter how many thousands of people join after you, you will always have that honor and distinction.\nEarly-stage equity \u2014 Early-stage risk comes with early-stage equity for you. And none of us would be here if we didn\u2019t think our company would create tremendous value over time.\nBenefits \u2014 In spite of being an early-stage company, taking care of our team is a priority for us. From health insurance to catered lunches, we continue to add unique benefits.",
+                                        "id": "2805018",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1701291884,
+                                        "liveStartAt": 1704470697,
+                                        "locationNames": [
+                                            "Seattle",
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Machine Learning Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "129555",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "founding-machine-learning-engineer",
+                                        "title": "Founding Machine Learning Engineer",
+                                        "compensation": "$160k \u2013 $200k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9647347",
+                                "startupId": "9647347",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "We are accelerating chip design with generative AI-powered tools",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Seattle",
+                                        "id": "1680"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9647347-67394b56173a172172fe093d39e09561-medium_jpg.jpg?buster=1689641291",
+                                "name": "ChipStack",
+                                "slug": "chipstack",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**Hybrid - Asheville, NC area (Mars Hill, NC)**\n\n**About us**\n\nThe Ammortal chamber brings together multiple scientifically backed technologies to one experience. It is a healing technology that can be utilized by wellness clinics and inside the home. Our clients include specialty spas and clinics, sports teams, and individuals who are biohackers or athletes.\n\nWe are a small team with a startup culture. After our first full years shipping a finished product on the market, we have shown strong growth. Our team is made up of engineers, health professionals, and startup entrepreneurs.\n\n**What is this role and why does it exist?**\n\nThe Ammortal Chamber delivers a unique healing experience for it\u2019s users. For the Chamber to work properly, the relationship between the software and the hardware have to be in resonance. That is where this role comes in. The Full Stack Developer on the team will own the software of the system, creating and maintaining an amazing experience for the users of the chamber. \n\n**Responsibilities:**\n* The architecture of the code is organized, easy to read, and easy to evolve\n* The chamber is bug free and works seamlessly\n* New features are built with the whole architecture in mind, on time, and bug free\n* Evaluate existing codebase and determine if code should be refactored\n* Port existing code to new scalable platform\n* Meet with stakeholders to discuss and agree upon upcoming feature sets, development arcs and delivery timelines.\n* Ensure deployed units are backwards and forwards compatible with new code releases\n* Plan and deploy updates to units in the field.\n* Create and execute validation strategies for code\n* Creating readable, commented, documented, and sustainable code that meets the design requirements\n\n**Who this person is**\n* Work Ethic - Must be willing to take the time to call leads and do reach outs to hit goals\n* People Centered - A love for people is important for this role. We want our sales team to have a service / consultative ethos.\n* Detail oriented - Keeping our HubSpot and databases clean.\n* Process driven - This role will be building processes as we implement new systems into the business\n\n**What technical knowledge do you need to perform in your role?**\n\nRequired\n* Python\n* Node JS\n* Network Security\n\nPreferred\n* C++\n* JS\n* .NET\n* HTML\n* CSS\n\n**Qualifications (Must haves)**\n* Embedded software experience and/or hardware-software connection experience\n\n**Qualifications (Nice to haves)**\n* Experience with a full product development cycle and product release\n* Manufacturing technology experience\n* Experience working on a B2C (consumer-facing product)\n* UI/UX development\n\n**Pay, Location, Hours**\n\nPay range: $90-130k\n\nAs a generalization, if you have 1-2 years of experience, you may expect to receive an offer on the lower end of this range. If you have 4+ years of experience, you may expect to receive an offer on the higher end of this range\n\nBenefits: 75% of health insurance covered\n\nLocation: Greater Asheville area in North Carolina (this is a hybrid position where this person will work from home often and also go into the manufacturing facility when it makes sense to work hands-on with the product)\n\nHours: Work hours are flexible. Besides team meetings and other commitments you will be free to work the hours you choose as long as you get your work completed!",
+                                        "id": "2938949",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709750069,
+                                        "liveStartAt": 1709057300,
+                                        "locationNames": [
+                                            "Asheville"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "151916",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "full-stack-developer",
+                                        "title": "Full Stack Developer",
+                                        "compensation": "$90k \u2013 $130k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10012496",
+                                "startupId": "10012496",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Brings together multiple scientifically backed technologies to one experience",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Baltimore",
+                                        "id": "1619"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10012496-10bf61459a4e210ebdff133eb46d4d17-medium_jpg.jpg?buster=1709056721",
+                                "name": "Ammortal",
+                                "slug": "ammortal-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "As a engineer at Bask you will work directly with the CEO and CTO to build and design the software infrastructure that will serve as the backbone of telehealth.\n\nWe are looking to expand our software engineers, seeking those with deep rooted entrepreneurial spirit.\n\nOur serverless platform is built using Next.js, Drizzle and PlanetScale for a powerful multi-tenant application.\n\nIt is important to be fluent in these frameworks, with Javascript and API architecture being a must.\n\nWhat You'll Do\n\n\u2022 Design, build, and implement new services through the full development cycle: write elegant, well-tested code in a modern technology stack. Build libraries and frameworks that can help us build quickly and efficiently, and deliver value to our users.\n\n\u2022 Work closely with the product team: make architecture and design decisions, participate in stand-ups, code reviews, and retros, and help contribute and drive the engineering culture that focuses on simple, intuitive, high-impact experiences.\n\n\u2022 Be an engineering generalist: from developing servers and databases, to integrating APIs to expand our platforms capabilities, to final Ul implementation, to you'll have the opportunity to take end-to-end ownership and responsibility across the full development lifecycle.\n\n\u2022 Build from 0 to 1: You'll have the opportunity to both scale and automate existing services while also bringing new innovations to life. This is unique opportunity to help join a team where you'll be able to both build rapidly, and also contribute to product strategy and development! \n\nWe are a highly collaborative team.\n\nWho We're Looking For\n\nThe ideal candidate is a full-stack generalist, and has experience taking a product from 0-1 product. We're looking for someone who's entrepreneurial and willing to roll up their sleeves to get the work done, and passionate about our mission to build a platform that will intensely disrupt the healthcare industry.\n\n\u2022 You are dangerous on the frontend of the stack.\n\u2022 You are a highly skilled dev (React, TypeScript, Next.js, JavaScript, Tailwind).\n\u2022 You have backend skills (SST, Lambda, Rust, mySQL, DynamoDB, Node).\n\u2022 You can work independently and are comfortable owning entire projects and or large areas of the code base\n\u2022 Strong experience in building paid products and services is preferred.\n\u2022 You are a strong communicator - you are able to clearly articulate technical problems, constraints and timelines.\n\u2022 You are comfortable working in a fast-paced, unstructured, startup environment.",
+                                        "id": "2913363",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1707488608,
+                                        "liveStartAt": 1706771668,
+                                        "locationNames": [
+                                            "Argentina",
+                                            "Brazil",
+                                            "New York City",
+                                            "South America",
+                                            "Spain",
+                                            "Egypt",
+                                            "New York",
+                                            "Colombia",
+                                            "Peru",
+                                            "Venezuela",
+                                            "Ecuador",
+                                            "Bolivia",
+                                            "Guatemala City",
+                                            "Nicaragua",
+                                            "El Salvador",
+                                            "Mexico City"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "147760",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "mid-level-software-engineer-new-york-city",
+                                        "title": "Mid Level Software Engineer (New York City)",
+                                        "compensation": "$50k \u2013 $110k \u2022 0.0% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    },
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "As a engineer at Bask you will work directly with the CEO and CTO to build and design the software infrastructure that will serve as the backbone of telehealth.\n\nWe are looking to expand our software engineers, seeking those with deep rooted entrepreneurial spirit.\n\nOur serverless platform is built using Next.js, Drizzle and SST for a powerful multi-tenant application.\n\nIt is important to be fluent in these frameworks, with Typescript and Javascript being a must.\n\nWhat You'll Do\n\n\u2022 Design, build, and implement new services through the full development cycle: write elegant, well-tested code in a modern technology stack. Build libraries and frameworks that can help us build quickly and efficiently, and deliver value to our users.\n\n\u2022 Work closely with the product team: make architecture and design decisions, participate in stand-ups, code reviews, and retros, and help contribute and drive the engineering culture that focuses on simple, intuitive, high-impact experiences.\n\n\u2022 Be an engineering generalist: from developing servers and databases, to integrating APIs to expand our platforms capabilities, to final Ul implementation, to you'll have the opportunity to take end-to-end ownership and responsibility across the full development lifecycle.\n\n\u2022 Build from 0 to 1: You'll have the opportunity to both scale and automate existing services while also bringing new innovations to life. This is unique opportunity to help join a team where you'll be able to both build rapidly, and also contribute to product strategy and development! \n\nWe are a highly collaborative team.\n\nWho We're Looking For\n\nThe ideal candidate is a full-stack generalist, and has experience taking a product from 0-1 product. We're looking for someone who's entrepreneurial and willing to roll up their sleeves to get the work done, and passionate about our mission to build a platform that will intensely disrupt the healthcare industry.\n\n\u2022 You are dangerous on the frontend of the stack.\n\u2022 You are a highly skilled dev (React, TypeScript, Next.js, Javascript).\n\u2022 You also have backend skills (SST, Drizzle, SQL, Node).\n\u2022 You can work independently and are comfortable owning entire projects and or large areas of the code base\n\u2022 Strong experience in building paid products and services is preferred.\n\u2022 You are a strong communicator - you are able to clearly articulate technical problems, constraints and timelines.\n\u2022 You are comfortable working in a fast-paced, unstructured, startup environment.",
+                                        "id": "2913337",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708211523,
+                                        "liveStartAt": 1706771318,
+                                        "locationNames": [
+                                            "Argentina",
+                                            "Brazil",
+                                            "New York City",
+                                            "South America",
+                                            "Spain",
+                                            "Egypt",
+                                            "New York",
+                                            "Colombia",
+                                            "Peru",
+                                            "Venezuela",
+                                            "Ecuador",
+                                            "Bolivia",
+                                            "Guatemala City",
+                                            "Nicaragua",
+                                            "El Salvador",
+                                            "Mexico City"
+                                        ],
+                                        "primaryRoleTitle": "Frontend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "147756",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "front-end-software-engineer-new-york-city",
+                                        "title": "Front-End Software Engineer (New York City)",
+                                        "compensation": "$60k \u2013 $100k \u2022 0.0% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9106060",
+                                "startupId": "9106060",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "RECENTLY_FUNDED",
+                                        "label": "Recently funded",
+                                        "name": "RECENTLY_FUNDED_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Raised funding in the past six months"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Shopify for E-Prescribing",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York City",
+                                        "id": "1664"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9106060-221ff2192ba27f25e8d9a8e4bc740ad0-medium_jpg.jpg?buster=1663788205",
+                                "name": "Bask Health",
+                                "slug": "bask-health",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "We are a dynamic and fast-growing company looking for a skilled full stack engineer to join our team. If you are a hacker and passionate about moving quickly, we want to hear from you.\n\n**About CuraFi:**\n\nCuraFi is a venture-funded digital health startup based in Silicon Valley that develops software to manage high cost drugs and coordinate care for rare disease patients. \n\n**Technical Skillset:**\n\n* React 16.8+ (React hooks)\n* Python\n* Web Framework (Flask, etc.)\n* SQL (MySQL)\n\n**Key Responsibilities:**\n\nDevelop and maintain front-end components for our webapps\nBuild RESTful APIs and back-end services using Python\nEnsure code quality through code reviews, testing, and debugging\nTroubleshoot and resolve technical issues\nStay up-to-date with emerging technologies and industry trends\n\n**Nice to Have:**\n\nFamiliarity or interest in LLMs (ChatGPT or other open-source LLM)\nFamiliarity with querying SQL databases to answer data science questions\nExperience with AWS or Heroku for deploying and scaling applications\n\nIf you are passionate about innovation and want to be part of a forward-thinking team, we would love to hear from you.",
+                                        "id": "2730986",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709302217,
+                                        "liveStartAt": 1706891457,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "116719",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "founding-full-stack-engineer",
+                                        "title": "Founding Full Stack Engineer",
+                                        "compensation": "$140k \u2013 $160k \u2022 0.1% \u2013 0.25%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.1% \u2013 0.25%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9048785",
+                                "startupId": "9048785",
+                                "badges": [],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "CuraFi expands access to specialty medication",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco Bay Area",
+                                        "id": "151282"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9048785-159049512f4e3b618ca8fdbd57a5fbf1-medium_jpg.jpg?buster=1691528640",
+                                "name": "CuraFi",
+                                "slug": "curafi-2",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": "AtsIntegration::Ashby::Listing",
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### **About Numeric**\n\nNumeric is building the modern accounting & finance platform. Companies today depend on Numeric's workflow and data platform to collaborate, monitor and analyze data, and share insights about their financials.\n\nWe believe an organization with up-to-date, accurate, rich financial data is empowered to move faster and smarter. Unfortunately, the tools and systems have not been keeping up. The complexity of work and granularity of data has ballooned, and old, slow software and simplistic tools only facilitate the manual work; they do little to solve the fundamental challenges of accounting and finance. As a product-focused company, we know that a great product and engineering team can build the tools to give our users superpowers. We work to free people from the manual and the tedious, and to bring delight to their work.\n\nNumeric is backed by Founders Fund, Long Journey Ventures, and others as well as founders from Ramp, Segment, and more.\n\n### **About the role**\n\nEvery engineer at Numeric is a product engineer. We believe the quality of a company's product is a direct reflection of its inclusion (or not) of engineers in every step of the product process. Ownership here means not only building, testing, and shipping your work, but also contributing to planning, scoping, and discovery. The role encompasses the entire loop of product iteration\u2013observing and learning from users, designing solutions, building, and repeating until we've exceeded users' expectations.\n\nPassionate builders improve through iteration, and learn by making mistakes. Our ideal candidate takes great pride in building and is excited by the ability to move fast. We place a great deal of emphasis on speed and ownership, and don't let anything get in your way.\n\n### Projects we're working on\n\nHere are a few projects you could get started with:\n\n- Building the transaction monitoring engine to spot anomalies and help our users pre-empt costly errors\n\n- Designing scheduling and automation of revenue and expenses\n\n- Improving our one-of-a-kind flexible search & reporting platform for financial data\n\n- Extending our real-time syncing integrations\n\n- Launching new workflow automations on our generalized task system\n\n### How we work\n\nThe engineering team here is a high-ownership, fast-paced, customer-focused group. We ship early & often. Deploys go out every day, and engineers ship & verify their own work. We keep things simple and do not incur operational cost or complexity until it's necessary. We stay grounded in our users and humble about what we don't know. We know that discovering the best solution is the result of an iterative, user-centric process. Finally, we move fast. With less than 2 years' time we're competing with existing players that have all been around for 10+ years.\n\n### About you\n\n- You thrive in a fast-paced and iterative environment. You are driven more by customer impact than technology.\n\n- When building software, you can find [the 80/20 solution to a problem](https://www.notion.so/An-80-20-rule-for-product-development-83def9a3359149d780cb4245d498a42a?pvs=21).\n\n- You're excited to build a new company, and to collaborate across all functions of the organization.\n\n- You're allergic to premature optimization in all its forms; you focus on the larger goals at hand.\n\n- The prospect of taking on incumbents as a small, high-performing team is an exciting challenge to you.\n\n- You thrive when given more ownership and responsibility.\n\n### Requirements\n\n- Computer science or other technical degree\n\n- 4+ years of experience in software engineering\n\n",
+                                        "id": "2884013",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": null,
+                                        "liveStartAt": 1704313376,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "142865",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "full-stack-engineer",
+                                        "title": "Full-stack Engineer",
+                                        "compensation": "$120k \u2013 $200k \u2022 0.2% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.2% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8463144",
+                                "startupId": "8463144",
+                                "badges": [],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Building the modern platform for accounting data & ops",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "New York City",
+                                        "id": "1664"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8463144-196dc294ab23fb5dbf5513ff8c6cd362-medium_jpg.jpg?buster=1663805336",
+                                "name": "Numeric",
+                                "slug": "numeric-io",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "\ud83d\ude80 **Joon Overview**\n\n[Joon Health](https://streaklinks.com/BjcU5tpnZ4vETJGCSwCnc88a/https%3A%2F%2Fjoonapp.io%2F?email=isaac%40joonapp.io) is an integrated behavior improvement platform for kids, starting with behavior disorders like ADHD, autism, anxiety, and depression. In Joon, kids access a game-based digital therapeutic where they level up when they do real-life behaviors that are managed by parents and clinicians.\n\nOver the next 10 years, we plan on being the first-line digital treatment for pediatric behavior disorders, leveraging the first of its kind technology to drive behavior change.\n\nAfter launching Joon in January 2022, focused on kids with ADHD and Autism, we\u2019ve already reached over 18K active paying subscribers. We\u2019ve raised over $6M in funding from top investors like Y Combinator, Goodwater, MaC Venture Capital, Dune Ventures, Blue Lion Global, Arash Ferdowsi (Dropbox), Dan Carroll (Clever), Austen Allred (Bloomtech), and Alex Cohen (Carbon Health).\n\n**If you join us, you\u2019ll be the first design hire helping shape:**\n\n1. Our future company culture\n2. The design direction and focus across our whole platform\n3. Who we hire\n4. Our product development practices\n\n\ud83d\udcc4 **What we\u2019re looking for:**\n* Some to be the lead backend engineer on the team, working directly with our CTO. You\u2019d own the high-level system and technical design of our backend across our web, iOS and Unity apps.\n* Passion for our product and mission\n* Self-starter with a high work ethic\n* Experienced at building scalable systems\n* Excited to collaborate across 3 product teams + working closely with business outcomes\n* High level of detail orientation\n\n\ud83d\udcbb **What You'll Do**\n* Lead Backend Engineering Design and Implementation\n* Create documentation for system design and APIs\n* Design, implement, and maintain scalable systems\n* Collaborate with Cross-functional Teams\n\n\ud83d\udee0\ufe0f **Skills &amp; Experience**\n* Expert in backend development\n* 4+ years of relevant design experience as a tech, product-driven company\n* Skilled across Django, Python, SQL, AWS\n* Nice to have: experience with both web and mobile products\n\n\ud83c\udf1f **What Benefits Do We Offer?**\n* Competitive base salary and stock options\n* Unlimited Vacation Policy and Company-wide Holidays (including a spring and winter break)\n* Full Health and Dental Insurance\n* Relocation Stipends\n* Health &amp; Fitness allowance",
+                                        "id": "2829591",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708099801,
+                                        "liveStartAt": 1706560797,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Backend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "133594",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "senior-backend-engineer",
+                                        "title": "Senior Backend Engineer",
+                                        "compensation": "$120k \u2013 $150k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8571668",
+                                "startupId": "8571668",
+                                "badges": [],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Behavior improvement platform for kids with ADHD, autism, anxiety and depression",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8571668-2b1b8aa4df6ec077201a96692752671e-medium_jpg.jpg?buster=1647975992",
+                                "name": "Joon (YC W22)",
+                                "slug": "joon-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        }
+                    ]
+                },
+                "totalStartupCount": 56
+            }
+        }
+    },
+    "schemaVersion": 2
+}
