@@ -1,0 +1,397 @@
+{
+    "data": {
+        "talent": {
+            "__typename": "Talent",
+            "jobSearchResults": {
+                "__typename": "SearchResult",
+                "hasNextPage": false,
+                "rawQuery": null,
+                "startups": {
+                    "__typename": "StartupSearchResultConnection",
+                    "edges": [
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### About Us\n\nAxle Health builds scheduling and workforce management software to empower in-home healthcare providers to deliver exceptional, personalized care right where patients feel most comfortable\u2014at home.\n\nSome of the biggest providers in the country use our software to improve the utilization of their field teams by 15%+, and automate the operational burden of scheduling and dispatching.\n\nOur platform includes proprietary logistics algorithms to optimize scheduling, a mobile app for field staff, an operations dashboard for office teams, engagement and booking tools for patients, and a wide range of integrations and external APIs for modular access.\n\nWe\u2019re a team of all-star engineers and operators, backed by $4m from top investors such as Y Combinator and Pear VC, applying our intellect and logistics experience to upend how home healthcare is delivered.\n\n### About You \u2014 The Role\n\nWe're looking for a transformative Sr Software Engineer \u2014 someone who wants to spend all day designing and implementing high leverage technical processes and systems. We value hands-on experience and a relentless drive to push personal boundaries.\n\nOur dream candidate can effortlessly adapt to different domains and is fueled by a passion for tackling complex problems head-on. Whether you've built your expertise designing scaled systems at large companies, or scaling startups from 0 to 100, we want to hear your story.\n\n### What You'll Do\n\n* Design advanced logistics algorithms and Electronic Health Record (EHR) integrations\n* Rearchitect technical systems to scale by 1000x and improve reliability from 99.9% to 99.99%\n* Empower customers to build API integrations with the Axle Heath ecosystem\n* Collaborate with internal teams and customers to gain insights and translate those insights into world class products\n* Evaluate and prioritize between tasks and projects based on their strategic value and potential impact\n\n### Requirements\n\n**Must have**:\n\n* Bachelor\u2019s degree in a STEM field\n* 4-7 years of experience in a SWE role (or equivalent)\n* Experience defining and communicating technical trade offs to non-technical stakeholders\n* Experience conducting code reviews yourself\n* Experience mentoring and/or managing junior engineers on the above skills\n* Expertise in an industry-standard programming language (preferably JS and Python)\n* Experience designing, building, deploying, and maintaining web services\n* Experience writing applications which interact with databases (Postgres, MySQL, NoSQL)\n* Expertise in a modern web framework (React, Anular, etc.)\n* Familiarity with CI/CD, DevOps, and Build Systems\n\n**Nice to have**:\n\n* Bachelor\u2019s or Master\u2019s in CS or an equivalent technical field\n* Experience teaching yourself new skills and technologies\n* Experience working with Electronic Health Records (EHRs)\n* Experience with healthcare interoperability (FHIR)\n* Experience with our existing programming languages and tools\n* Tools You'll Use\n* Django + Python3\n* React + NodeJS\n* PostgresSQL\n* AWS + Terraform\n* Git\n\n### What We Offer\n\nIn addition to offering a competitive salary and best-in-class equity, we want to ensure every team member has the tools they need to work to the best of their ability. To that end:\n\n**We are committed to your Ownership**:\n* We cultivate an environment where team members feel ownership over the work they do. Everyone in an organization has big ideas and we want to hear them and implement them\n* All of our employees have equity compensation. We want you to benefit from all the hard work you do in helping patients and catalyzing this shift in healthcare.\n* We are committed to your Wellness:\n* Comprehensive Medical, Dental, Vision\n* Unlimited PTO and sick days\n* Flexible working hours\n* We are committed to your Growth:\n* Fast paced work environment geared towards professional growth\n* Get the chance to move roles within the organization to learn new skills and contribute in other areas\n* We are committed to building Community:\n* Monthly team events, dinners, &amp; happy hours\n* Special team events: yacht party, Universal Studios, Magic Castle, Vegas, etc.",
+                                        "id": "2933752",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709090196,
+                                        "liveStartAt": 1708580235,
+                                        "locationNames": [
+                                            "Los Angeles",
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "151031",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "senior-software-engineer",
+                                        "title": "Senior Software Engineer",
+                                        "compensation": "$170k \u2013 $200k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8100619",
+                                "startupId": "8100619",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": "https://photos.wellfound.com/startups/i/32677-b873be4bf180abbcdad149b584b7e66f-medium_jpg.jpg?buster=1589637282",
+                                        "id": "TOP_TIER_INVESTOR-8100619",
+                                        "label": "Same investor as Airbnb",
+                                        "name": "TOP_TIER_INVESTOR_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Y Combinator invested in both Axle Health and Airbnb"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "Scheduling and workforce management software for home healthcare providers",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8100619-d96b02fd6137b8f7530ff2eb6f235b09-medium_jpg.jpg?buster=1708573055",
+                                "name": "Axle Health",
+                                "slug": "axle-health",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "**\ud83c\udfa8 Opus is the world's No.1 AI video agent for social media.**\n\nBacked by DCM, Fellows Fund, AI Grant, and many other institutional investors, we are building a fully distributed global team and a universal product. As one of the world's fastestgrowing AI startups, we have 3+ million of users in just over 5 months after the launch.\n\n**More information:** https://www.linkedin.com/company/opusclip\n\n**Try the product**: https://www.opus.pro\n\n**Company core values:** Competitive innovation &amp; Relentless Execution\n\nOur engineering culture is centered around several core values\n\n* Customer obsession. We go through UX feedback and bugs from our users daily, and continuously prioritize and address them within as soon as 2 days.\n \n* Debriefing. We value the radical, transparent debriefing culture of a battlewise army to learn and grow from previous projects.\n \n* Over communication. We encourage everyone to over share key updates and risks as we believe that key information is easily lost during meetings and conversations in a globalized team.\n\n* Craftsmanship. We improve craftsmanship together through shared learnings such as Clean Code, Agile Principles and AI sharing. Our tech stack: GCP, Typescript, Python, Redis/MongoDB/Cloud Storage, Kubernetes, lots of AI models\n\n**\ud83d\udcdd Your Responsibilities**\n\n* Design, execute, and maintain core metrics for company level OKRs, ensuring their observability, effective communication, and ongoing enhancement.\n\n* Take on the role of a hands-on engineering leader, owning tech scoping, architectural design, and leading AI-centric initiatives. Direct and mentor junior engineers in deploying enhancements to the primary product.\n \n* Areas of focuses such as: transcription, content curation, and video comprehension.\n \n* Collaborate with product teams, marketers, data analysts, and other engineering teams to execute highly cross functional and time sensitive projects.\n \n* Lead and manage our backend services, which include finely-tuned models running on CPU/GPU clusters, by addressing project infrastructure requirements and collaborating with customer-facing teams to boost reliability, performance, and cost efficiency.\n\n* These models include Automatic Speech Recognition, active event detection, salient object identification, detection of background or filler words, among other leading-edge AI/CV technologies.\n \n* Aid internal AI research and product teams in refining the prompt/model iteration process and in bringing models to market to support demonstrations and official product launches.\n \n**\ud83d\udcdd Qualifications**\n\n* 3-8 years of proven experience managing backend services at scale, with a track record of either developing complex services from the ground up or significantly enhancing existing ones.\n \n* A strong entrepreneurial spirit or experience in a rapidly growing startup.\n \n* A deep understanding of distributed systems, operating systems, networking, and both batch and stream processing, with a keen interest in enhancing reliability, performance, observability, and cost management.\n \n* Availability to work remotely with senior engineers across the Asia time zone, including periodic evening meetings, and willingness to work on-site following the establishment of a local office.\n\n**\ud83d\udcdd Preferred Experiences.**\n\n* Comfortable collaborating with engineers from diverse cultures and time zones.\n \n* Proficiency in computer vision, prompt iterations, and fine-tuning of models (audio, video, large language).\n \n* Previous leadership experience in engineering projects.\n \n* Contributions to open-source projects.\n \n* Having full stack experiences is a plus\n \n**\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udffe Our offering**\n\n* Competitive salary\n \n* Stock equity for senior candidates\n\n* 10 days of PTO per year",
+                                        "id": "2927185",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708285392,
+                                        "liveStartAt": 1707943231,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "149929",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "senior-staff-software-engineer-ai-core-product",
+                                        "title": "Senior / Staff Software Engineer - AI Core Product",
+                                        "compensation": "$170k \u2013 $200k",
+                                        "usesEstimatedSalary": false,
+                                        "equity": null,
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "8844063",
+                                "startupId": "8844063",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "OpusClip is the world's No.1 AI video agent for social media",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Los Angeles",
+                                        "id": "1653"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Redwood City",
+                                        "id": "2161"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/8844063-3a9f5c2b69f8878afa1f6d031757db2f-medium_jpg.jpg?buster=1682574225",
+                                "name": "OpusClip",
+                                "slug": "immersiveopus",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "### About Hamilton AI\n\nWe are on a mission to build the premier operating system for private aviation. Beginning with a comprehensive productivity suite tailored for private aviation charter brokers and operators, we are transforming how charters are sourced, trips are managed, payments are processed, and trip progress is tracked. Despite being a market valued at over $30 billion annually, private charter operations are currently run with technology that lags two decades behind. Hamilton AI is set to change that by leveraging cutting-edge technology and user-centered design.\n\n### What You'll Be Working On\n\n- Enhancing our artificial intelligence assistant's user interface, ensuring seamless interaction across the application, including the marketplace, trip management, payments, and more.\n- Leading the development and refinement of our web application's front-end, focusing on trip management and streamlined request generation.\n- Collaborating closely with backend developers to integrate real-time global aircraft availability and live airplane transponder data into our user-facing features.\n- Utilizing advanced machine learning insights to inform UI/UX decisions, particularly for features forecasting pricing and market depth by route and aircraft type.\n- Implementing and improving payment solution integrations within the application to offer a frictionless user payment experience.\n- Incorporating AI-driven suggestions into the application's UI to enhance user experience across our technology stack.\n\n### What We're Looking For\n\n- Hamilton AI is assembling its initial technology team, comprising four engineers specialized in backend, frontend, full-stack development, and one UX/UI engineer, with a current focus on expanding our front-end development capabilities.\n- We are seeking a Front-End Engineer who is enthusiastic about startups and eager to contribute to the foundational engineering team.\n- Ideal candidates will have a robust portfolio demonstrating proficiency in front-end development, with a deep understanding of user experience design, performance optimization, and cross-platform development.\n- Expertise in modern front-end technologies and frameworks, particularly ReactJS, is essential.\n- A passion for developing intuitive, responsive, and visually appealing web applications.\n- The ability to work closely with UX/UI designers and translate design concepts into functional and dynamic user interfaces.\n- Excellent communication skills to effectively collaborate with team members across different disciplines.\n\n### Minimum Requirements\n\n- A degree in computer science or a related field.\n- 2-4 years of relevant experience in front-end development.\n- Profound understanding of front-end technologies, including HTML5, CSS3, JavaScript/ES6.\n- Extensive experience with ReactJS or similar modern front-end frameworks (e.g., Vue.js, Angular).\n- Experience with responsive and adaptive design principles.\n\n### Additional Pluses\n\n- 4-6+ years of relevant work experience in front-end development.\n- Experience leading or mentoring junior front-end developers.\n- Experience in working closely with the product side of a business to translate business requirements into technical solutions.\n- Knowledge of web performance optimization techniques.\n- Familiarity with front-end testing frameworks and methodologies.\n- Experience with additional front-end technologies such as TypeScript, Sass/Less, Webpack, and Babel.\n- Experience integrating with RESTful APIs and understanding of backend technologies.",
+                                        "id": "2932290",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1709682792,
+                                        "liveStartAt": 1708478301,
+                                        "locationNames": [
+                                            "San Francisco"
+                                        ],
+                                        "primaryRoleTitle": "Frontend Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "150792",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": false,
+                                        "slug": "front-end-engineer",
+                                        "title": "Front-end Engineer",
+                                        "compensation": "$120k \u2013 $140k \u2022 0.5% \u2013 1.0%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.5% \u2013 1.0%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "10001724",
+                                "startupId": "10001724",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_1_10",
+                                "highConcept": "A marketplace and productivity tool for private aviation powered by AI",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "San Francisco",
+                                        "id": "1692"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/10001724-8531afcb9f40ab4121fd5540eef30617-medium_jpg.jpg?buster=1708470561",
+                                "name": "Hamilton AI",
+                                "slug": "hamilton-ai",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Finch Computing - Full Stack Developer\n**Clearance Level: Top Secret w/Polygraph**\n\n**Skills Required**\nMust be a US Citizen\nMust have a TS/SCI with Full Scope Polygraph\nWilling to work onsite in Government customer sites in Northern Virgina\n\n\nFinch AI is a fast-growing, fast-paced software development organization; our mission is to build new ways of interacting with information. We do that by leveraging game-changing intellectual property, cloud infrastructure expertise, and a staff that is second to none. Together, we build and support products that address complex, real-time data and analytics needs in the enterprise.\n\nWe are looking for Full-Stack Developers for re-architecting the customer's mission-focused operational system. This includes web application, backend database and ingest capability for existing and new data providers. The majority of the legacy code is written in Java and will need to be updated, improved or rewritten in Python as we modernize and migrate to the cloud.\n\n**Responsibilities**\nModify Java-based applications and scripts to support new requirements.\nEvaluate and migrate legacy Java code to Python for backend processes.\nDevelop and integrate new capabilities in a Java-based web application, as well as develop a custom interface to compile and display metrics for the system and its users.\nCollaborate with system stakeholders to identify new capabilities and development timeline for implementation, triage issues and quickly develop system patches to minimize impact to customer workflows.\nSubmit monthly written summary reports of accomplishments.\n\n**Accepting:**\nJunior: 1-3 years of related experience with a Bachelor's degree; or a Master's degree without experience; or a PhD without experience; or equivalent work experience\nMid: T 3-7 years of related experience with a Bachelor's degree; or 1-5 years and a Master's degree; or a PhD without experience; or equivalent work experience\nSenior: 8-12 years of related experience with a Bachelor's degree; or 6-8 years and a Master's degree; or a PhD with 3-5 years experience; or equivalent experience\nMinimum 2 years of experience with software development\n\n**Preferred Skills:**\nProgramming experience with Java and Python programming\nExperience with Postgres SQL\nFamiliarity building front-end user interfaces using JavaScript\nFamiliarity building REST APIs with a back-end framework such as Django or Flask\nFunctional knowledge using version control with Git\nFunctional knowledge of various build tools (e.g., webpack, gradle, maven)\nExperience with building containerized microservices and web applications with Docker and Kubernetes\nExperience configuring and managing Elastic Stack components to include configuring and managing an Elasticsearch cluster, installing and configuring Logstash and other Beats data providers, and building visualizations and dashboards in Kibana.\nUnderstanding of Geospatial concepts and exposure to GIS technologies\nUnderstanding of imagery data, metadata ingest, processing, storage, and retrieval\nUnderstanding of Full Motion Video (FMV), metadata ingest, storage and display\nExperience building CI/CD pipelines with Jenkins or GitLab\nExperience with Amazon Web Services (AWS) and its core services (i.e., EC2, S3, SQS)\nExperience with NetApp storage and retrieval\n\nLocation: ONSITE, Washington, DC metro area in Virginia.",
+                                        "id": "2644153",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1705448092,
+                                        "liveStartAt": 1705685774,
+                                        "locationNames": [
+                                            "Virginia",
+                                            "Washington DC",
+                                            "Maryland"
+                                        ],
+                                        "primaryRoleTitle": "Software Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "101050",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "top-secret-w-poly-full-stack-developer",
+                                        "title": "Top Secret w/Poly - Full Stack Developer",
+                                        "compensation": "$120k \u2013 $200k \u2022 No equity",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "No equity",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "9418748",
+                                "startupId": "9418748",
+                                "badges": [],
+                                "companySize": "SIZE_51_200",
+                                "highConcept": "Powerful NLP software company using AI/ML; provides insight unstructured/unstructured data",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Washington DC",
+                                        "id": "1691"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Reston",
+                                        "id": "1845"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "District of Columbia",
+                                        "id": "2073"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Dayton",
+                                        "id": "2377"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Herndon",
+                                        "id": "8764"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Tysons",
+                                        "id": "14070"
+                                    },
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "McLean",
+                                        "id": "406159"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/9418748-30d58e0999120c478c69d150a67d2f57-medium_jpg.jpg?buster=1686958538",
+                                "name": "Finch AI",
+                                "slug": "finch-computing-1",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        },
+                        {
+                            "__typename": "StartupSearchResultEdge",
+                            "node": {
+                                "__typename": "StartupSearchResult",
+                                "highlightedJobListings": [
+                                    {
+                                        "__typename": "JobListingSearchResult",
+                                        "atsSource": null,
+                                        "autoPosted": false,
+                                        "currentUserApplied": false,
+                                        "description": "Due to rapid growth, Composable Analytics, a company that has breakthrough technology for advanced analytics, is seeking to add software developers and data scientists to its team.\n\n-----------------------------------------\n\nComposable Analytics is building a unique data and process integration platform dedicated to real-time, collaborative exploration of complex, information-based problems. We\u2019ve recently spun out of MIT, and thriving as we create an awesome product and company.\n\nWe are looking for new team members with amazing technical skills and collaborative attitudes, that enjoy having the freedom to innovate and invent, while advancing new ideas and implementations, and shaping the product direction.\n\nThis is your chance to be a critical part of this development team.\n\nFull-time positions are available immediately for Junior and Senior level Software Engineers that have the ability to work across all layers of the application, from back-end databases through to the UI.\n\nWe\u2019re looking for big data software developers with knowledge of software systems and design principles, that can code the entire stack, with an interest in:\n\nDesigning and building Web applications using HTML5, JavaScript, XML, JSON and RESTful web services;\nBuilding and maintaining large-scale, distributed, web-based platforms, utilizing cutting-edge technologies and delivering innovative features;\nDeveloping novel data models, integrating diverse data types, utilizing SQL, NoSQL and other technologies.\n\nExpertise in some of the following technologies is desired: C#, SQL, WCF, Javascript, HTML5, CSS, Asp.NET, JQuery, Entity Framework, R, Matlab, Python, F#",
+                                        "id": "99230",
+                                        "jobType": "full-time",
+                                        "lastRespondedAt": 1708894291,
+                                        "liveStartAt": 1703785004,
+                                        "locationNames": [
+                                            "Cambridge"
+                                        ],
+                                        "primaryRoleTitle": "Full-Stack Engineer",
+                                        "remote": false,
+                                        "remoteConfig": {
+                                            "__typename": "JobListingRemoteConfig",
+                                            "id": "133753",
+                                            "kind": "ONSITE"
+                                        },
+                                        "reposted": true,
+                                        "slug": "big-data-software-engineer",
+                                        "title": "Big Data Software Engineer",
+                                        "compensation": "$50k \u2013 $130k \u2022 0.0% \u2013 0.25%",
+                                        "usesEstimatedSalary": false,
+                                        "equity": "0.0% \u2013 0.25%",
+                                        "estimatedSalary": null,
+                                        "isBookmarked": false
+                                    }
+                                ],
+                                "id": "582305",
+                                "startupId": "582305",
+                                "badges": [
+                                    {
+                                        "__typename": "Badge",
+                                        "avatarUrl": null,
+                                        "id": "ACTIVELY_HIRING",
+                                        "label": "Actively Hiring",
+                                        "name": "ACTIVELY_HIRING_BADGE",
+                                        "rating": null,
+                                        "tooltip": "Actively processing applications"
+                                    }
+                                ],
+                                "companySize": "SIZE_11_50",
+                                "highConcept": "Intelligent DataOps",
+                                "locationTaggings": [
+                                    {
+                                        "__typename": "NewTag",
+                                        "displayName": "Cambridge",
+                                        "id": "2390"
+                                    }
+                                ],
+                                "logoUrl": "https://photos.wellfound.com/startups/i/582305-c9d1a07bdb0740fafa878c6013395508-medium_jpg.jpg?buster=1467724703",
+                                "name": "Composable Analytics",
+                                "slug": "composable-analytics",
+                                "newsStoryHeadline": null,
+                                "newsStoryPublishedDate": null,
+                                "newsStorySnippet": null,
+                                "newsStorySource": null,
+                                "newsStoryThumbnailUrl": null,
+                                "newsStoryUrl": null
+                            }
+                        }
+                    ]
+                },
+                "totalStartupCount": 5
+            }
+        }
+    },
+    "schemaVersion": 2
+}

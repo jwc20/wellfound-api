@@ -12,9 +12,28 @@ date_time_format = now.strftime("%Y-%m-%d_%H-%M-%S")
 
 # Badge = namedtuple('Badge', ['id', 'label', 'name'])
 # JobListingRemoteConfig = namedtuple('JobListingRemoteConfig', ['id', 'kind'])
-JobListingSearchResult = namedtuple('JobListingSearchResult', ['typename', 'atsSource', 'autoPosted', 'currentUserApplied', 'description', 'id', 'jobType', 'lastRespondedAt', 'liveStartAt', 'primaryRoleTitle', 'remote', 'reposted', 'slug', 'title', 'compensation', 'usesEstimatedSalary'])
+JobListingSearchResult = namedtuple(
+    "JobListingSearchResult",
+    [
+        "typename",
+        "atsSource",
+        "autoPosted",
+        "currentUserApplied",
+        "description",
+        "id",
+        "jobType",
+        "lastRespondedAt",
+        "liveStartAt",
+        "primaryRoleTitle",
+        "remote",
+        "reposted",
+        "slug",
+        "title",
+        "compensation",
+        "usesEstimatedSalary",
+    ],
+)
 # StartupSearchResult = namedtuple('StartupSearchResult', ['id', 'startupId', 'name', 'companySize', 'highConcept', 'locationTaggings', 'logoUrl', 'highlightedJobListings', 'badges'])
-
 
 
 class Companies:
@@ -112,74 +131,63 @@ class Companies:
             # Execute the JavaScript
             response = self.driver.execute_async_script(js_script)
 
-
             time.sleep(5)
             # pprint(response)
 
             # Parse the JSON response
             response = json.loads(response)
 
-
-
             # store to named tuples with the defined structure above for easy access
 
             job_listings = []
-            startups = response["data"]["talent"]["jobSearchResults"]["startups"]["edges"]
+            startups = response["data"]["talent"]["jobSearchResults"]["startups"][
+                "edges"
+            ]
             for i in range(0, len(startups)):
                 startup_info = startups[i]["node"]
                 startup_job_listings = startup_info["highlightedJobListings"]
                 # store to JobListingSearchResult named tuple
                 # job_listings = [JobListingSearchResult(**job) for job in startup_job_listings]
-                # store to job_listings as a list of named tuples, do not use keyword arguments
-                # do not use list comprehension
 
                 for job in startup_job_listings:
-                    job_listings.append(JobListingSearchResult(job["__typename"], job["atsSource"], job["autoPosted"], job["currentUserApplied"], job["description"], job["id"], job["jobType"], job["lastRespondedAt"], job["liveStartAt"], job["primaryRoleTitle"], job["remote"], job["reposted"], job["slug"], job["title"], job["compensation"], job["usesEstimatedSalary"]))
-
-                    # print the job titles
-
-
-            # print all the job titles using named tuples
-
+                    job_listings.append(
+                        JobListingSearchResult(
+                            job["__typename"],
+                            job["atsSource"],
+                            job["autoPosted"],
+                            job["currentUserApplied"],
+                            job["description"],
+                            job["id"],
+                            job["jobType"],
+                            job["lastRespondedAt"],
+                            job["liveStartAt"],
+                            job["primaryRoleTitle"],
+                            job["remote"],
+                            job["reposted"],
+                            job["slug"],
+                            job["title"],
+                            job["compensation"],
+                            job["usesEstimatedSalary"],
+                        )
+                    )
 
             for job in job_listings:
-                # print(job.title, job.compensation, job.id)
                 print(f"{job.title} | {job.compensation} | {job.id}")
 
-
-
-
-
-            # startups = [StartupSearchResult(**startup) for startup in response["data"]["jobSearchResults"]["startups"]]
-            # badges = [Badge(**badge) for badge in response["data"]["jobSearchResults"]["badges"]]
-            # job_listing_remote_config = [JobListingRemoteConfig(**job) for job in response["data"]["jobSearchResults"]["jobListingRemoteConfigs"]]
-            # # print the response
-
-                # pprint(startup_job_listings)
-                # pprint(job_listings)
-
-
-            # convert the response json
             response_json = json.dumps(response, indent=4)
 
             # save the response to a file
             # with open(f"response_{date_time_format}.json", "w") as file:
-            # include the page number in the filename
             with open(f"response_{date_time_format}_page_{i}.json", "w") as file:
                 print("writing to file...")
                 file.write(response_json)
 
-
-            
-
-
-
-
-
-
-
-            # check if there is a next page by checking if the "hasNextPage"  key is True
-            # has_next_page = response["data"]["jobSearchResults"]["pageInfo"]["hasNextPage"]
+            has_next_page = response["data"]["talent"]["jobSearchResults"][
+                "hasNextPage"
+            ]
+            # print("has_next_page:", has_next_page)
+            if not has_next_page:
+                break
 
         # time.sleep(10000)
 
