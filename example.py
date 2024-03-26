@@ -11,9 +11,4 @@ password = os.getenv("PASSWORD")
 client = wellfound.Wellfound(email=email, password=password)
 client.login(email=email, password=password)
 
-
-# query = []
-# client.get_companies(query=query)
-
-query = []
 client.get_companies(query=[])
