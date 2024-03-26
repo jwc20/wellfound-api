@@ -98,10 +98,10 @@ class Companies:
                         "min": null,
                         "max": null
                     },
-                    "keywords": [
-                        "entry",
-                        "junior",
-                    ],
+                    // "keywords": [
+                    //     "entry",
+                    //     "junior",
+                    // ],
                     "excludedKeywords": [
                         "web3",
                         "crypto",
@@ -110,7 +110,7 @@ class Companies:
                     "jobTypes": [
                         "full_time"
                     ],
-                    "remotePreference": "NO_REMOTE", // "REMOTE_OPEN" or "NO_REMOTE"
+                    "remotePreference": "REMOTE_OPEN", // "REMOTE_OPEN" or "NO_REMOTE"
                     "salary": {
                         "min": null,
                         "max": null
@@ -134,20 +134,12 @@ class Companies:
             time.sleep(5)
             # pprint(response)
 
-            # Parse the JSON response
             response = json.loads(response)
-
-            # store to named tuples with the defined structure above for easy access
-
-            job_listings = []
-            startups = response["data"]["talent"]["jobSearchResults"]["startups"][
-                "edges"
-            ]
-            for i in range(0, len(startups)):
-                startup_info = startups[i]["node"]
+            job_listings = list()
+            startups = response["data"]["talent"]["jobSearchResults"]["startups"]["edges"]
+            for j in range(0, len(startups)):
+                startup_info = startups[j]["node"]
                 startup_job_listings = startup_info["highlightedJobListings"]
-                # store to JobListingSearchResult named tuple
-                # job_listings = [JobListingSearchResult(**job) for job in startup_job_listings]
 
                 for job in startup_job_listings:
                     job_listings.append(
@@ -176,34 +168,17 @@ class Companies:
 
             response_json = json.dumps(response, indent=4)
 
-            # save the response to a file
-            # with open(f"response_{date_time_format}.json", "w") as file:
             with open(f"response_{date_time_format}_page_{i}.json", "w") as file:
                 print("writing to file...")
                 file.write(response_json)
 
-            has_next_page = response["data"]["talent"]["jobSearchResults"][
-                "hasNextPage"
-            ]
-            # print("has_next_page:", has_next_page)
-            if not has_next_page:
-                break
+            has_next_page = response["data"]["talent"]["jobSearchResults"]["hasNextPage"]
+            if not has_next_page: break
 
-        # time.sleep(10000)
 
-        # save the soup to a file
-        # with open(f"companies_{date_time_format}.html", "w") as file:
-        #     print("writing to file...")
-        #     file.write(soup.prettify())
-
-        # print("sleeping for 10 seconds...")
-        # time.sleep(10)
         for remaining in range(10, 0, -1):
             sys.stdout.write("\rsleeping in {:2d} seconds...".format(remaining))
             sys.stdout.flush()
             time.sleep(1)
         sys.stdout.write("\rComplete!                       \n")
 
-        # results = self._scrape_companies(soup)
-
-        # return self.companies
